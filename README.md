@@ -11,3 +11,11 @@ Slide 2: Walter White meme. "have you ever had this feeling onboardong to a proj
 1. voice - write to be useful to you, engaging. What do you want to remember
 1. modularize - like we do with code
     1. this will evolve, like ggplot2, like cookbook <> champions <> approach-guide
+1. formatting - readability, accessibility
+    1. markdown for `code`, [hyperlink the thing](); more helpful than hyperlinking [here]()
+    2. alt text - shows when the image doesn't show up. Searchable.
+
+
+Share: 
+
+- Divio
