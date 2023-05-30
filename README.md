@@ -14,6 +14,7 @@ Slide 2: Walter White meme. "have you ever had this feeling onboardong to a proj
 1. formatting - readability, accessibility
     1. markdown for `code`, [hyperlink the thing](); more helpful than hyperlinking [here]()
     2. alt text - shows when the image doesn't show up. Searchable.
+    3. headers for navigation - naming things
 
 
 Share: 
