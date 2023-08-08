@@ -23,3 +23,10 @@ Documentation - what am I talking about? Audience. Purpose. Divio.
 Share: 
 
 - Divio
+
+## Abstract
+https://posit.co/blog/keynotes-and-talks-at-posit-conf-2023/
+
+### Documenting things: openly for future us
+
+RMarkdown and Quarto are shifting the paradigm for how professionals learn to code, write documentation, and teach others. I'll showcase the style I first experienced by Jenny Bryan (Stat545, Happy Git With R, What They Forgot): narrative and code together, shared openly as a website, that builds trust with learners and provides a resource to consult during and outside of live-teaching. This mode shifts culture in a powerful way, since we can fork this idea, repeat it in our own work. I’ll share examples of how professional researchers are using this style to write open documentation, from technical workflows to community onboarding. I’ll also highlight design elements for writing open documentation, and tips for doing so with Quarto.
