@@ -32,9 +32,10 @@ Structure:
 - 9-10 min stories: effect and impact
 - 2 min closing
 
-Share: 
+Resources to Share: 
 
 - Divio
+- Carpentries lessons/instructor training
 
 ## Abstract
 https://posit.co/blog/keynotes-and-talks-at-posit-conf-2023/
