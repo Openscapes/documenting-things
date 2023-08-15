@@ -34,11 +34,14 @@ For the impact of having useful, living documentation, can reuse and fork, becom
 ## 8-min This is what it looks like (stories)
 
 - NASA teams - Earthdata Cloud Cookbook
-- Fisheries ecology teams 
+  - fits with Carpentries lessons, proj pythia. Contributing section early. 
+- Fisheries ecology teams
+  - pathways: document event series; nmfs-opensci resource book
 
 ## 2-min This is what's possible (conclusion)
 
 - maintainance isn't terrible; onboarding new folks
+- Moving to nasa.gov, NOAA Fisheries open data policy
 - level up in job
 
 ***
