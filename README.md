@@ -10,8 +10,24 @@ Question to answer: how do you make documenting things maintainable and (dare-I-
 What if writing documentation was awesome? (Documenting things doesn't have to be painful)
 Documentation - what am I talking about? Audience. Purpose. Divio. 
 
-### Possible high-level
+# Outline 
 
+## 2-min intro & signposting
+- Hi, I'm Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science community. Director of Openscapes. 
+- Talking today about Documenting Things Openly for Future Us.
+  - Things - could be code, teaching resources, how to organize files in your group
+  - Future Us - mindset beyond you and your computer
+  - 5-min lightening talk then stories
+  - annotated resources at end; Jenny Bryan 💙
+
+## 5-min Documenting things doesn't have to be painful
+- **engaging voice** for your audience
+- **modular design** so can be reused/refactored
+- **formatted for readability**, accessibility, and navigation
+
+## 
+
+## High-level Brainstorm 
 1. voice - write to be useful to you, engaging. What do you want to remember
 1. modularize - like we do with code
     1. design your docs in a way that can be moved around/refactored (not in a linear way) (importance for maintenance over time)
