@@ -25,12 +25,12 @@ Documentation - what am I talking about? Audience. Purpose. Divio.
 - **modular design** so can be reused/refactored
 - **formatted for readability**, accessibility, and navigation
 
-## 8-min This is what it looks like
+## 8-min This is what it looks like (stories)
 
 - NASA teams - Earthdata Cloud Cookbook
 - Fisheries ecology teams 
 
-## 2-min This is what's possible
+## 2-min This is what's possible (conclusion)
 
 - maintainance isn't terrible; onboarding new folks
 - level up in job
