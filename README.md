@@ -35,7 +35,7 @@ Structure:
 Resources to Share: 
 
 - Divio
-- Carpentries lessons/instructor training
+- Carpentries Curriculum Developers Handbook - https://cdh.carpentries.org/
 
 ## Abstract
 https://posit.co/blog/keynotes-and-talks-at-posit-conf-2023/
