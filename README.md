@@ -27,9 +27,9 @@ For the impact of having useful, living documentation, can reuse and fork, becom
   - annotated resources at end; Jenny Bryan 💙
 
 ## 5-min Documenting things doesn't have to be painful
-- **engaging voice** for your audience
-- **modular design** so can be reused/refactored
-- **formatted for readability**, accessibility, and navigation
+- **engaging voice for your audience**
+- **modular design so can be reused/refactored**
+- **formatted for readability, accessibility, and navigation**
 
 ## 8-min This is what it looks like (stories)
 
