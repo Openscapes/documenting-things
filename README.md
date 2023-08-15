@@ -10,6 +10,12 @@ Question to answer: how do you make documenting things maintainable and (dare-I-
 What if writing documentation was awesome? (Documenting things doesn't have to be painful)
 Documentation - what am I talking about? Audience. Purpose. Divio. 
 
+# Governing idea
+
+By documenting things in these 3 ways (voice, modularize, formatting)
+You get the effect of more pleasant to write, clear to read, maintained
+For the impact of having useful, living documentation, can reuse and fork, become a leader
+
 # Outline 
 
 ## 2-min intro & signposting
