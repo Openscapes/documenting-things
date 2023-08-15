@@ -12,8 +12,8 @@ Documentation - what am I talking about? Audience. Purpose. Divio.
 
 # Governing idea
 
-By documenting things in these 3 ways (voice, modularize, formatting)
-You get the effect of more pleasant to write, clear to read, maintained
+By documenting things in these 3 ways (voice, modularize, formatting)  
+You get the effect of more pleasant to write, clear to read, maintained  
 For the impact of having useful, living documentation, can reuse and fork, become a leader
 
 # Outline 
