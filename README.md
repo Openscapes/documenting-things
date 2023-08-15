@@ -19,7 +19,8 @@ For the impact of having useful, living documentation, can reuse and fork, becom
 # Outline 
 
 ## 2-min intro & signposting
-- Hi, I'm Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past 10 years. Shifted my career - Director of Openscapes. 
+- Hook
+- Let me back up, I'm Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past 10 years. Shifted my career - Director of Openscapes. 
 - Talking today about Documenting Things Openly for Future Us.
   - Things - could be code, teaching resources, how to organize files in your group
   - Future Us - mindset beyond you and your computer
@@ -27,22 +28,40 @@ For the impact of having useful, living documentation, can reuse and fork, becom
   - annotated resources at end; Jenny Bryan 💙
 
 ## 5-min Documenting things doesn't have to be painful
+
 - **engaging voice for your audience**
+  - What do you want to remember. Future Us
+  - We not you
+  - not dry
 - **modular design so can be reused/refactored**
-- **formatted for readability, accessibility, and navigation**
+  - design your docs in a way that can be moved around/refactored (not in a linear way) (importance for maintenance over time)
+  - write it down, can be moved later. Helps with incremental writing and not having it loom.
+  - this will evolve, like ggplot2
+- **formatted for readability, sharing, accessibility, and navigation**
+  - quarto, rmarkdown, google docs
+  - as open as possible - shared online (breadcrumbs)
 
-## 8-min This is what it looks like (stories)
+Transition: hopefully now you're interested in hearing some stories of what this looks like and what's possible from it
 
+## 8-min This is what it looks like & is possible from it (stories)
+
+- Image? like cookbook <> champions <> approach-guide
 - NASA teams - Earthdata Cloud Cookbook
   - fits with Carpentries lessons, proj pythia. Contributing section early. 
+  - maintainance isn't terrible; onboarding new folks
+  - Moving to nasa.gov
 - Fisheries ecology teams
-  - pathways: document event series; nmfs-opensci resource book
+  - pathways: document event series; nmfs-opensci resource book, 
+  - NOAA Fisheries open data policy
+  - level up in job
 
-## 2-min This is what's possible (conclusion)
+## 2-min Conclusion 
+*no new information in the conclusion!*
 
-- maintainance isn't terrible; onboarding new folks
-- Moving to nasa.gov, NOAA Fisheries open data policy
-- level up in job
+- revisit hook
+- With these 3 things I gave you with the lightening talk, this is possible
+  - Doesn’t have to be painful, doesn’t have to be hard, can accomplish great things. 
+
 
 ***
 
@@ -69,6 +88,7 @@ Structure:
 
 Resources to Share: 
 
+- Stat 545, Happy Git with R, WTF, Naming things
 - Divio
 - Carpentries Curriculum Developers Handbook - https://cdh.carpentries.org/
 
