@@ -25,7 +25,17 @@ Documentation - what am I talking about? Audience. Purpose. Divio.
 - **modular design** so can be reused/refactored
 - **formatted for readability**, accessibility, and navigation
 
-## 
+## 8-min This is what it looks like
+
+- NASA teams - Earthdata Cloud Cookbook
+- Fisheries ecology teams 
+
+## 2-min This is what's possible
+
+- maintainance isn't terrible; onboarding new folks
+- level up in job
+
+***
 
 ## High-level Brainstorm 
 1. voice - write to be useful to you, engaging. What do you want to remember
