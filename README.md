@@ -19,7 +19,7 @@ For the impact of having useful, living documentation, can reuse and fork, becom
 # Outline 
 
 ## 2-min intro & signposting
-- Hi, I'm Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science community. Director of Openscapes. 
+- Hi, I'm Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past 10 years. Shifted my career - Director of Openscapes. 
 - Talking today about Documenting Things Openly for Future Us.
   - Things - could be code, teaching resources, how to organize files in your group
   - Future Us - mindset beyond you and your computer
