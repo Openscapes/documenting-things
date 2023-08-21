@@ -1,0 +1,109 @@
+---
+title: "Documenting things: openly for future us"
+author: "Julia Stewart Lowndes. posit::conf(2023)"
+format: revealjs
+---
+
+## Documenting things can help change culture 
+what I'm going to share here is changing the way NASA teaches researchers working on climate change. 
+
+Movement building.
+
+Doesn't have to be painful to write and read.
+
+(Hook, maybe say this on title slide.)
+
+## Who am I?
+- Let me back up, I'm Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past 10 years. Shifted my career - Director of Openscapes. 
+
+## Definitions & Plan
+  - Things - could be code, teaching resources, how to organize files in your group
+  - Future Us - mindset beyond you and your computer
+  - Plan today: 5-min lightening talk then stories
+  - Annotated resources at end; Jenny Bryan 💙
+
+## How to document things openly for future us:
+
+- **Engaging voice for your audience**
+- **Modular design so can be reused/refactored**
+- **Formatted for readability, accessibility, and sharing**
+
+## Engaging voice for your audience
+You have an audience. 
+
+  - First audience: Future You. What do you want to remember?
+  - Second audience: Future Us. 
+  - We not you
+  - Not dry
+
+You're writing this for someone. Picture talking to them.
+
+## Modular design so can be reused/refactored
+
+  - design your docs in a way that can be moved around/refactored (not in a linear way) (importance for maintenance over time)
+  - write it down, can be moved later. Helps with incremental writing and not having it loom.
+  - this will evolve, like ggplot2
+
+
+## formatted for readability, sharing, accessibility, and navigation
+  - quarto, rmarkdown, google docs
+  - as open as possible - shared online (breadcrumbs)
+
+
+Transition: hopefully now you're interested in hearing some stories of what this looks like and what's possible from it
+
+## This is what it looks like & what's possible 
+
+Next:
+
+2 stories: NASA and NOAA Fisheries ecology teams
+
+Movement building though shared documentation
+
+## NASA Cloud Cookbook scope
+
+- NASA Earthdata teams - purpose
+- Image: early framing: carpentries lessons <> Cookbook <> proj pythia.
+
+
+## NASA Cloud Cookbook Contributing
+
+- fits with  Contributing section early. 
+  - maintainance isn't terrible; onboarding new folks
+  - increasing contributors
+  
+## NASA Cloud Cookbook policy
+  
+  - Moving to nasa.gov
+
+## NOAA Fisheries scope
+- Fisheries ecology teams - purpose (manage seafood)
+- Champions Cohorts — documentation really key
+- image: FayLab, FIMS 
+  
+## NOAA Fisheries movement building
+
+- pathways: document event series; nmfs-opensci resource book, 
+
+## NOAA Fisheries Open data policy
+  - NOAA Fisheries open data policy
+  - level up in job
+
+## How to document things openly for future us:
+
+- **Engaging voice for your audience**
+- **Modular design so can be reused/refactored**
+- **Formatted for readability, accessibility, and sharing**
+
+(revisit hook)
+
+- With these 3 things I gave you with the lightening talk, this is possible
+  - Doesn’t have to be painful, doesn’t have to be hard, can accomplish great things. 
+  
+## Thank you
+
+TODO
+
+## Resources 
+
+TODO
