@@ -4,14 +4,23 @@ author: "Julia Stewart Lowndes. posit::conf(2023)"
 format: revealjs
 ---
 
-## Documenting things can help change culture 
-what I'm going to share here is changing the way NASA teaches researchers working on climate change. 
+## Documenting things can change culture 
 
-Movement building.
+Images: 
 
-Doesn't have to be painful to write and read.
+- Logos? RLadies NASA Pangeo Carpentries
 
-(Hook, maybe say this on title slide.)
+Notes: 
+
+- Documenting things is changing the way we build movements and change culture within and across organizations — I'll share how its changing how researchers tackle climate change. 
+- It can help people feel less lost and like they belong.
+- Doesn't have to be painful to write and boring to read.
+
+::: {.notes}
+Documenting things can change culture 
+
+Logos? RLadies NASA Pangeo Carpentries
+:::
 
 ## Who am I?
 - Let me back up, I'm Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past 10 years. Shifted my career - Director of Openscapes. 
@@ -25,7 +34,7 @@ Doesn't have to be painful to write and read.
 ## How to document things openly for future us:
 
 - **Engaging voice for your audience**
-- **Modular design so can be reused/refactored**
+- **Modular design so can be reused**
 - **Formatted for readability, accessibility, and sharing**
 
 ## Engaging voice for your audience
@@ -38,14 +47,14 @@ You have an audience.
 
 You're writing this for someone. Picture talking to them.
 
-## Modular design so can be reused/refactored
+## Modular design so can be reused
 
-  - design your docs in a way that can be moved around/refactored (not in a linear way) (importance for maintenance over time)
+  - design your docs in a way that can be moved around (not in a linear way) (importance for maintenance over time)
   - write it down, can be moved later. Helps with incremental writing and not having it loom.
-  - this will evolve, like ggplot2
+  - this will evolve, like ggplot2. scripts call other packages. Think like that.
 
 
-## formatted for readability, sharing, accessibility, and navigation
+## formatted for readability, accessibility, and sharing
   - quarto, rmarkdown, google docs
   - as open as possible - shared online (breadcrumbs)
 
@@ -62,7 +71,7 @@ Movement building though shared documentation
 
 ## NASA Cloud Cookbook scope
 
-- NASA Earthdata teams - purpose
+- NASA Earthdata teams - purpose understanding Earth and climate change
 - Image: early framing: carpentries lessons <> Cookbook <> proj pythia.
 
 
