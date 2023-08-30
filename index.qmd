@@ -62,9 +62,15 @@ Modular.
 
 Not looming all at once.
 
-## Think reuse
+## Think reuse **most abstract**
 
 Write in short bits. Think of these like functions that can call each other. Will be networked, not linear.
+
+TODO visual: function calls
+
+Instead of writing things twice, know where the information is so you can link. Write it in this holding call. 
+
+Maybe: advice on GH usernames
 
 :::notes
   - design your docs in a way that can be moved around (not in a linear way) (importance for maintenance over time)
@@ -83,7 +89,7 @@ Future You
 
 ## Future Us
 
-We're in this together
+**We're in this together**
 
 When we write tutorials, we write them as if we're teaching them outloud. What you would say is included. And we design the code in chunks for learners.
 
@@ -99,7 +105,7 @@ Inclusive
 
 - "as open as possible, as closed as necessary" 
 
-- shared online (breadcrumbs)
+- shared online (**breadcrumbs**)
 - network it to other things, don't maintain content in 2 places.
 - can help you refine place quarto, rmarkdown, google docs
 
@@ -107,9 +113,16 @@ Inclusive
   
 ## Headers and Slugs
 
-Naming things
+Naming things - could list Jenny's 3 points
+
 
 ## Alt text
+
+## Use markdown 
+
+`code`
+
+[link not here]()
 
 ## Documenting things — what's possible from this
 
@@ -131,7 +144,10 @@ Movement building though shared documentation
 :::
 
 
-## NASA Cloud Cookbook scope
+## NASA Cloud Cookbook scope 
+
+## TO THINK ABOUT: how does this tie back to the 3 lightning talks. Don't belabor
+"When they were thinking about the Cookbook, they were really thinking about X"
 
 - NASA Earthdata teams - purpose understanding Earth and climate change
 - Image: early framing: carpentries lessons <> Cookbook <> proj pythia.
