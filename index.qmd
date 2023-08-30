@@ -1,73 +1,135 @@
 ---
-title: "Documenting things: openly for future us"
-author: "Julia Stewart Lowndes. posit::conf(2023)"
-format: revealjs
+pagetitle: "Documenting things"
+format: 
+  revealjs: 
+    multiplex: true
+    transition: fade
+    height: 900
+    width: 1600
+   # fontcolor: "#262d36"
+  #  highlight-style: a11y
+   # code-line-numbers: false
+editor: visual
 ---
 
-## Documenting things can change culture 
+##  {#documenting-things-title data-menu-title="Documenting Things"}
 
-Images: 
+## Documenting things: openly for future us
 
-- Logos? RLadies NASA Pangeo Carpentries
+### Julia Stewart Lowndes
 
-Notes: 
+### posit::conf(2023)
 
+
+::: notes
+Documenting things can change culture 
 - Documenting things is changing the way we build movements and change culture within and across organizations — I'll share how its changing how researchers tackle climate change. 
 - It can help people feel less lost and like they belong.
 - Doesn't have to be painful to write and boring to read.
-
-::: {.notes}
-Documenting things can change culture 
-
-Logos? RLadies NASA Pangeo Carpentries
+- My name is Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past 10 years. Shifted my career - Director of Openscapes. 
 :::
 
-## Who am I?
-- Let me back up, I'm Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past 10 years. Shifted my career - Director of Openscapes. 
-
-## Definitions & Plan
+## Things | Future Us
   - Things - could be code, teaching resources, how to organize files in your group
   - Future Us - mindset beyond you and your computer
+  
+TODO: images: example documentation
+
+## Documenting things doesn't have to be painful
+
+<br>
+
+### Have a place
+### Have an audience 
+### Format for readability, accessibility, and navigation
+
+<br>
+
   - Plan today: 5-min lightening talk then stories
   - Annotated resources at end; Jenny Bryan 💙
 
-## How to document things openly for future us:
+## [Have a place]
 
-- **Engaging voice for your audience**
-- **Modular design so can be reused**
-- **Formatted for readability, accessibility, and sharing**
+TODO: images: wiki, google doc, quarto book. 
 
-## Engaging voice for your audience
-You have an audience. 
+It doesn't matter where at first, get it started. 
 
-  - First audience: Future You. What do you want to remember?
-  - Second audience: Future Us. 
-  - We not you
-  - Not dry
+## Write as you go
 
-You're writing this for someone. Picture talking to them.
+Paste from your email/slack and put it here instead
 
-## Modular design so can be reused
+Modular. 
 
+Not looming all at once.
+
+## Think reuse
+
+Write in short bits. Think of these like functions that can call each other. Will be networked, not linear.
+
+:::notes
   - design your docs in a way that can be moved around (not in a linear way) (importance for maintenance over time)
   - write it down, can be moved later. Helps with incremental writing and not having it loom.
   - this will evolve, like ggplot2. scripts call other packages. Think like that.
+  - have a place. Something that would go in an email or slack — put it there instead.
+:::
 
+## [Have an audience]
 
-## formatted for readability, accessibility, and sharing
-  - quarto, rmarkdown, google docs
-  - as open as possible - shared online (breadcrumbs)
+You're writing this for someone. Picture talking to them. Not dry. Specific.
 
+TODO Images: screenshots/text of Jenny Bryan's WTF, Stat545, Happy Git with R
 
+Future You
+
+## Future Us
+
+We're in this together
+
+When we write tutorials, we write them as if we're teaching them outloud. What you would say is included. And we design the code in chunks for learners.
+
+TODO Images: R for Excel Users
+
+:::notes
+"We" not "you"
+
+Inclusive
+:::
+
+## Share it
+
+- "as open as possible, as closed as necessary" 
+
+- shared online (breadcrumbs)
+- network it to other things, don't maintain content in 2 places.
+- can help you refine place quarto, rmarkdown, google docs
+
+## [Format for readability, accessibility, and navigation]
+  
+## Headers and Slugs
+
+Naming things
+
+## Alt text
+
+## Documenting things — what's possible from this
+
+<br>
+
+### Have a place
+### Have an audience 
+### Format for readability, accessibility, and navigation
+
+:::notes
 Transition: hopefully now you're interested in hearing some stories of what this looks like and what's possible from it
-
-## This is what it looks like & what's possible 
 
 Next:
 
 2 stories: NASA and NOAA Fisheries ecology teams
 
 Movement building though shared documentation
+
+:::
+
 
 ## NASA Cloud Cookbook scope
 
@@ -100,9 +162,9 @@ Movement building though shared documentation
 
 ## How to document things openly for future us:
 
-- **Engaging voice for your audience**
-- **Modular design so can be reused/refactored**
-- **Formatted for readability, accessibility, and sharing**
+### Have a place
+### Have an audience 
+### Format for readability, accessibility, and navigation
 
 (revisit hook)
 
