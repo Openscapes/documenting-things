@@ -12,7 +12,7 @@ format:
 editor: visual
 ---
 
-##  {#documenting-things-title data-menu-title="Documenting Things"}
+##  {#documenting-things-title data-menu-title="Documenting Things"} 
 
 ## Documenting things: openly for future us
 
@@ -20,13 +20,9 @@ editor: visual
 
 ### posit::conf(2023)
 
-
 ::: notes
-Documenting things can change culture 
-- Documenting things is changing the way we build movements and change culture within and across organizations — I'll share how its changing how researchers tackle climate change. 
-- It can help people feel less lost and like they belong.
-- Doesn't have to be painful to write and boring to read.
-- My name is Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past 10 years. Shifted my career - Director of Openscapes. 
+- My name is Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past the 10 years. Documenting things has been a big part of shifting my career - Director of Openscapes. 
+- I'm going to talk about how documenting things can build visibility for yourself and change culture across organizations, with examples from NASA and NOAA communities tackling climate change. 
 :::
 
 ## Things | Future Us
@@ -35,7 +31,12 @@ Documenting things can change culture
   
 TODO: images: example documentation
 
-## Documenting things doesn't have to be painful
+:::notes
+when I say things
+when I say future us, I'm thinking of a mindset beyond you and your computer. So thinking about how what you document now can save hundreds of emails later asking where things are or how to do things.
+:::
+
+## Documenting things doesn't have to be painful 
 
 <br>
 
@@ -45,35 +46,59 @@ TODO: images: example documentation
 
 <br>
 
-  - Plan today: 5-min lightening talk then stories
-  - Annotated resources at end; Jenny Bryan 💙
+Plan today:
+
+  - 5-min lightening talk (inspired by Jenny Bryan's Naming Things) 💙
+  - 10-mins of stories (and hot takes)
+  
+:::notes
+- I'm also here to say documenting things doesn't have to be painful to write and boring to read.
+- I have 3 pieces of advice: 
+- the plan for today 
+:::
 
 ## [Have a place]
 
 TODO: images: wiki, google doc, quarto book. 
 
-It doesn't matter where at first, get it started. 
+It doesn't matter where at first, get it started. Write it down.
+
+:::notes
+This can be whatever software you have
+transition: what's important about having a place is that it helps you write as you go - 
+:::
 
 ## Write as you go
 
+Develop the habit of writing things down in this place. 
+
 Paste from your email/slack and put it here instead
 
-Modular. 
-
-Not looming all at once.
-
-## Think reuse **most abstract**
-
-Write in short bits. Think of these like functions that can call each other. Will be networked, not linear.
-
-TODO visual: function calls
-
-Instead of writing things twice, know where the information is so you can link. Write it in this holding call. 
-
-Maybe: advice on GH usernames
+Write in small bites - not looming all at once.
 
 :::notes
-  - design your docs in a way that can be moved around (not in a linear way) (importance for maintenance over time)
+you might find yourself writing it in an issue. depending, write it down in the doc itself. Like editing directly rather than adding a comment in a Google doc
+:::
+
+## Design for reuse
+
+Design your docs in a way that can be moved around - important for maintenance over time
+
+- Write in short bits - modular 
+
+- Network it to other things, don't maintain content in 2 places.
+
+  - These short bits can be linked from each other. Networked, not linear.
+
+- Think of it like we have functions we call from another script. It lives one place
+
+- Don't repeat yourself (DRY) (cite), Don't repeat others (?) (Instead of writing things twice, know where the information is so you can link to it)
+
+
+TODO visual: Maybe: advice on GH usernames
+
+:::notes
+
   - write it down, can be moved later. Helps with incremental writing and not having it loom.
   - this will evolve, like ggplot2. scripts call other packages. Think like that.
   - have a place. Something that would go in an email or slack — put it there instead.
@@ -83,13 +108,17 @@ Maybe: advice on GH usernames
 
 You're writing this for someone. Picture talking to them. Not dry. Specific.
 
+<br>
+
 TODO Images: screenshots/text of Jenny Bryan's WTF, Stat545, Happy Git with R
 
 Future You
 
-## Future Us
+## Write in an inclusive tone
 
-**We're in this together**
+Mindset: We're in this together (Future Us)
+
+Write what you'd actually say / keep things relevant to that audience
 
 When we write tutorials, we write them as if we're teaching them outloud. What you would say is included. And we design the code in chunks for learners.
 
@@ -104,25 +133,62 @@ Inclusive
 ## Share it
 
 - "as open as possible, as closed as necessary" 
-
 - shared online (**breadcrumbs**)
-- network it to other things, don't maintain content in 2 places.
+
 - can help you refine place quarto, rmarkdown, google docs
 
+- consider contributors
+
+IMAGE: github link to google docs. Not accessible to everyone. ok.
+
 ## [Format for readability, accessibility, and navigation]
+
+- aesthetics matter, and don't have to be super time-consuming
+- accessibility matters - can mean screenreaders, low bandwidth, paywalls/permissions, and much more
+- navigation mtters - helping Future Us find what we need
   
 ## Headers and Slugs
 
-Naming things - could list Jenny's 3 points
+Use section headers - you can link directly to them
+
+- TODO IMAGE: Google Doc Bookmark, Quarto anchor
+
+Name things with this in mind
+
+- Naming things - list Jenny's 3 points & video links
+
+Be Consistent -  Not "example" and then 2nd example has a diff name. Indenting.
 
 
 ## Alt text
 
+
+
 ## Use markdown 
+
+TODO: Write out how to do these things: 
 
 `code`
 
-[link not here]()
+[link to the important part]() not just the word [here]()
+
+<br>
+
+...Transition: And whether or not you use Markdown - 
+
+## Keyboard shortcuts
+
+Arrow keys + shift + option
+
+- TODO: GIF of this and embed :grimacing: 
+
+Shift-command 8 for bullets
+
+: more and more for emojis
+
+:::notes
+you can use keyboard shortcuts
+:::
 
 ## Documenting things — what's possible from this
 
@@ -143,6 +209,20 @@ Movement building though shared documentation
 
 :::
 
+
+
+## Mentor onboarding
+
+Documentation: 
+
+- For public: nasa-openscapes.github.io/mentors. 
+- For mentors: earthdata-cloud-cookbook/contributing/onboarding
+- For us: approach-guide/mentors-framework/onboarding
+
+
+## Julie focus
+
+I have a notebook - daily writing is smaller and ideas are bigger. I have a place, it helps my mind unleash
 
 ## NASA Cloud Cookbook scope 
 
@@ -175,6 +255,15 @@ Movement building though shared documentation
 ## NOAA Fisheries Open data policy
   - NOAA Fisheries open data policy
   - level up in job
+
+## Closing hot takes
+
+- it takes time. part of your job. 
+- It can help people feel less lost and like they belong.
+- emojis are important. So much angst and misunderstandings
+
+
+
 
 ## How to document things openly for future us:
 
