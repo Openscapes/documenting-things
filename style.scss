@@ -1,4 +1,9 @@
 /*-- from: openscapes website wiki --*/
+
+// Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap'); 
+
+
 /*-- scss:defaults --*/
 
 $medium-gray1: #999999;
@@ -14,12 +19,9 @@ $light-yellow: #FFF6E1;
   text-decoration-thickness: 4px;
 }
 
-.things-text {
-  font-size: 75px;
-}
 
 .medium-body-text {
-  font-size: 25px;
+  font-size: 60px;
 }
 
 .caption-text { 
@@ -29,6 +31,10 @@ $light-yellow: #FFF6E1;
 
 .blue-text {
   color: $blue;
+}
+
+.blue-background {
+  background-color: #d2e3f3;;
 }
 
 .medium-gray1-text{

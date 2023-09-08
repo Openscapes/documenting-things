@@ -21,7 +21,7 @@ format:
 #- My name is Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past the 10 years. Documenting things has been a big part of shifting my career - Director of Openscapes. 
 ---
 
-##
+## 
 
 ::: columns
 ::: {.column width="45%"}
@@ -29,13 +29,13 @@ format:
 THINGS
 :::
 
-**all the things** 
+**all the things**
 
-- code
-- teaching resources
-- onboarding
-- fieldwork/lab protocols
-- events
+-   code
+-   teaching resources
+-   onboarding
+-   fieldwork/lab protocols
+-   events
 :::
 
 ::: {.column width="45%"}
@@ -43,33 +43,29 @@ THINGS
 FUTURE US
 :::
 
-**mindset & habit** 
+**mindset & habit**
 
-- ourselves, teams, communities 
+-   ourselves, teams, communities
 
-- in the next hour, week, decades
+-   in the next hour, week, decades
 
-- intentional, inclusive
-
+-   intentional, inclusive
+:::
 :::
 
-
-:::
-
-:::notes
-when I say things
-when I say future us, I'm thinking of a mindset beyond you and your computer. So thinking about how what you document now can save hundreds of emails later asking where things are or how to do things.
+::: notes
+when I say things when I say future us, I'm thinking of a mindset beyond you and your computer. So thinking about how what you document now can save hundreds of emails later asking where things are or how to do things.
 :::
 
 ## [Documenting things doesn't have to be painful:]{.yellow-bg}
 
 <br>
 
-::: {.yellow-bg}
-::: {.doc-things-text}
+::: yellow-bg
+::: doc-things-text
 Have a place
 
-Have an audience 
+Have an audience
 
 Format for readability, accessibility, and navigation
 :::
@@ -79,207 +75,227 @@ Format for readability, accessibility, and navigation
 
 Plan today:
 
-  - 5-min lightening talk (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files)) 💙
-  - 10-mins of stories (and opinions)
-  
-:::notes
-- I'm also here to say documenting things doesn't have to be painful to write and boring to read.
-- I have 3 pieces of advice: 
-- the plan for today 
+-   5-min lightening talk (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files)) 💙
+-   10-mins of stories (and opinions)
+
+::: notes
+-   I'm also here to say documenting things doesn't have to be painful to write and boring to read.
+-   I have 3 pieces of advice:
+-   the plan for today
 :::
 
-## [Have a place]{.yellow-bg}
+## Have a place {.yellow-bg}
 
-TODO: images: wiki, google doc, quarto book. 
+It doesn't matter where at first. Just write it down.
 
-It doesn't matter where at first, get it started. Write it down.
+<br>
 
-:::notes
-This can be whatever software you have
-transition: what's important about having a place is that it helps you write as you go - 
+::: columns
+::: {.column width="33%"}
+**Google Doc**
+
+<br>
+
+TODO: screenshot
+
+<br>
+
+Google Slides/ELi?
+:::
+
+::: {.column width="33%"}
+**Wiki**
+
+::: borderbox
+[![](images/website-wiki.png){fig-alt="Screenshot of a Wiki on GitHub describing CSS styling"}](https://github.com/Openscapes/website-new/wiki/Styling-page-elements)
+:::
+
+[github.com/Openscapes/<br>website-new/wiki](https://github.com/Openscapes/website-new/wiki/)
+:::
+
+::: {.column width="33%"}
+**Quarto book**
+
+::: borderbox
+TODO NEW EXAMPLE
+:::
+
+[openscapes.github.io/<br>approach-guide](https://openscapes.github.io/approach-guide)
+:::
+:::
+
+::: notes
+This can be whatever software you have transition: what's important about having a place is that it helps you write as you go -
 :::
 
 ## Write as you go
 
-Develop the habit of writing things down in this place. 
-
-Paste from your email/slack and put it here instead
+Develop the habit of writing things down in this place.
 
 Write in small bites - not looming all at once.
 
-Write directly. Google Doc comments/issues have tendency to prolong/make ardous; write that thought in the doc. 
+<br> TODO: GIF of this and embed
 
-:::notes
+Arrow keys + shift + option (Mac)
+
+::: notes
+Paste from your email/slack and put it here instead
+
+Write directly. Google Doc comments/issues have tendency to prolong/make ardous; write that thought in the doc.
+
 you might find yourself writing it in an issue. depending, write it down in the doc itself. Like editing directly rather than adding a comment in a Google doc
+
+keyboard shortcuts -
 :::
 
 ## Write in a modular way (short bits)
 
 Design your docs in a way that can be moved around and networked
 
-- Instead of writing things twice, know where the information is so you can link to it (Don't repeat yourself (DRY) (cite))
+-   Instead of writing things twice, know where the information is so you can link to it (Don't repeat yourself (DRY) (cite))
 
-- Important for maintenance over time
+-   Important for maintenance over time
 
-
-
-
-
-:::notes
-
-  - write it down, can be moved later. Helps with incremental writing and not having it loom.
-  - this will evolve, like ggplot2. scripts call other packages. Think like that.
-  - Think of it like we have functions we call from another script. It lives one place
+::: notes
+-   write it down, can be moved later. Helps with incremental writing and not having it loom.
+-   this will evolve, like ggplot2. scripts call other packages. Think like that.
+-   Think of it like we have functions we call from another script. It lives one place
 :::
 
-## [Have an audience]{.yellow-bg}
+## Have an audience {.yellow-bg}
 
-You're writing this for someone. Picture talking to them. Not dry. Specific.
+You're writing this for someone. Make it engaging - doesn't have to be dry or distant.
 
-POP as a tool
+::: borderbox
+[![](images/happy-git-with-r.png){fig-alt="Screenshot Jenny Bryan's Happy Git With R book that has an image from the music video Whip that says Watch me Diff, Watch me Rebase" width="100%"}](https://happygitwithr.com/)
+:::
 
-<br>
-
-TODO Images: screenshots/text of Jenny Bryan's WTF, Stat545, Happy Git with R
-
-Future You
+::: notes
+Picture talking to them
+:::
 
 ## Write in an inclusive tone
 
-Mindset: We're in this together (Future Us)
+Consider your goals and style that welcome readers: we're in this together
 
+-   Purpose, Outcomes, Process ([POP](https://suzannehawkes.com/2010/04/09/pop-everything/))
+-   Carpentries Curriculum Developers Handbook ([CDH](https://cdh.carpentries.org/))
+- TODO: ICESAT-2 Hackweek Charley Haley
+- Mentoring Groups book
+
+<br>
+
+::: notes
 Write what you'd actually say / keep things relevant to that audience
 
 When we write tutorials, we write them as if we're teaching them outloud. What you would say is included. And we design the code in chunks for learners.
-
-TODO Images: R for Excel Users
-
-:::notes
-"We" not "you"
-
-Inclusive
 :::
 
 ## Share it
 
-- "as open as possible, as closed as necessary" 
-- shared online (**breadcrumbs**)
+-   "as open as possible, as closed as necessary"
 
-- can help you refine place quarto, rmarkdown, google docs
+-   shared online (**breadcrumbs**)
 
-- consider contributors
+-   can help you refine place quarto, rmarkdown, google docs
+
+-   consider contributors
 
 IMAGE: github link to google docs. Not accessible to everyone. ok.
 
-## [Format for readability, accessibility, and navigation]{.yellow-bg}
+## Format for readability, accessibility, and navigation {.yellow-bg}
 
-- aesthetics matter, and don't have to be super time-consuming
-- accessibility matters - can mean screenreaders, low bandwidth, paywalls/permissions, and much more
-- navigation mtters - helping Future Us find what we need
-  
+-   aesthetics matter, and don't have to be super time-consuming
+-   accessibility matters - can mean screenreaders, low bandwidth, paywalls/permissions, and much more
+-   navigation mtters - helping Future Us find what we need
+
 ## Headers and Slugs
 
 Use section headers - you can link directly to them
 
-- TODO IMAGE: Google Doc Bookmark, Quarto anchor
+-   TODO IMAGE: Google Doc Bookmark, Quarto anchor
 
 Name things with this in mind
 
-- Naming things - list Jenny's 3 points & video links
+-   Naming things - list Jenny's 3 points & video links
 
-Be Consistent -  Not "example" and then 2nd example has a diff name. Indenting.
-
+Be Consistent - Not "example" and then 2nd example has a diff name. Indenting.
 
 ## Alt text
 
-
-
 ## Fonts and linking
 
-TODO: Write out how to do these things: 
+TODO: Write out how to do these things:
 
 `code`
 
-[link to the important part]() not just the word [here]()
+[link to the important part](); for example this presentation titled \[\] not that this recommended thing is [here]().
 
 <br>
 
-...Transition: And whether or not you use Markdown - 
+...Transition: And whether or not you use Markdown -
 
-## Keyboard shortcuts
-
-Arrow keys + shift + option
-
-- TODO: GIF of this and embed :grimacing: 
-
-Shift-command 8 for bullets
-
-: more and more for emojis
-
-:::notes
-you can use keyboard shortcuts
-:::
-
-## [Documenting things — what's possible from this]{.yellow-bg}
+## [Documenting things --- what's possible from this]{.yellow-bg}
 
 <br>
 
-::: {.yellow-bg}
-::: {.doc-things-text}
+::: yellow-bg
+::: {.medium-body-text} 
 Have a place
 
-Have an audience 
+Have an audience
 
 Format for readability, accessibility, and navigation
 :::
 :::
 
 <br>
+<br>
 
-Link to environment & climate
-
-Movement building: open science & climate
-
-- Shannon D
-- Monica Granados / Creative Commons
+::: {.medium-body-text} 
+Movement building: open science & climate solutions 
+:::
 
 
-:::notes
-Transition: hopefully now you're interested in hearing some stories of what this looks like and what's possible from it
+::: notes
+Transition: OK so that is the end of the lightning talk, and hopefully now you're interested in hearing some stories of what this looks like and what's possible from it
+
+We're motivated by finding solutions to the cascading impacts of climate change, and helping people see themselves as part of this growing movement — "climate" does not need to be in your job title for you to contribute
+
+MAYBE: -   Shannon D
+-   Monica Granados / Creative Commons
 :::
 
 ##  {#nasa-cloud-cookbook .center data-menu-title="NASA Earthdata Cloud Cookbook"}
 
 ::: borderbox
-[![](images/cookbook.png){width="70%" fig-align="center" fig-alt="Screenshot of an e-book made with Quarto for the NASA Coud Cookbook"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
+[![](images/cookbook.png){fig-align="center" fig-alt="Screenshot of an e-book made with Quarto for the NASA Coud Cookbook"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 :::
 
 ::: notes
-This Quarto site we made for our first teaching event. 
+This Quarto site we made for our first teaching event.
 :::
 
 ## **NASA Openscapes Mentor Community**
 
 ::: columns
 ::: {.column width="45%"}
-::: {style="font-size: 1.5em;"}
-
+::: {style="font-size: 1.5em;"}  
 :::
 
 <br>
 
-::: {.midi style="font-size: 1.5em; color: #75AADB;"}
+::: {.medium-body-text .blue-underline}
 Learning together
 :::
 
-- Cloud
+-   Cloud infrastructure
 
-- Code review
+-   Code review
 
-- Teaching pedagogy
+-   Teaching pedagogy
 
-- Documentation
-
+-   Documentation
 :::
 
 ::: {.column width="45%"}
@@ -288,7 +304,6 @@ Learning together
 ::: {.midi style="color: red;"}
 TODO: update image, add DAAC logos
 :::
-
 :::
 :::
 
@@ -302,124 +317,115 @@ TODO: update image, add DAAC logos
 
 Openscapes Flywheel ([Robinson & Lowndes 2022](https://eartharxiv.org/repository/view/4560/))
 
-:::notes
+::: notes
 Movement building though shared documentation
 :::
 
-## Onboarding: open documentation is key
+## Onboarding NASA Openscapes Mentors {.blue-background}
 
-Engagement & resources for intentional audiences
+Places & primary audiences for intentional engagement
 
 <br>
 
 ::: columns
 ::: {.column width="33%"}
-::: fragment
-Place: **Project website**
+**Project website**
 
-Primary audience: **Public**
+Public
 
-<br>
-
-TODO: screenshot
-
-[nasa-openscapes.github.io/<br>mentors](https://nasa-openscapes.github.io/mentors)
-
+::: borderbox
+[![](images/website-nasa-openscapes.png){fig-alt="Screenshot of the project website for NASA Openscapes, with a blue navigation bar across the top and NASA and Openscapes logos in the center"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 :::
+
+[nasa-openscapes.github.io](https://nasa-openscapes.github.io)
 :::
 
 ::: {.column width="33%"}
-::: fragment
-**Cookbook**
+**Earthdata Cloud Cookbook**
 
-**Mentors**
+NASA Mentors
 
-<br>
-
-TODO: Screenshot
-
-[nasa-openscapes.github.io/<br>earthdata-cloud-cookbook/<br>contributing/onboarding](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding)
-
+::: borderbox
+[![](images/cookbook.png){fig-alt="Screenshot of an e-book made with Quarto for the NASA Cloud Cookbook"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 :::
+
+[nasa-openscapes.github.io/<br>earthdata-cloud-cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 :::
 
 ::: {.column width="33%"}
-::: fragment
 **Approach Guide**
 
-**Future Us**
+Openscapes team
 
+::: borderbox
 [![](images/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}](https://openscapes.github.io/approach-guide/)
-
-[openscapes.github.io/<br>approach-guide/<br>mentors-framework/<br>onboarding](https://openscapes.github.io/approach-guide/mentors-framework/onboarding)
-
-:::
-:::
 :::
 
+[openscapes.github.io/<br>approach-guide](https://openscapes.github.io/approach-guide)
+:::
+:::
+
+::: notes
 TODO: TO THINK ABOUT: how does this tie back to the 3 lightning talk points. Don't belabor
+:::
 
-## Project website
+## Project website {.blue-background}
 
 [nasa-openscapes.github.io/mentors](https://nasa-openscapes.github.io/mentors)
 
-- A place we created to give visibility to the project
+-   A place we created to give visibility to the project
 
-- Invite participation the first mentors
+-   Invite participation the first mentors
 
-- Comms strategy: Important info here, not only in a forwarded email
+-   Comms strategy: Important info here, not only in a forwarded email
 
-- Updatable with new info, refine based on questions
+-   Updatable with new info, refine based on questions
 
-
-:::notes
-
+::: notes
 "When they were thinking about the Cookbook, they were really thinking about X"
 :::
 
-## Cloud Cookbook 
+## Earthdata Cloud Cookbook {.blue-background}
 
 [nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding)
 
-- A place we created to co-develop teaching resources for researchers
+-   A place we created to co-develop teaching resources for researchers
 
-- Contributing section was early addition; how to access our cloud infrastructure
+-   Contributing section was early addition; how to access our cloud infrastructure
 
-- Information for learning quarto, GitHub branches and pull requests
+-   Information for learning quarto, GitHub branches and pull requests
 
-- Also: how to welcome mentors
+-   Also: how to welcome mentors
 
 TODO: screenshot
 
-:::notes
-- fits with  Contributing section early. 
-  - maintainance isn't terrible; onboarding new folks
-  - increasing contributors
+::: notes
+-   fits with Contributing section early.
+    -   maintainance isn't terrible; onboarding new folks
+    -   increasing contributors
 :::
 
-
-## Approach Guide
+## Approach Guide {.blue-background}
 
 [openscapes.github.io/approach-guide/mentors-framework/onboarding](https://openscapes.github.io/approach-guide/mentors-framework/onboarding)
 
-- A place for us to write down repeated tasks, onboard each other to how we work
+-   A place for us to write down repeated tasks, onboard each other to how we work
 
-- Focused on this in Year 3; the other two were first priority. Iterative. this is the right time, and our other documentation made it easier to repeat (breadcrumbs) and then write this as we have time. 
-
+-   Focused on this in Year 3; the other two were first priority. Iterative. this is the right time, and our other documentation made it easier to repeat (breadcrumbs) and then write this as we have time.
 
 TODO: screenshot
 
-## Paying it forward - serves us all well 
+## Paying it forward - serves us all well
 
-- NASA Mentor Community sustainability & handoff
-  - mentor cohort > community
-- NOAA Fisheries Mentor Community - repeating the flywheel
-  - early visibility with website. grant co-PI Eli Holmes!
-  - nmfs-opensci resource book
-- Openscapes Mentor Community 
-  - California Water Boards
-  - Pathways to Open Science - document event series
-  - Fred Hutchinson Cancer Center
+-   NASA Mentor Community sustainability & handoff
+    -   mentor cohort \> community
+-   NOAA Fisheries Mentor Community - repeating the flywheel
+    -   early visibility with website. grant co-PI Eli Holmes!
+    -   nmfs-opensci resource book
+-   Openscapes Mentor Community
+    -   California Water Boards
+    -   Pathways to Open Science - document event series
+    -   Fred Hutchinson Cancer Center
 
 ## Learning and inspiration is cyclical
 
@@ -429,22 +435,22 @@ Reuse, learn from, link to. Share stories and methods.
 
 TODO 4 images (like this <https://mine.quarto.pub/hello-quarto/#/nasa-quarto-sites>)
 
-- Faylab Manual
-- NMFS Kourtney Burger, FIMS
-- Jenny Bryan
-- Better science in less time? Fig 1 image
+-   Faylab Manual
+-   NMFS Kourtney Burger, FIMS
+-   Jenny Bryan
+-   Better science in less time? Fig 1 image
 
 ## Closing opinions
 
-- Helps gain visibility and value: Making the invisible visible
-- Get comfortable with imperfect
-- It takes time. part of your job. Paid time. Aligns with your job
-- It can help people feel less lost and like they belong.
-- Role model reuse of documentation (like we reuse code/packages)
-- (Maybe: emojis aren't trite. Relieves misunderstandings, helps you say "I got it", "I've seen it")
-- Take these practices to new places - meeting agendas, physical notebooks TODO Maybe: screenshot of my notebook
+-   Helps gain visibility and value: Making the invisible visible
+-   Get comfortable with imperfect
+-   It takes time. part of your job. Paid time. Aligns with your job
+-   It can help people feel less lost and like they belong.
+-   Role model reuse of documentation (like we reuse code/packages)
+-   (Maybe: emojis aren't trite. Relieves misunderstandings, helps you say "I got it", "I've seen it")
+-   Take these practices to new places - meeting agendas, physical notebooks TODO Maybe: screenshot of my notebook
 
-:::notes
+::: notes
 I have a notebook - daily writing is smaller and ideas are bigger. I have a place, it helps my mind unleash
 :::
 
@@ -452,11 +458,11 @@ I have a notebook - daily writing is smaller and ideas are bigger. I have a plac
 
 <br>
 
-::: {.yellow-bg}
-::: {.doc-things-text}
+::: yellow-bg
+::: doc-things-text
 Have a place
 
-Have an audience 
+Have an audience
 
 Format for readability, accessibility, and navigation
 :::
@@ -464,13 +470,13 @@ Format for readability, accessibility, and navigation
 
 (revisit hook)
 
-- With these 3 things I gave you with the lightening talk, this is possible
-  - Doesn’t have to be painful, doesn’t have to be hard, can accomplish great things. 
-  
+-   With these 3 things I gave you with the lightening talk, this is possible
+    -   Doesn't have to be painful, doesn't have to be hard, can accomplish great things.
+
 ## Thank you
 
 TODO
 
-## Resources 
+## Resources
 
 TODO
