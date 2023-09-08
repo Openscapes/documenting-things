@@ -1,3 +1,4 @@
+/*-- from: openscapes website wiki --*/
 /*-- scss:defaults --*/
 
 $medium-gray1: #999999;
@@ -45,4 +46,10 @@ $light-yellow: #FFF6E1;
   padding-right: 5px;
   padding-left: 8px;
   border-radius: 15px;
+}
+
+/*-- from: hello quarto --*/
+
+.reveal .borderbox img {
+  border: 5px solid #ececec;
 }

@@ -17,8 +17,8 @@ format:
   #  highlight-style: a11y
    # code-line-numbers: false
 # SPEAKER NOTES
+# - Hi! I'm going to talk about how documenting things can build visibility for yourself and change culture across organizations, with examples from NASA and NOAA communities tackling climate change. 
 #- My name is Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past the 10 years. Documenting things has been a big part of shifting my career - Director of Openscapes. 
-# - I'm going to talk about how documenting things can build visibility for yourself and change culture across organizations, with examples from NASA and NOAA communities tackling climate change. 
 ---
 
 ##
@@ -35,6 +35,7 @@ THINGS
 - teaching resources
 - onboarding
 - fieldwork/lab protocols
+- events
 :::
 
 ::: {.column width="45%"}
@@ -112,19 +113,15 @@ Write directly. Google Doc comments/issues have tendency to prolong/make ardous;
 you might find yourself writing it in an issue. depending, write it down in the doc itself. Like editing directly rather than adding a comment in a Google doc
 :::
 
-## Design for reuse
+## Write in a modular way (short bits)
 
-Design your docs in a way that can be moved around - important for maintenance over time
+Design your docs in a way that can be moved around and networked
 
-- Write in short bits - modular 
+- Instead of writing things twice, know where the information is so you can link to it (Don't repeat yourself (DRY) (cite))
 
-- Network it to other things, don't maintain content in 2 places.
+- Important for maintenance over time
 
-  - These short bits can be linked from each other. Networked, not linear.
 
-- Think of it like we have functions we call from another script. It lives one place
-
-- Don't repeat yourself (DRY) (cite), Don't repeat others (?) (Instead of writing things twice, know where the information is so you can link to it)
 
 
 
@@ -132,7 +129,7 @@ Design your docs in a way that can be moved around - important for maintenance o
 
   - write it down, can be moved later. Helps with incremental writing and not having it loom.
   - this will evolve, like ggplot2. scripts call other packages. Think like that.
-  - have a place. Something that would go in an email or slack — put it there instead.
+  - Think of it like we have functions we call from another script. It lives one place
 :::
 
 ## [Have an audience]{.yellow-bg}
@@ -197,7 +194,7 @@ Be Consistent -  Not "example" and then 2nd example has a diff name. Indenting.
 
 
 
-## Use markdown 
+## Fonts and linking
 
 TODO: Write out how to do these things: 
 
@@ -237,11 +234,21 @@ Format for readability, accessibility, and navigation
 :::
 :::
 
+<br>
+
+Link to environment & climate
+
+Movement building: open science & climate
+
+- Shannon D
+- Monica Granados / Creative Commons
+
+
 :::notes
 Transition: hopefully now you're interested in hearing some stories of what this looks like and what's possible from it
 :::
 
-##  {#nasa-cloud-cookbook .center data-menu-title="NASA Earthdata Cloud Cookbook" background-color="#0F1620"}
+##  {#nasa-cloud-cookbook .center data-menu-title="NASA Earthdata Cloud Cookbook"}
 
 ::: borderbox
 [![](images/cookbook.png){width="70%" fig-align="center" fig-alt="Screenshot of an e-book made with Quarto for the NASA Coud Cookbook"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
@@ -426,13 +433,6 @@ TODO 4 images (like this <https://mine.quarto.pub/hello-quarto/#/nasa-quarto-sit
 - NMFS Kourtney Burger, FIMS
 - Jenny Bryan
 - Better science in less time? Fig 1 image
-
-## Tie it to climate movement
-
-Movement building: open science & climate
-
-- Shannon D
-- Monica Granados / Creative Commons
 
 ## Closing opinions
 
