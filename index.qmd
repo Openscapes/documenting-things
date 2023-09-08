@@ -12,11 +12,11 @@ format:
 editor: visual
 ---
 
-##  {#documenting-things-title data-menu-title="Documenting Things"} 
+##  {#documenting-things-title data-menu-title="Documenting Things"}  
 
 ## Documenting things: openly for future us
 
-### Julia Stewart Lowndes
+### Julia Stewart Lowndes 
 
 ### posit::conf(2023)
 
@@ -49,7 +49,7 @@ when I say future us, I'm thinking of a mindset beyond you and your computer. So
 Plan today:
 
   - 5-min lightening talk (inspired by Jenny Bryan's Naming Things) 💙
-  - 10-mins of stories (and hot takes)
+  - 10-mins of stories (and opinions)
   
 :::notes
 - I'm also here to say documenting things doesn't have to be painful to write and boring to read.
@@ -76,6 +76,8 @@ Paste from your email/slack and put it here instead
 
 Write in small bites - not looming all at once.
 
+Write directly. Google Doc comments/issues have tendency to prolong/make ardous; write that thought in the doc. 
+
 :::notes
 you might find yourself writing it in an issue. depending, write it down in the doc itself. Like editing directly rather than adding a comment in a Google doc
 :::
@@ -95,7 +97,6 @@ Design your docs in a way that can be moved around - important for maintenance o
 - Don't repeat yourself (DRY) (cite), Don't repeat others (?) (Instead of writing things twice, know where the information is so you can link to it)
 
 
-TODO visual: Maybe: advice on GH usernames
 
 :::notes
 
@@ -200,70 +201,214 @@ you can use keyboard shortcuts
 
 :::notes
 Transition: hopefully now you're interested in hearing some stories of what this looks like and what's possible from it
+:::
 
-Next:
+##  {#nasa-cloud-cookbook .center data-menu-title="NASA Earthdata Cloud Cookbook" background-color="#0F1620"}
 
-2 stories: NASA and NOAA Fisheries ecology teams
+::: borderbox
+[![](images/cookbook.png){width="70%" fig-align="center" fig-alt="Screenshot of an e-book made with Quarto for the NASA Coud Cookbook"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
+:::
 
-Movement building though shared documentation
+::: notes
+This Quarto site we made for our first teaching event. 
+:::
+
+## **NASA Openscapes Mentor Community**
+
+::: columns
+::: {.column width="45%"}
+::: {style="font-size: 1.5em;"}
 
 :::
 
+<br>
+
+::: {.midi style="font-size: 1.5em; color: #75AADB;"}
+Learning together
+:::
+
+- Cloud
+
+- Code review
+
+- Teaching pedagogy
+
+- Documentation
+
+:::
+
+::: {.column width="45%"}
+![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){fig-alt="Screenshot of smiling faces on Zoom" fig-align="left" width="100%"}
+
+::: {.midi style="color: red;"}
+TODO: update image, add DAAC logos
+:::
+
+:::
+:::
+
+## Movement building
+
+<br>
+
+![](images/openscapes-flywheel-simple.png){fig-alt="A diagram of the Openscapes flywheel. The Openscapes logo sits in the center of a cyclical process. The text around the logo reads as follows: 'Welcome bright spots (be they mentors or researchers) -- people who want to work better and collaborate' > 'Create space and place to connect and collaborate; remove barriers to participation (paid time, part of jobs)' > 'Invest in learning and trust; Everyone has something to learn, ask, teach; don't need to be an expert in everything. Cultivate psychological safety, growth mindset. Slowing down to speed up.' > 'Work Openly; Put what you learn into practice quickly, role-modeing sharing imperfect work and identifying common challenges and opportunities. Openness is a spectrum; first Future You and then Future Us' > Leverage common workflows, skills, tools; This is where we speed up: Iterate, reuse, remix with each other and teh broader community' > 'Inspire broader scientific communities through visible examples and leaders -- Open science shift' > repeat. These six steps are summarized by three overarching goals, which are also written around the logo: 'Engage a future us mindset', 'Empower learning culture', and 'Amplify open leaders'." fig-align="center" width="100%"}
+
+<br>
+
+Openscapes Flywheel ([Robinson & Lowndes 2022](https://eartharxiv.org/repository/view/4560/))
+
+:::notes
+Movement building though shared documentation
+:::
+
+## Onboarding: open documentation is key
+
+Engagement & resources for intentional audiences
+
+<br>
+
+::: columns
+::: {.column width="33%"}
+::: fragment
+Place: **Project website**
+
+Primary audience: **Public**
+
+<br>
+
+TODO: screenshot
+
+[nasa-openscapes.github.io/<br>mentors](https://nasa-openscapes.github.io/mentors)
+
+:::
+:::
+
+::: {.column width="33%"}
+::: fragment
+**Cookbook**
+
+**Mentors**
+
+<br>
+
+TODO: Screenshot
+
+[nasa-openscapes.github.io/<br>earthdata-cloud-cookbook/<br>contributing/onboarding](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding)
+
+:::
+:::
+
+::: {.column width="33%"}
+::: fragment
+**Approach Guide**
+
+**Future Us**
+
+[![](images/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}](https://openscapes.github.io/approach-guide/)
+
+[openscapes.github.io/<br>approach-guide/<br>mentors-framework/<br>onboarding](https://openscapes.github.io/approach-guide/mentors-framework/onboarding)
+
+:::
+:::
+:::
+
+TODO: TO THINK ABOUT: how does this tie back to the 3 lightning talk points. Don't belabor
+
+## Project website
+
+[nasa-openscapes.github.io/mentors](https://nasa-openscapes.github.io/mentors)
+
+- A place we created to give visibility to the project
+
+- Invite participation the first mentors
+
+- Comms strategy: Important info here, not only in a forwarded email
+
+- Updatable with new info, refine based on questions
 
 
-## Mentor onboarding
+:::notes
 
-Documentation: 
-
-- For public: nasa-openscapes.github.io/mentors. 
-- For mentors: earthdata-cloud-cookbook/contributing/onboarding
-- For us: approach-guide/mentors-framework/onboarding
-
-
-## Julie focus
-
-I have a notebook - daily writing is smaller and ideas are bigger. I have a place, it helps my mind unleash
-
-## NASA Cloud Cookbook scope 
-
-## TO THINK ABOUT: how does this tie back to the 3 lightning talks. Don't belabor
 "When they were thinking about the Cookbook, they were really thinking about X"
+:::
 
-- NASA Earthdata teams - purpose understanding Earth and climate change
-- Image: early framing: carpentries lessons <> Cookbook <> proj pythia.
+## Cloud Cookbook 
 
+[nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding)
 
-## NASA Cloud Cookbook Contributing
+- A place we created to co-develop teaching resources for researchers
 
+- Contributing section was early addition; how to access our cloud infrastructure
+
+- Information for learning quarto, GitHub branches and pull requests
+
+- Also: how to welcome mentors
+
+TODO: screenshot
+
+:::notes
 - fits with  Contributing section early. 
   - maintainance isn't terrible; onboarding new folks
   - increasing contributors
-  
-## NASA Cloud Cookbook policy
-  
-  - Moving to nasa.gov
+:::
 
-## NOAA Fisheries scope
-- Fisheries ecology teams - purpose (manage seafood)
-- Champions Cohorts — documentation really key
-- image: FayLab, FIMS 
-  
-## NOAA Fisheries movement building
 
-- pathways: document event series; nmfs-opensci resource book, 
+## Approach Guide
 
-## NOAA Fisheries Open data policy
-  - NOAA Fisheries open data policy
-  - level up in job
+[openscapes.github.io/approach-guide/mentors-framework/onboarding](https://openscapes.github.io/approach-guide/mentors-framework/onboarding)
 
-## Closing hot takes
+- A place for us to write down repeated tasks, onboard each other to how we work
 
-- it takes time. part of your job. 
+- Focused on this in Year 3; the other two were first priority. Iterative. this is the right time, and our other documentation made it easier to repeat (breadcrumbs) and then write this as we have time. 
+
+
+TODO: screenshot
+
+## Paying it forward - serves us all well 
+
+- NASA Mentor Community sustainability & handoff
+  - mentor cohort > community
+- NOAA Fisheries Mentor Community - repeating the flywheel
+  - early visibility with website. grant co-PI Eli Holmes!
+  - nmfs-opensci resource book
+- Openscapes Mentor Community 
+  - California Water Boards
+  - Pathways to Open Science - document event series
+  - Fred Hutchinson Cancer Center
+
+## Learning and inspiration is cyclical
+
+Learn from, with, for each other
+
+Reuse, learn from, link to. Share stories and methods.
+
+TODO 4 images (like this <https://mine.quarto.pub/hello-quarto/#/nasa-quarto-sites>)
+
+- Faylab Manual
+- NMFS Kourtney Burger, FIMS
+- Jenny Bryan
+- Better science in less time? Fig 1 image
+
+## Tie it to climate movement
+
+Movement building: open science & climate
+
+- Shannon D
+- Monica Granados / Creative Commons
+
+## Closing opinions
+
+- Helps gain visibility and value: Making the invisible visible
+- Get comfortable with imperfect
+- It takes time. part of your job. Paid time. Aligns with your job
 - It can help people feel less lost and like they belong.
-- emojis are important. So much angst and misunderstandings
+- Role model reuse of documentation (like we reuse code/packages)
+- (Maybe: emojis aren't trite. Relieves misunderstandings, helps you say "I got it", "I've seen it")
+- Take these practices to new places - meeting agendas, physical notebooks TODO Maybe: screenshot of my notebook
 
-
-
+:::notes
+I have a notebook - daily writing is smaller and ideas are bigger. I have a place, it helps my mind unleash
+:::
 
 ## How to document things openly for future us:
 

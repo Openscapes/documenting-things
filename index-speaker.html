@@ -331,7 +331,10 @@
 <h3 id="julia-stewart-lowndes">Julia Stewart Lowndes</h3>
 <h3 id="positconf2023">posit::conf(2023)</h3>
 <aside class="notes">
-<p>Documenting things can change culture - Documenting things is changing the way we build movements and change culture within and across organizations — I’ll share how its changing how researchers tackle climate change. - It can help people feel less lost and like they belong. - Doesn’t have to be painful to write and boring to read. - My name is Julie Lowndes. I’m a marine ecologist and I grew up professionally in the R and Open science communities over past 10 years. Shifted my career - Director of Openscapes.</p>
+<ul>
+<li>My name is Julie Lowndes. I’m a marine ecologist and I grew up professionally in the R and Open science communities over past the 10 years. Documenting things has been a big part of shifting my career - Director of Openscapes.</li>
+<li>I’m going to talk about how documenting things can build visibility for yourself and change culture across organizations, with examples from NASA and NOAA communities tackling climate change.</li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -351,6 +354,19 @@
 <li>Future Us - mindset beyond you and your computer</li>
 </ul>
 <p>TODO: images: example documentation</p>
+<aside class="notes">
+<p>when I say things when I say future us, I’m thinking of a mindset beyond you and your computer. So thinking about how what you document now can save hundreds of emails later asking where things are or how to do things.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="documenting-things-doesnt-have-to-be-painful" class="slide level2">
 <h2>Documenting things doesn’t have to be painful</h2>
@@ -359,31 +375,81 @@
 <h3 id="have-an-audience">Have an audience</h3>
 <h3 id="format-for-readability-accessibility-and-navigation">Format for readability, accessibility, and navigation</h3>
 <p><br></p>
+<p>Plan today:</p>
 <ul>
-<li>Plan today: 5-min lightening talk then stories</li>
-<li>Annotated resources at end; Jenny Bryan 💙</li>
+<li>5-min lightening talk (inspired by Jenny Bryan’s Naming Things) 💙</li>
+<li>10-mins of stories (and opinions)</li>
 </ul>
+<aside class="notes">
+<ul>
+<li>I’m also here to say documenting things doesn’t have to be painful to write and boring to read.</li>
+<li>I have 3 pieces of advice:</li>
+<li>the plan for today</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="have-a-place-1" class="slide level2">
 <h2><a href="#/have-a-place-3">Have a place</a></h2>
 <p>TODO: images: wiki, google doc, quarto book.</p>
-<p>It doesn’t matter where at first, get it started.</p>
+<p>It doesn’t matter where at first, get it started. Write it down.</p>
+<aside class="notes">
+<p>This can be whatever software you have transition: what’s important about having a place is that it helps you write as you go -</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="write-as-you-go" class="slide level2">
 <h2>Write as you go</h2>
+<p>Develop the habit of writing things down in this place.</p>
 <p>Paste from your email/slack and put it here instead</p>
-<p>Modular.</p>
-<p>Not looming all at once.</p>
+<p>Write in small bites - not looming all at once.</p>
+<p>Write directly. Google Doc comments/issues have tendency to prolong/make ardous; write that thought in the doc.</p>
+<aside class="notes">
+<p>you might find yourself writing it in an issue. depending, write it down in the doc itself. Like editing directly rather than adding a comment in a Google doc</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="think-reuse-most-abstract" class="slide level2">
-<h2>Think reuse <strong>most abstract</strong></h2>
-<p>Write in short bits. Think of these like functions that can call each other. Will be networked, not linear.</p>
-<p>TODO visual: function calls</p>
-<p>Instead of writing things twice, know where the information is so you can link. Write it in this holding call.</p>
-<p>Maybe: advice on GH usernames</p>
+<section id="design-for-reuse" class="slide level2">
+<h2>Design for reuse</h2>
+<p>Design your docs in a way that can be moved around - important for maintenance over time</p>
+<ul>
+<li><p>Write in short bits - modular</p></li>
+<li><p>Network it to other things, don’t maintain content in 2 places.</p>
+<ul>
+<li>These short bits can be linked from each other. Networked, not linear.</li>
+</ul></li>
+<li><p>Think of it like we have functions we call from another script. It lives one place</p></li>
+<li><p>Don’t repeat yourself (DRY) (cite), Don’t repeat others (?) (Instead of writing things twice, know where the information is so you can link to it)</p></li>
+</ul>
 <aside class="notes">
 <ul>
-<li>design your docs in a way that can be moved around (not in a linear way) (importance for maintenance over time)</li>
 <li>write it down, can be moved later. Helps with incremental writing and not having it loom.</li>
 <li>this will evolve, like ggplot2. scripts call other packages. Think like that.</li>
 <li>have a place. Something that would go in an email or slack — put it there instead.</li>
@@ -403,12 +469,14 @@
 <section id="have-an-audience-1" class="slide level2">
 <h2><a href="#/have-an-audience-3">Have an audience</a></h2>
 <p>You’re writing this for someone. Picture talking to them. Not dry. Specific.</p>
+<p><br></p>
 <p>TODO Images: screenshots/text of Jenny Bryan’s WTF, Stat545, Happy Git with R</p>
 <p>Future You</p>
 </section>
-<section id="future-us" class="slide level2">
-<h2>Future Us</h2>
-<p><strong>We’re in this together</strong></p>
+<section id="write-in-an-inclusive-tone" class="slide level2">
+<h2>Write in an inclusive tone</h2>
+<p>Mindset: We’re in this together (Future Us)</p>
+<p>Write what you’d actually say / keep things relevant to that audience</p>
 <p>When we write tutorials, we write them as if we’re teaching them outloud. What you would say is included. And we design the code in chunks for learners.</p>
 <p>TODO Images: R for Excel Users</p>
 <aside class="notes">
@@ -431,24 +499,67 @@
 <ul>
 <li><p>“as open as possible, as closed as necessary”</p></li>
 <li><p>shared online (<strong>breadcrumbs</strong>)</p></li>
-<li><p>network it to other things, don’t maintain content in 2 places.</p></li>
 <li><p>can help you refine place quarto, rmarkdown, google docs</p></li>
+<li><p>consider contributors</p></li>
 </ul>
+<p>IMAGE: github link to google docs. Not accessible to everyone. ok.</p>
 </section>
 <section id="format-for-readability-accessibility-and-navigation-1" class="slide level2">
 <h2><a href="#/format-for-readability-accessibility-and-navigation-3">Format for readability, accessibility, and navigation</a></h2>
+<ul>
+<li>aesthetics matter, and don’t have to be super time-consuming</li>
+<li>accessibility matters - can mean screenreaders, low bandwidth, paywalls/permissions, and much more</li>
+<li>navigation mtters - helping Future Us find what we need</li>
+</ul>
 </section>
 <section id="headers-and-slugs" class="slide level2">
 <h2>Headers and Slugs</h2>
-<p>Naming things - could list Jenny’s 3 points</p>
+<p>Use section headers - you can link directly to them</p>
+<ul>
+<li>TODO IMAGE: Google Doc Bookmark, Quarto anchor</li>
+</ul>
+<p>Name things with this in mind</p>
+<ul>
+<li>Naming things - list Jenny’s 3 points &amp; video links</li>
+</ul>
+<p>Be Consistent - Not “example” and then 2nd example has a diff name. Indenting.</p>
 </section>
 <section id="alt-text" class="slide level2">
 <h2>Alt text</h2>
 </section>
 <section id="use-markdown" class="slide level2">
 <h2>Use markdown</h2>
+<p>TODO: Write out how to do these things:</p>
 <p><code>code</code></p>
-<p><a href="">link not here</a></p>
+<p><a href="">link to the important part</a> not just the word <a href="">here</a></p>
+<p><br></p>
+<p>…Transition: And whether or not you use Markdown -</p>
+</section>
+<section id="keyboard-shortcuts" class="slide level2">
+<h2>Keyboard shortcuts</h2>
+<p>Arrow keys + shift + option</p>
+<ul>
+<li>TODO: GIF of this and embed :grimacing:</li>
+</ul>
+<dl>
+<dt>Shift-command 8 for bullets</dt>
+<dd>
+<p>more and more for emojis</p>
+</dd>
+</dl>
+<aside class="notes">
+<p>you can use keyboard shortcuts</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="documenting-things-whats-possible-from-this" class="slide level2">
 <h2>Documenting things — what’s possible from this</h2>
@@ -458,8 +569,77 @@
 <h3 id="format-for-readability-accessibility-and-navigation-2">Format for readability, accessibility, and navigation</h3>
 <aside class="notes">
 <p>Transition: hopefully now you’re interested in hearing some stories of what this looks like and what’s possible from it</p>
-<p>Next:</p>
-<p>2 stories: NASA and NOAA Fisheries ecology teams</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="nasa-cloud-cookbook" class="slide level2 center" data-menu-title="NASA Earthdata Cloud Cookbook" data-background-color="#0F1620">
+<h2></h2>
+<div class="borderbox">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/"><img data-src="images/cookbook.png" style="width:70.0%" alt="Screenshot of an e-book made with Quarto for the NASA Coud Cookbook"></a></p>
+</figure>
+</div>
+</div>
+<aside class="notes">
+<p>This Quarto site we made for our first teaching event.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="nasa-openscapes-mentor-community" class="slide level2">
+<h2><strong>NASA Openscapes Mentor Community</strong></h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div style="font-size: 1.5em;">
+
+</div>
+<p><br></p>
+<div class="midi" style="font-size: 1.5em; color: #75AADB;">
+<p>Learning together</p>
+</div>
+<ul>
+<li><p>Cloud</p></li>
+<li><p>Code review</p></li>
+<li><p>Teaching pedagogy</p></li>
+<li><p>Documentation</p></li>
+</ul>
+</div><div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="images/2021-NASA-Openscapes-Mentors-Photoshop.png" style="width:100.0%" alt="Screenshot of smiling faces on Zoom"></p>
+</figure>
+</div>
+<div class="midi" style="color: red;">
+<p>TODO: update image, add DAAC logos</p>
+</div>
+</div>
+</div>
+</section>
+<section id="movement-building" class="slide level2">
+<h2>Movement building</h2>
+<p><br></p>
+
+<img data-src="images/openscapes-flywheel-simple.png" style="width:100.0%" alt="A diagram of the Openscapes flywheel. The Openscapes logo sits in the center of a cyclical process. The text around the logo reads as follows: 'Welcome bright spots (be they mentors or researchers) -- people who want to work better and collaborate' > 'Create space and place to connect and collaborate; remove barriers to participation (paid time, part of jobs)' > 'Invest in learning and trust; Everyone has something to learn, ask, teach; don't need to be an expert in everything. Cultivate psychological safety, growth mindset. Slowing down to speed up.' > 'Work Openly; Put what you learn into practice quickly, role-modeing sharing imperfect work and identifying common challenges and opportunities. Openness is a spectrum; first Future You and then Future Us' > Leverage common workflows, skills, tools; This is where we speed up: Iterate, reuse, remix with each other and teh broader community' > 'Inspire broader scientific communities through visible examples and leaders -- Open science shift' > repeat. These six steps are summarized by three overarching goals, which are also written around the logo: 'Engage a future us mindset', 'Empower learning culture', and 'Amplify open leaders'." class="r-stretch quarto-figure-center"><p><br></p>
+<p>Openscapes Flywheel (<a href="https://eartharxiv.org/repository/view/4560/">Robinson &amp; Lowndes 2022</a>)</p>
+<aside class="notes">
 <p>Movement building though shared documentation</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -473,19 +653,76 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="nasa-cloud-cookbook-scope" class="slide level2">
-<h2>NASA Cloud Cookbook scope</h2>
+<section id="onboarding-open-documentation-is-key" class="slide level2">
+<h2>Onboarding: open documentation is key</h2>
+<p>Engagement &amp; resources for intentional audiences</p>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:33%;">
+<div class="fragment">
+<p>Place: <strong>Project website</strong></p>
+<p>Primary audience: <strong>Public</strong></p>
+<p><br></p>
+<p>TODO: screenshot</p>
+<p><a href="https://nasa-openscapes.github.io/mentors">nasa-openscapes.github.io/<br>mentors</a></p>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<p><strong>Cookbook</strong></p>
+<p><strong>Mentors</strong></p>
+<p><br></p>
+<p>TODO: Screenshot</p>
+<p><a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding">nasa-openscapes.github.io/<br>earthdata-cloud-cookbook/<br>contributing/onboarding</a></p>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<p><strong>Approach Guide</strong></p>
+<p><strong>Future Us</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://openscapes.github.io/approach-guide/"><img data-src="images/approach-guide.png" alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"></a></p>
+</figure>
+</div>
+<p><a href="https://openscapes.github.io/approach-guide/mentors-framework/onboarding">openscapes.github.io/<br>approach-guide/<br>mentors-framework/<br>onboarding</a></p>
+</div>
+</div>
+</div>
+<p>TODO: TO THINK ABOUT: how does this tie back to the 3 lightning talk points. Don’t belabor</p>
 </section>
-<section id="to-think-about-how-does-this-tie-back-to-the-3-lightning-talks.-dont-belabor" class="slide level2">
-<h2>TO THINK ABOUT: how does this tie back to the 3 lightning talks. Don’t belabor</h2>
-<p>“When they were thinking about the Cookbook, they were really thinking about X”</p>
+<section id="project-website" class="slide level2">
+<h2>Project website</h2>
+<p><a href="https://nasa-openscapes.github.io/mentors">nasa-openscapes.github.io/mentors</a></p>
 <ul>
-<li>NASA Earthdata teams - purpose understanding Earth and climate change</li>
-<li>Image: early framing: carpentries lessons &lt;&gt; Cookbook &lt;&gt; proj pythia.</li>
+<li><p>A place we created to give visibility to the project</p></li>
+<li><p>Invite participation the first mentors</p></li>
+<li><p>Comms strategy: Important info here, not only in a forwarded email</p></li>
+<li><p>Updatable with new info, refine based on questions</p></li>
 </ul>
+<aside class="notes">
+<p>“When they were thinking about the Cookbook, they were really thinking about X”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="nasa-cloud-cookbook-contributing" class="slide level2">
-<h2>NASA Cloud Cookbook Contributing</h2>
+<section id="cloud-cookbook" class="slide level2">
+<h2>Cloud Cookbook</h2>
+<p><a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding">nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding</a></p>
+<ul>
+<li><p>A place we created to co-develop teaching resources for researchers</p></li>
+<li><p>Contributing section was early addition; how to access our cloud infrastructure</p></li>
+<li><p>Information for learning quarto, GitHub branches and pull requests</p></li>
+<li><p>Also: how to welcome mentors</p></li>
+</ul>
+<p>TODO: screenshot</p>
+<aside class="notes">
 <ul>
 <li>fits with Contributing section early.
 <ul>
@@ -493,33 +730,91 @@
 <li>increasing contributors</li>
 </ul></li>
 </ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="nasa-cloud-cookbook-policy" class="slide level2">
-<h2>NASA Cloud Cookbook policy</h2>
+<section id="approach-guide" class="slide level2">
+<h2>Approach Guide</h2>
+<p><a href="https://openscapes.github.io/approach-guide/mentors-framework/onboarding">openscapes.github.io/approach-guide/mentors-framework/onboarding</a></p>
 <ul>
-<li>Moving to nasa.gov</li>
+<li><p>A place for us to write down repeated tasks, onboard each other to how we work</p></li>
+<li><p>Focused on this in Year 3; the other two were first priority. Iterative. this is the right time, and our other documentation made it easier to repeat (breadcrumbs) and then write this as we have time.</p></li>
+</ul>
+<p>TODO: screenshot</p>
+</section>
+<section id="paying-it-forward---serves-us-all-well" class="slide level2">
+<h2>Paying it forward - serves us all well</h2>
+<ul>
+<li>NASA Mentor Community sustainability &amp; handoff
+<ul>
+<li>mentor cohort &gt; community</li>
+</ul></li>
+<li>NOAA Fisheries Mentor Community - repeating the flywheel
+<ul>
+<li>early visibility with website. grant co-PI Eli Holmes!</li>
+<li>nmfs-opensci resource book</li>
+</ul></li>
+<li>Openscapes Mentor Community
+<ul>
+<li>California Water Boards</li>
+<li>Pathways to Open Science - document event series</li>
+<li>Fred Hutchinson Cancer Center</li>
+</ul></li>
 </ul>
 </section>
-<section id="noaa-fisheries-scope" class="slide level2">
-<h2>NOAA Fisheries scope</h2>
+<section id="learning-and-inspiration-is-cyclical" class="slide level2">
+<h2>Learning and inspiration is cyclical</h2>
+<p>Learn from, with, for each other</p>
+<p>Reuse, learn from, link to. Share stories and methods.</p>
+<p>TODO 4 images (like this <a href="https://mine.quarto.pub/hello-quarto/#/nasa-quarto-sites" class="uri">https://mine.quarto.pub/hello-quarto/#/nasa-quarto-sites</a>)</p>
 <ul>
-<li>Fisheries ecology teams - purpose (manage seafood)</li>
-<li>Champions Cohorts — documentation really key</li>
-<li>image: FayLab, FIMS</li>
+<li>Faylab Manual</li>
+<li>NMFS Kourtney Burger, FIMS</li>
+<li>Jenny Bryan</li>
+<li>Better science in less time? Fig 1 image</li>
 </ul>
 </section>
-<section id="noaa-fisheries-movement-building" class="slide level2">
-<h2>NOAA Fisheries movement building</h2>
+<section id="tie-it-to-climate-movement" class="slide level2">
+<h2>Tie it to climate movement</h2>
+<p>Movement building: open science &amp; climate</p>
 <ul>
-<li>pathways: document event series; nmfs-opensci resource book,</li>
+<li>Shannon D</li>
+<li>Monica Granados / Creative Commons</li>
 </ul>
 </section>
-<section id="noaa-fisheries-open-data-policy" class="slide level2">
-<h2>NOAA Fisheries Open data policy</h2>
+<section id="closing-opinions" class="slide level2">
+<h2>Closing opinions</h2>
 <ul>
-<li>NOAA Fisheries open data policy</li>
-<li>level up in job</li>
+<li>Helps gain visibility and value: Making the invisible visible</li>
+<li>Get comfortable with imperfect</li>
+<li>It takes time. part of your job. Paid time. Aligns with your job</li>
+<li>It can help people feel less lost and like they belong.</li>
+<li>Role model reuse of documentation (like we reuse code/packages)</li>
+<li>(Maybe: emojis aren’t trite. Relieves misunderstandings, helps you say “I got it”, “I’ve seen it”)</li>
+<li>Take these practices to new places - meeting agendas, physical notebooks TODO Maybe: screenshot of my notebook</li>
 </ul>
+<aside class="notes">
+<p>I have a notebook - daily writing is smaller and ideas are bigger. I have a place, it helps my mind unleash</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="how-to-document-things-openly-for-future-us" class="slide level2">
 <h2>How to document things openly for future us:</h2>
