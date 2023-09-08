@@ -1,0 +1,48 @@
+/*-- scss:defaults --*/
+
+$medium-gray1: #999999;
+$medium-gray2: #555555; 
+$blue: #38A7BB;
+$light-yellow: #FFF6E1;
+
+/*-- scss:rules --*/
+
+.blue-underline { 
+  text-decoration: underline $blue;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 4px;
+}
+
+.things-text {
+  font-size: 75px;
+}
+
+.medium-body-text {
+  font-size: 25px;
+}
+
+.caption-text { 
+  font-size: 15px;
+  color: $medium-gray2;
+}
+
+.blue-text {
+  color: $blue;
+}
+
+.medium-gray1-text{
+  color: $medium-gray1;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.yellow-bg { 
+  background-color: $light-yellow;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 8px;
+  border-radius: 15px;
+}
