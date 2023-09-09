@@ -350,6 +350,7 @@ Julia Stewart Lowndes, Openscapes
 <li>teaching resources</li>
 <li>onboarding</li>
 <li>fieldwork/lab protocols</li>
+<li>blogs</li>
 <li>events</li>
 </ul>
 </div><div class="column" style="width:45%;">
@@ -393,6 +394,7 @@ Julia Stewart Lowndes, Openscapes
 <ul>
 <li>5-min lightening talk (inspired by <a href="https://github.com/jennybc/how-to-name-files#how-to-name-files">Jenny Bryan’s Naming Files</a>) 💙</li>
 <li>10-mins of stories (and opinions)</li>
+<li>Note: All images are linked to their source; annotated resources at the end</li>
 </ul>
 <aside class="notes">
 <ul>
@@ -412,33 +414,29 @@ Julia Stewart Lowndes, Openscapes
           display:block!important;
       }</style></aside>
 </section>
-<section id="have-a-place" class="slide level2 yellow-bg">
-<h2>Have a place</h2>
+<section id="have-a-place" class="slide level2">
+<h2><span class="yellow-bg">Have a place</span></h2>
 <p>It doesn’t matter where at first. Just write it down.</p>
 <p><br></p>
 <div class="columns">
 <div class="column" style="width:33%;">
+<p><br></p>
 <p><strong>Google Doc</strong></p>
 <p><br></p>
-<p>TODO: screenshot</p>
 <p><br></p>
-<p>Google Slides/ELi?</p>
+<p><strong>Notion</strong></p>
 </div><div class="column" style="width:33%;">
+<p><br></p>
 <p><strong>Wiki</strong></p>
-<div class="borderbox">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="https://github.com/Openscapes/website-new/wiki/Styling-page-elements"><img data-src="images/website-wiki.png" alt="Screenshot of a Wiki on GitHub describing CSS styling"></a></p>
-</figure>
-</div>
-</div>
-<p><a href="https://github.com/Openscapes/website-new/wiki/">github.com/Openscapes/<br>website-new/wiki</a></p>
+<p><br></p>
+<p><br></p>
+<p><strong>Forum/Issues/Discussion</strong></p>
 </div><div class="column" style="width:33%;">
-<p><strong>Quarto book</strong></p>
-<div class="borderbox">
-<p>TODO NEW EXAMPLE</p>
-</div>
-<p><a href="https://openscapes.github.io/approach-guide">openscapes.github.io/<br>approach-guide</a></p>
+<p><br></p>
+<p><strong>Quarto/Jupyter book</strong></p>
+<p><br></p>
+<p><br></p>
+<p><strong>Slide deck</strong></p>
 </div>
 </div>
 <aside class="notes">
@@ -480,15 +478,37 @@ Julia Stewart Lowndes, Openscapes
 </section>
 <section id="write-in-a-modular-way-short-bits" class="slide level2">
 <h2>Write in a modular way (short bits)</h2>
-<p>Design your docs in a way that can be moved around and networked</p>
-<ul>
-<li><p>Instead of writing things twice, know where the information is so you can link to it (Don’t repeat yourself (DRY) (cite))</p></li>
-<li><p>Important for maintenance over time</p></li>
-</ul>
+<p>Design in a way that can be networked; not limited to linear. Key for writing &amp; maintenance</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="borderbox">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://rstudio-conf-2020.github.io/r-for-excel/rstudio.html"><img data-src="images/modular-r-for-excel.png" style="width:48.0%" alt="Screenshot of an e-book left navigation bar for R, RStudio, and RMarkdown, with subsections Summary, RStudio Orientation, Intro to RMarkdown, R code in the Console, R functions, Help pages, Commenting"></a></p>
+</figure>
+</div>
+</div>
+<p>No true order; you’ll move things around.</p>
+</div><div class="column" style="width:50%;">
+<div class="borderbox">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://rstudio-conf-2020.github.io/r-for-excel/collaborating.html#collaborating-with-github"><img data-src="images/modular-r-for-excel-github.png" style="width:90.0%" alt="Screenshot of an e-book left navigation bar for R, RStudio, and RMarkdown, with subsections Summary, RStudio Orientation, Intro to RMarkdown, R code in the Console, R functions, Help pages, Commenting"></a></p>
+</figure>
+</div>
+</div>
+<p>Don’t repeat yourself (DRY): link instead.</p>
+</div>
+</div>
+<div class="ref-text">
+<p>Lowndes &amp; Horst, <a href="https://rstudio-conf-2020.github.io/r-for-excel">R for Excel Users</a></p>
+</div>
 <aside class="notes">
+<p>Instead of writing things twice, know where the information is so you can link to it (Don’t repeat yourself (DRY)</p>
+<p>These are two examples from R for Excel Users, on the left</p>
 <ul>
 <li>write it down, can be moved later. Helps with incremental writing and not having it loom.</li>
-<li>this will evolve, like ggplot2. scripts call other packages. Think like that.</li>
+<li>If you write code, you can think of this like calling functions from from other scripts or packages. Think like that.</li>
 <li>Think of it like we have functions we call from another script. It lives one place</li>
 </ul>
 <style type="text/css">
@@ -503,15 +523,18 @@ Julia Stewart Lowndes, Openscapes
           display:block!important;
       }</style></aside>
 </section>
-<section id="have-an-audience" class="slide level2 yellow-bg">
-<h2>Have an audience</h2>
+<section id="have-an-audience" class="slide level2">
+<h2><span class="yellow-bg">Have an audience</span></h2>
 <p>You’re writing this for someone. Make it engaging - doesn’t have to be dry or distant.</p>
 <div class="borderbox">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="https://happygitwithr.com/"><img data-src="images/happy-git-with-r.png" style="width:100.0%" alt="Screenshot Jenny Bryan's Happy Git With R book that has an image from the music video Whip that says Watch me Diff, Watch me Rebase"></a></p>
+<p><a href="https://happygitwithr.com/"><img data-src="images/happy-git-with-r.png" style="width:55.0%" alt="Screenshot of Jenny Bryan's Happy Git With R book that has an image from the music video Whip that says Watch me Diff, Watch me Rebase"></a></p>
 </figure>
 </div>
+</div>
+<div class="ref-text">
+<p>Jenny Bryan, <a href="https://happygitwithr.com">Happy Git with R</a></p>
 </div>
 <aside class="notes">
 <p>Picture talking to them</p>
@@ -529,7 +552,7 @@ Julia Stewart Lowndes, Openscapes
 </section>
 <section id="write-in-an-inclusive-tone" class="slide level2">
 <h2>Write in an inclusive tone</h2>
-<p>Consider your goals and style that welcome readers: we’re in this together</p>
+<p>We’re in this together: onsider your goals and style that welcome readers.</p>
 <ul>
 <li>Purpose, Outcomes, Process (<a href="https://suzannehawkes.com/2010/04/09/pop-everything/">POP</a>)</li>
 <li>Carpentries Curriculum Developers Handbook (<a href="https://cdh.carpentries.org/">CDH</a>)</li>
@@ -552,35 +575,73 @@ Julia Stewart Lowndes, Openscapes
           display:block!important;
       }</style></aside>
 </section>
-<section id="share-it" class="slide level2">
-<h2>Share it</h2>
+<section id="share-it-as-open-as-possible-as-closed-as-necessary" class="slide level2">
+<h2>Share it ‘as open as possible, as closed as necessary’</h2>
+<p>Leverage different technologies to share online; consider contributors and leave breadcrumbs.</p>
+<div class="borderbox">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://nmfs-opensci.github.io/ResourceBook/content/508_compliance.html"><img data-src="images/nmfs-opensci-508-breadcrumb.png" style="width:65.0%" alt="Screenshot of NOAA Fisheries Open Science Resource Book on the page with 508 Compliance. A red arrow points to blue text that says Recording of R UG Meeting and in red text says Internal link"></a></p>
+</figure>
+</div>
+</div>
+<div class="ref-text">
+<p>NOAA Fisheries Open Science, <a href="https://nmfs-opensci.github.io/ResourceBook/content/508_compliance.html">Resource Book</a></p>
+</div>
+<aside class="notes">
+<p>Breadcrumbs. Internal link for NOAA Fisheries. That’s ok. We can still all learn a lot by having as much public.</p>
 <ul>
-<li><p>“as open as possible, as closed as necessary”</p></li>
-<li><p>shared online (<strong>breadcrumbs</strong>)</p></li>
-<li><p>can help you refine place quarto, rmarkdown, google docs</p></li>
-<li><p>consider contributors</p></li>
+<li>can help you refine place quarto, rmarkdown, google docs</li>
 </ul>
-<p>IMAGE: github link to google docs. Not accessible to everyone. ok.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="format-for-readability-accessibility-and-navigation" class="slide level2 yellow-bg">
-<h2>Format for readability, accessibility, and navigation</h2>
+<section id="format-for-readability-accessibility-navigation" class="slide level2">
+<h2><span class="yellow-bg">Format for readability, accessibility, &amp; navigation</span></h2>
 <ul>
 <li>aesthetics matter, and don’t have to be super time-consuming</li>
 <li>accessibility matters - can mean screenreaders, low bandwidth, paywalls/permissions, and much more</li>
 <li>navigation mtters - helping Future Us find what we need</li>
 </ul>
 </section>
-<section id="headers-and-slugs" class="slide level2">
-<h2>Headers and Slugs</h2>
-<p>Use section headers - you can link directly to them</p>
-<ul>
-<li>TODO IMAGE: Google Doc Bookmark, Quarto anchor</li>
-</ul>
-<p>Name things with this in mind</p>
-<ul>
-<li>Naming things - list Jenny’s 3 points &amp; video links</li>
-</ul>
-<p>Be Consistent - Not “example” and then 2nd example has a diff name. Indenting.</p>
+<section id="use-section-headers" class="slide level2">
+<h2>Use section headers</h2>
+<p>You can anchor to headers: there will be links directly to them. TODO REWORD</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="borderbox">
+<p><img data-src="images/anchor-gdoc-bookmark.png" style="width:100.0%" alt="Screenshot of Google Doc with a Bookmark inserted with a red arrow pointing from the Insert nav bar item that says Insert > Bookmark"></p>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="borderbox">
+<p>TODO IMAGE: MAYBE FAYLAB????? <a href="https://nmfs-opensci.github.io/ResourceBook/content/508_compliance.html"><img data-src="images/nmfs-opensci-508-breadcrumb.png" style="width:65.0%" alt="Screenshot of NOAA Fisheries Open Science Resource Book on the page with 508 Compliance. A red arrow points to blue text that says Recording of R UG Meeting and in red text says Internal link"></a></p>
+</div>
+</div>
+</div>
+<p>Name headers with this in mind - Jenny Bryan says “embrace the slug”</p>
+<aside class="notes">
+<p>These are examples from Google Doc where you can insert a bookmark and Quarto where you can anchor in Markdown.</p>
+<p>Maybe: Be Consistent - Not “example” and then 2nd example has a diff name. Indenting.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="alt-text" class="slide level2">
 <h2>Alt text</h2>
@@ -623,14 +684,34 @@ Julia Stewart Lowndes, Openscapes
           display:block!important;
       }</style></aside>
 </section>
-<section id="nasa-cloud-cookbook" class="slide level2 center" data-menu-title="NASA Earthdata Cloud Cookbook">
-<h2></h2>
+<section id="nasa-earthdata-cloud-cookbook" class="slide level2">
+<h2>NASA Earthdata Cloud Cookbook</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><br></p>
+<div class="medium-body-text blue-underline">
+<p>Open, active development</p>
+</div>
+<ul>
+<li><p>Researcher-focused</p></li>
+<li><p>Cloud workflows</p></li>
+<li><p>NASA Earthdata Cloud accesss</p></li>
+<li><p>Python, R, MATLAB</p></li>
+<li><p>Tutorials spanning NASA missions, research domains, NASA data centers, data formats …</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><br></p>
 <div class="borderbox">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/"><img data-src="images/cookbook.png" alt="Screenshot of an e-book made with Quarto for the NASA Coud Cookbook"></a></p>
 </figure>
 </div>
+</div>
+</div>
+</div>
+<div class="right-text ref-text">
+<p>TODO: update image, expand How Do I’s when added Matlab</p>
 </div>
 <aside class="notes">
 <p>This Quarto site we made for our first teaching event.</p>
@@ -647,9 +728,9 @@ Julia Stewart Lowndes, Openscapes
       }</style></aside>
 </section>
 <section id="nasa-openscapes-mentor-community" class="slide level2">
-<h2><strong>NASA Openscapes Mentor Community</strong></h2>
+<h2>NASA Openscapes Mentor Community</h2>
 <div class="columns">
-<div class="column" style="width:45%;">
+<div class="column" style="width:50%;">
 <div style="font-size: 1.5em;">
 
 </div>
@@ -658,12 +739,15 @@ Julia Stewart Lowndes, Openscapes
 <p>Learning together</p>
 </div>
 <ul>
-<li><p>Cloud infrastructure</p></li>
+<li><p>Cloud infrastructure, Notebooks, Quarto</p></li>
 <li><p>Code review</p></li>
+<li><p>Collaboration on GitHub</p></li>
 <li><p>Teaching pedagogy</p></li>
-<li><p>Documentation</p></li>
+<li><p>Getting comfortable with imperfect, Open</p></li>
+<li><p>Facilitation &amp; leadership</p></li>
 </ul>
-</div><div class="column" style="width:45%;">
+</div><div class="column" style="width:50%;">
+<p><br></p>
 <div class="quarto-figure quarto-figure-left">
 <figure>
 <p><img data-src="images/2021-NASA-Openscapes-Mentors-Photoshop.png" style="width:100.0%" alt="Screenshot of smiling faces on Zoom"></p>
@@ -674,6 +758,27 @@ Julia Stewart Lowndes, Openscapes
 </div>
 </div>
 </div>
+</section>
+<section id="documentation-framework" class="slide level2">
+<h2>Documentation Framework</h2>
+<p>This helped NASA Mentors center on learning &amp; problem oriented documentation.</p>
+
+<img data-src="images/divio.png" style="width:35.0%" alt="Screenshot of Divios Documentation system: a black square with four quadrants labeled Tutorials, How To Guides, Reference, and Explanation" class="r-stretch quarto-figure-center"><div class="ref-text">
+<p>Daniele Procida &amp; Divio, <a href="https://documentation.divio.com/">The Documentation System</a></p>
+</div>
+<aside class="notes">
+<p>Mentors found it really helpful to have a framework for thinking of this documentation.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="movement-building" class="slide level2">
 <h2>Movement building</h2>
@@ -893,6 +998,52 @@ Julia Stewart Lowndes, Openscapes
 <section id="resources" class="slide level2">
 <h2>Resources</h2>
 <p>TODO</p>
+</section>
+<section id="cutting-room" class="slide level2">
+<h2>CUTTING ROOM</h2>
+</section>
+<section id="have-a-place-1" class="slide level2">
+<h2><span class="yellow-bg">Have a place</span></h2>
+<p>It doesn’t matter where at first. Just write it down.</p>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:33%;">
+<p><strong>Google Doc</strong></p>
+<p><br></p>
+<p>TODO: screenshot</p>
+<p><br></p>
+<p>Google Slides/ELi?</p>
+</div><div class="column" style="width:33%;">
+<p><strong>Wiki</strong></p>
+<div class="borderbox">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://github.com/Openscapes/website-new/wiki/Styling-page-elements"><img data-src="images/website-wiki.png" alt="Screenshot of a Wiki on GitHub describing CSS styling"></a></p>
+</figure>
+</div>
+</div>
+<p><a href="https://github.com/Openscapes/website-new/wiki/">github.com/Openscapes/<br>website-new/wiki</a></p>
+</div><div class="column" style="width:33%;">
+<p><strong>Quarto book</strong></p>
+<div class="borderbox">
+<p>TODO NEW EXAMPLE</p>
+</div>
+<p><a href="https://openscapes.github.io/approach-guide">openscapes.github.io/<br>approach-guide</a></p>
+</div>
+</div>
+<aside class="notes">
+<p>This can be whatever software you have transition: what’s important about having a place is that it helps you write as you go -</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 <div class="footer footer-default">
 <p><a href="https://openscapes.github.io/documenting-things/">openscapes.github.io/documenting-things</a> <a href="https://github.com/openscapes/documenting-things">(source)</a></p>
 </div>

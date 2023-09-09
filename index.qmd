@@ -35,6 +35,7 @@ THINGS
 -   teaching resources
 -   onboarding
 -   fieldwork/lab protocols
+-   blogs
 -   events
 :::
 
@@ -77,6 +78,7 @@ Plan today:
 
 -   5-min lightening talk (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files)) 💙
 -   10-mins of stories (and opinions)
+-   Note: All images are linked to their source; annotated resources at the end
 
 ::: notes
 -   I'm also here to say documenting things doesn't have to be painful to write and boring to read.
@@ -84,7 +86,7 @@ Plan today:
 -   the plan for today
 :::
 
-## Have a place {.yellow-bg}
+## [Have a place]{.yellow-bg}
 
 It doesn't matter where at first. Just write it down.
 
@@ -92,35 +94,44 @@ It doesn't matter where at first. Just write it down.
 
 ::: columns
 ::: {.column width="33%"}
+
+<br>
+
 **Google Doc**
 
 <br>
 
-TODO: screenshot
+<br>
+
+**Notion**
+
+:::
+
+::: {.column width="33%"}
 
 <br>
 
-Google Slides/ELi?
-:::
-
-::: {.column width="33%"}
 **Wiki**
 
-::: borderbox
-[![](images/website-wiki.png){fig-alt="Screenshot of a Wiki on GitHub describing CSS styling"}](https://github.com/Openscapes/website-new/wiki/Styling-page-elements)
-:::
+<br>
 
-[github.com/Openscapes/<br>website-new/wiki](https://github.com/Openscapes/website-new/wiki/)
+<br>
+
+**Forum/Issues/Discussion**
+
 :::
 
 ::: {.column width="33%"}
-**Quarto book**
 
-::: borderbox
-TODO NEW EXAMPLE
-:::
+<br>
 
-[openscapes.github.io/<br>approach-guide](https://openscapes.github.io/approach-guide)
+**Quarto/Jupyter book**
+
+<br>
+
+<br>
+
+**Slide deck**
 :::
 :::
 
@@ -150,24 +161,56 @@ keyboard shortcuts -
 
 ## Write in a modular way (short bits)
 
-Design your docs in a way that can be moved around and networked
+Design in a way that can be networked; not limited to linear. Key for writing & maintenance
 
--   Instead of writing things twice, know where the information is so you can link to it (Don't repeat yourself (DRY) (cite))
+::: columns
+::: {.column width="50%"}
 
--   Important for maintenance over time
-
-::: notes
--   write it down, can be moved later. Helps with incremental writing and not having it loom.
--   this will evolve, like ggplot2. scripts call other packages. Think like that.
--   Think of it like we have functions we call from another script. It lives one place
+::: borderbox
+[![](images/modular-r-for-excel.png){fig-alt="Screenshot of an e-book left navigation bar for R, RStudio, and RMarkdown, with subsections Summary, RStudio Orientation, Intro to RMarkdown, R code in the Console, R functions, Help pages, Commenting" width="48%"}](https://rstudio-conf-2020.github.io/r-for-excel/rstudio.html)
 :::
 
-## Have an audience {.yellow-bg}
+No true order; you'll move things around.
+:::
+
+::: {.column width="50%"}
+
+::: borderbox
+[![](images/modular-r-for-excel-github.png){fig-alt="Screenshot of an e-book left navigation bar for R, RStudio, and RMarkdown, with subsections Summary, RStudio Orientation, Intro to RMarkdown, R code in the Console, R functions, Help pages, Commenting" width="90%"}](https://rstudio-conf-2020.github.io/r-for-excel/collaborating.html#collaborating-with-github)
+:::
+
+Don't repeat yourself (DRY): link instead.
+
+:::
+:::
+
+::: ref-text
+Lowndes & Horst, [R for Excel Users](https://rstudio-conf-2020.github.io/r-for-excel)
+:::
+
+::: notes
+
+Instead of writing things twice, know where the information is so you can link to it (Don't repeat yourself (DRY) 
+
+These are two examples from R for Excel Users, on the left
+
+-   write it down, can be moved later. Helps with incremental writing and not having it loom.
+-   If you write code, you can think of this like calling functions from from other scripts or packages. Think like that.
+-   Think of it like we have functions we call from another script. It lives one place
+
+
+:::
+
+## [Have an audience]{.yellow-bg}
 
 You're writing this for someone. Make it engaging - doesn't have to be dry or distant.
 
 ::: borderbox
-[![](images/happy-git-with-r.png){fig-alt="Screenshot Jenny Bryan's Happy Git With R book that has an image from the music video Whip that says Watch me Diff, Watch me Rebase" width="100%"}](https://happygitwithr.com/)
+[![](images/happy-git-with-r.png){fig-alt="Screenshot of Jenny Bryan's Happy Git With R book that has an image from the music video Whip that says Watch me Diff, Watch me Rebase" width="55%"}](https://happygitwithr.com/)
+:::
+
+::: ref-text
+Jenny Bryan, [Happy Git with R](https://happygitwithr.com)
 :::
 
 ::: notes
@@ -176,12 +219,12 @@ Picture talking to them
 
 ## Write in an inclusive tone
 
-Consider your goals and style that welcome readers: we're in this together
+We're in this together: onsider your goals and style that welcome readers.
 
 -   Purpose, Outcomes, Process ([POP](https://suzannehawkes.com/2010/04/09/pop-everything/))
 -   Carpentries Curriculum Developers Handbook ([CDH](https://cdh.carpentries.org/))
-- TODO: ICESAT-2 Hackweek Charley Haley
-- Mentoring Groups book
+-   TODO: ICESAT-2 Hackweek Charley Haley
+-   Mentoring Groups book
 
 <br>
 
@@ -191,35 +234,64 @@ Write what you'd actually say / keep things relevant to that audience
 When we write tutorials, we write them as if we're teaching them outloud. What you would say is included. And we design the code in chunks for learners.
 :::
 
-## Share it
+## Share it 'as open as possible, as closed as necessary'
 
--   "as open as possible, as closed as necessary"
+Leverage different technologies to share online; consider contributors and leave breadcrumbs.
 
--   shared online (**breadcrumbs**)
+::: borderbox
+[![](images/nmfs-opensci-508-breadcrumb.png){fig-alt="Screenshot of NOAA Fisheries Open Science Resource Book on the page with 508 Compliance. A red arrow points to blue text that says Recording of R UG Meeting and in red text says Internal link" width="65%"}](https://nmfs-opensci.github.io/ResourceBook/content/508_compliance.html)
+:::
+
+::: ref-text
+NOAA Fisheries Open Science, [Resource Book](https://nmfs-opensci.github.io/ResourceBook/content/508_compliance.html)
+:::
+
+::: notes
+Breadcrumbs. Internal link for NOAA Fisheries. That's ok. We can still all learn a lot by having as much public.
 
 -   can help you refine place quarto, rmarkdown, google docs
+:::
 
--   consider contributors
-
-IMAGE: github link to google docs. Not accessible to everyone. ok.
-
-## Format for readability, accessibility, and navigation {.yellow-bg}
+## [Format for readability, accessibility, & navigation]{.yellow-bg}
 
 -   aesthetics matter, and don't have to be super time-consuming
 -   accessibility matters - can mean screenreaders, low bandwidth, paywalls/permissions, and much more
 -   navigation mtters - helping Future Us find what we need
 
-## Headers and Slugs
+## Use section headers
 
-Use section headers - you can link directly to them
+You can anchor to headers: there will be links directly to them. TODO REWORD
 
--   TODO IMAGE: Google Doc Bookmark, Quarto anchor
+::: columns
+::: {.column width="50%"}
 
-Name things with this in mind
+::: borderbox
+![](images/anchor-gdoc-bookmark.png){fig-alt="Screenshot of Google Doc with a Bookmark inserted with a red arrow pointing from the Insert nav bar item that says Insert > Bookmark" width="100%"}
+:::
+:::
 
--   Naming things - list Jenny's 3 points & video links
 
-Be Consistent - Not "example" and then 2nd example has a diff name. Indenting.
+::: {.column width="50%"}
+
+::: borderbox
+TODO IMAGE: MAYBE FAYLAB?????
+[![](images/nmfs-opensci-508-breadcrumb.png){fig-alt="Screenshot of NOAA Fisheries Open Science Resource Book on the page with 508 Compliance. A red arrow points to blue text that says Recording of R UG Meeting and in red text says Internal link" width="65%"}](https://nmfs-opensci.github.io/ResourceBook/content/508_compliance.html)
+:::
+
+:::
+:::
+
+
+Name headers with this in mind - Jenny Bryan says "embrace the slug"
+
+
+::: notes
+These are examples from Google Doc where you can insert a bookmark and Quarto where you can anchor in Markdown.
+
+
+Maybe: Be Consistent - Not "example" and then 2nd example has a diff name. Indenting.
+
+:::
 
 ## Alt text
 
@@ -240,7 +312,7 @@ TODO: Write out how to do these things:
 <br>
 
 ::: yellow-bg
-::: {.medium-body-text} 
+::: medium-body-text
 Have a place
 
 Have an audience
@@ -249,38 +321,64 @@ Format for readability, accessibility, and navigation
 :::
 :::
 
-<br>
-<br>
+<br> <br>
 
-::: {.medium-body-text} 
-Movement building: open science & climate solutions 
+::: medium-body-text
+Movement building: open science & climate solutions
 :::
-
 
 ::: notes
 Transition: OK so that is the end of the lightning talk, and hopefully now you're interested in hearing some stories of what this looks like and what's possible from it
 
-We're motivated by finding solutions to the cascading impacts of climate change, and helping people see themselves as part of this growing movement — "climate" does not need to be in your job title for you to contribute
+We're motivated by finding solutions to the cascading impacts of climate change, and helping people see themselves as part of this growing movement --- "climate" does not need to be in your job title for you to contribute
 
-MAYBE: -   Shannon D
--   Monica Granados / Creative Commons
+MAYBE: - Shannon D - Monica Granados / Creative Commons
 :::
 
-##  {#nasa-cloud-cookbook .center data-menu-title="NASA Earthdata Cloud Cookbook"}
+## NASA Earthdata Cloud Cookbook
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+::: {.medium-body-text .blue-underline}
+Open, active development
+:::
+
+-   Researcher-focused
+
+-   Cloud workflows
+
+-   NASA Earthdata Cloud accesss
+
+-   Python, R, MATLAB
+
+-   Tutorials spanning NASA missions, research domains, NASA data centers, data formats ...
+:::
+
+::: {.column width="50%"}
+
+<br>
 
 ::: borderbox
-[![](images/cookbook.png){fig-align="center" fig-alt="Screenshot of an e-book made with Quarto for the NASA Coud Cookbook"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
+[![](images/cookbook.png){fig-alt="Screenshot of an e-book made with Quarto for the NASA Coud Cookbook"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
+:::
+:::
+:::
+
+::: {.right-text .ref-text}
+TODO: update image, expand How Do I's when added Matlab
 :::
 
 ::: notes
 This Quarto site we made for our first teaching event.
 :::
 
-## **NASA Openscapes Mentor Community**
+## NASA Openscapes Mentor Community
 
 ::: columns
-::: {.column width="45%"}
-::: {style="font-size: 1.5em;"}  
+::: {.column width="50%"}
+::: {style="font-size: 1.5em;"}
 :::
 
 <br>
@@ -289,22 +387,43 @@ This Quarto site we made for our first teaching event.
 Learning together
 :::
 
--   Cloud infrastructure
+-   Cloud infrastructure, Notebooks, Quarto
 
--   Code review
+-   Code review 
+
+- Collaboration on GitHub
 
 -   Teaching pedagogy
 
--   Documentation
+-   Getting comfortable with imperfect, Open
+
+-   Facilitation & leadership
 :::
 
-::: {.column width="45%"}
+::: {.column width="50%"}
+
+<br>
+
 ![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){fig-alt="Screenshot of smiling faces on Zoom" fig-align="left" width="100%"}
 
 ::: {.midi style="color: red;"}
 TODO: update image, add DAAC logos
 :::
 :::
+:::
+
+## Documentation Framework
+
+This helped NASA Mentors center on learning & problem oriented documentation.
+
+![](images/divio.png){fig-align="center" fig-alt="Screenshot of Divios Documentation system: a black square with four quadrants labeled Tutorials, How To Guides, Reference, and Explanation" width="35%"}
+
+::: ref-text
+Daniele Procida & Divio, [The Documentation System](https://documentation.divio.com/)
+:::
+
+::: notes
+Mentors found it really helpful to have a framework for thinking of this documentation.
 :::
 
 ## Movement building
@@ -480,3 +599,49 @@ TODO
 ## Resources
 
 TODO
+
+## CUTTING ROOM
+
+## [Have a place]{.yellow-bg}
+
+It doesn't matter where at first. Just write it down.
+
+<br>
+
+::: columns
+::: {.column width="33%"}
+**Google Doc**
+
+<br>
+
+TODO: screenshot
+
+<br>
+
+Google Slides/ELi?
+:::
+
+::: {.column width="33%"}
+**Wiki**
+
+::: borderbox
+[![](images/website-wiki.png){fig-alt="Screenshot of a Wiki on GitHub describing CSS styling"}](https://github.com/Openscapes/website-new/wiki/Styling-page-elements)
+:::
+
+[github.com/Openscapes/<br>website-new/wiki](https://github.com/Openscapes/website-new/wiki/)
+:::
+
+::: {.column width="33%"}
+**Quarto book**
+
+::: borderbox
+TODO NEW EXAMPLE
+:::
+
+[openscapes.github.io/<br>approach-guide](https://openscapes.github.io/approach-guide)
+:::
+:::
+
+::: notes
+This can be whatever software you have transition: what's important about having a place is that it helps you write as you go -
+:::
