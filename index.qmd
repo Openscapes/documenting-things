@@ -219,8 +219,16 @@ Picture talking to them
 
 ## Write in an inclusive tone
 
-We're in this together: onsider your goals and style that welcome readers.
+We're in this together: consider your goals and style that welcome readers.
 
+Your readers are intelligent people, who are here to learn from you.
+
+
+<br>
+
+::: {.medium-body-text .blue-underline}
+Thoughtful resources
+:::
 -   Purpose, Outcomes, Process ([POP](https://suzannehawkes.com/2010/04/09/pop-everything/))
 -   Carpentries Curriculum Developers Handbook ([CDH](https://cdh.carpentries.org/))
 -   TODO: ICESAT-2 Hackweek Charley Haley
@@ -254,9 +262,14 @@ Breadcrumbs. Internal link for NOAA Fisheries. That's ok. We can still all learn
 
 ## [Format for readability, accessibility, & navigation]{.yellow-bg}
 
+
+::: notes
+
 -   aesthetics matter, and don't have to be super time-consuming
 -   accessibility matters - can mean screenreaders, low bandwidth, paywalls/permissions, and much more
 -   navigation mtters - helping Future Us find what we need
+
+:::
 
 ## Use section headers
 
@@ -428,13 +441,13 @@ Mentors found it really helpful to have a framework for thinking of this documen
 
 ## Movement building
 
-<br>
-
 ![](images/openscapes-flywheel-simple.png){fig-alt="A diagram of the Openscapes flywheel. The Openscapes logo sits in the center of a cyclical process. The text around the logo reads as follows: 'Welcome bright spots (be they mentors or researchers) -- people who want to work better and collaborate' > 'Create space and place to connect and collaborate; remove barriers to participation (paid time, part of jobs)' > 'Invest in learning and trust; Everyone has something to learn, ask, teach; don't need to be an expert in everything. Cultivate psychological safety, growth mindset. Slowing down to speed up.' > 'Work Openly; Put what you learn into practice quickly, role-modeing sharing imperfect work and identifying common challenges and opportunities. Openness is a spectrum; first Future You and then Future Us' > Leverage common workflows, skills, tools; This is where we speed up: Iterate, reuse, remix with each other and teh broader community' > 'Inspire broader scientific communities through visible examples and leaders -- Open science shift' > repeat. These six steps are summarized by three overarching goals, which are also written around the logo: 'Engage a future us mindset', 'Empower learning culture', and 'Amplify open leaders'." fig-align="center" width="100%"}
 
 <br>
 
-Openscapes Flywheel ([Robinson & Lowndes 2022](https://eartharxiv.org/repository/view/4560/))
+::: ref-text
+Robinson & Lowndes, [Openscapes Flywheel](https://eartharxiv.org/repository/view/4560/)
+:::
 
 ::: notes
 Movement building though shared documentation
