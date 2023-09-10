@@ -1,5 +1,6 @@
 ---
 title: "Documenting things: <br>openly for future us"
+subtitle: "How we can collaborate across different expertise and focus on climate solutions"
 author: 
   - "Julia Stewart Lowndes, Openscapes"
 date: 2023-09-18
@@ -17,7 +18,7 @@ format:
   #  highlight-style: a11y
    # code-line-numbers: false
 # SPEAKER NOTES
-# - Hi! I'm going to talk about how documenting things can build visibility for yourself and change culture across organizations, with examples from NASA and NOAA communities tackling climate change. 
+# - Hi! I'm going to talk about how documenting things can help teams tackle hard challeges and change culture across organizations, with examples from NASA and NOAA communities supporting climate change research and action. 
 #- My name is Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past the 10 years. Documenting things has been a big part of shifting my career - Director of Openscapes. 
 ---
 
@@ -453,6 +454,10 @@ Bri Lind at the NASA Hyperwall, [Getting to Know Open Science](https://docs.goog
 TMentors found it really helpful to have a framework for thinking of this documentation.
 :::
 
+## Maybe screenshot of our NASA-Openscapes slides
+
+We've talked about this in a lot of places - documenting our talks about it. 
+
 ## A framework to facilitate & scale inclusive open practices
 
 <br>
@@ -565,6 +570,8 @@ TODO: screenshot
 
 ## Paying it forward - serves us all well
 
+TODO: Maybe just pics? and links?
+
 -   NASA Mentor Community sustainability & handoff
     -   mentor cohort \> community
 -   NOAA Fisheries Mentor Community - repeating the flywheel
@@ -589,6 +596,8 @@ TODO 4 images (like this <https://mine.quarto.pub/hello-quarto/#/nasa-quarto-sit
 -   Better science in less time? Fig 1 image
 
 ## Closing opinions
+
+TODO: BRING IN OUR EDITORIAL HERE
 
 -   Helps gain visibility and value: Making the invisible visible
 -   Get comfortable with imperfect
