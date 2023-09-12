@@ -89,7 +89,7 @@ Plan today:
 
 ## [Have a place]{.yellow-bg}
 
-It doesn't matter where at first. Just write it down.
+It doesn't matter where at first. Just write it down. 
 
 <br>
 
@@ -137,17 +137,39 @@ This can be whatever software you have transition: what's important about having
 
 ## Write as you go
 
-Develop the habit of writing things down in this place.
+Develop the habit of writing things down in this place; break down otherwise looming tasks.
 
-Write in small bites - not looming all at once.
+
+::: columns
+::: {.column width="50%"}
+::: borderbox
+![](images/write-as-you-go-slides.png){fig-alt="Screenshot of the NASA Oepenscapes website e-book page showing the Slides header. There there are urls to slides listing the date and presenter name, with most recent up top." width="90%"}
+:::
+
+::: ref-text
+Lowndes, Robinson et al, [NASA Openscapes](https://nasa-openscapes.github.io/about.html#slides)
+:::
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+**Make it useful to you & future us**
+
+Documenting can mean listing slides for visibility & reuse!
 
 <br> TODO: GIF of this and embed
 
 Arrow keys + shift + option (Mac)
 
-::: notes
 Paste from your email/slack and put it here instead
 
+:::
+:::
+
+
+::: notes
 Write directly. Google Doc comments/issues have tendency to prolong/make ardous; write that thought in the doc.
 
 you might find yourself writing it in an issue. depending, write it down in the doc itself. Like editing directly rather than adding a comment in a Google doc
@@ -173,8 +195,9 @@ No true order; you'll move things around.
 <br>
 
 ::: borderbox
-[![](images/modular-github-annotated.png){fig-alt="Screenshot of an e-book left navigation bar for R, RStudio, and RMarkdown, with subsections Summary, RStudio Orientation, Intro to RMarkdown, R code in the Console, R functions, Help pages, Commenting" width="100%"}](https://rstudio-conf-2020.github.io/r-for-excel/collaborating.html#collaborating-with-github)
+![](images/modular-github-annotated.png){fig-alt="Screenshot of an e-book left navigation bar for R, RStudio, and RMarkdown, with subsections Summary, RStudio Orientation, Intro to RMarkdown, R code in the Console, R functions, Help pages, Commenting" width="100%"}
 :::
+
 Modular bits can be networked; not limited to linear flow. 
 Don't repeat yourself (DRY): know where things are and link instead.
 :::
@@ -189,7 +212,6 @@ Instead of writing things twice, know where the information is so you can link t
 
 These are two examples from R for Excel Users, on the left
 
--   write it down, can be moved later. Helps with incremental writing and not having it loom.
 -   If you write code, you can think of this like calling functions from from other scripts or packages. Think like that.
 -   Think of it like we have functions we call from another script. It lives one place
 :::
@@ -197,9 +219,9 @@ These are two examples from R for Excel Users, on the left
 ## [Have an audience]{.yellow-bg}
 
 You're writing this for someone. Make it engaging - doesn't have to be dry or distant.
-
+ 
 ::: borderbox
-[![](images/happy-git-with-r.png){fig-alt="Screenshot of Jenny Bryan's Happy Git With R book that has an image from the music video Whip that says Watch me Diff, Watch me Rebase" width="55%"}](https://happygitwithr.com/)
+![](images/happy-git-with-r.png){fig-alt="Screenshot of Jenny Bryan's Happy Git With R book that has an image from the music video Whip that says Watch me Diff, Watch me Rebase" fig-align="center" width="55%"}
 :::
 
 ::: ref-text
@@ -212,9 +234,10 @@ Picture talking to them
 
 ## Write in an inclusive tone
 
+Your readers are intelligent people, who are here to learn from you.
+
 We're in this together: consider your goals and style that welcome readers.
 
-Your readers are intelligent people, who are here to learn from you.
 
 <br>
 
@@ -268,13 +291,13 @@ You can anchor to headers: there will be links directly to them. TODO REWORD
 ::: columns
 ::: {.column width="50%"}
 ::: borderbox
-![](images/anchor-gdoc-bookmark.png){fig-alt="Screenshot of Google Doc with a Bookmark inserted with a red arrow pointing from the Insert nav bar item that says Insert > Bookmark" width="100%"}
+![](images/anchor-gdoc-bookmark-annotated.png){fig-alt="Screenshot of Google Doc with a Bookmark inserted with a red arrow pointing from the Insert nav bar item that says Insert > Bookmark" width="100%"}
 :::
 :::
 
 ::: {.column width="50%"}
 ::: borderbox
-TODO IMAGE: MAYBE FAYLAB????? [![](images/nmfs-opensci-508-breadcrumb.png){fig-alt="Screenshot of NOAA Fisheries Open Science Resource Book on the page with 508 Compliance. A red arrow points to blue text that says Recording of R UG Meeting and in red text says Internal link" width="65%"}](https://nmfs-opensci.github.io/ResourceBook/content/508_compliance.html)
+![](images/anchor-quarto-annotated.png){fig-alt="Screenshot of Quarto page with a Header anchored, indicated with a red circle and red arrow pointing to the url bar with text that says Clicking anchors URL" width="100%"}
 :::
 :::
 :::
