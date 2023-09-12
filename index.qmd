@@ -1,6 +1,6 @@
 ---
 title: "Documenting things: <br>openly for future us"
-subtitle: "How we can collaborate across different expertise and focus on climate solutions"
+# subtitle: "How we can collaborate across different expertise and focus on climate solutions"
 author: 
   - "Julia Stewart Lowndes, Openscapes"
 date: 2023-09-18
@@ -140,24 +140,8 @@ This can be whatever software you have transition: what's important about having
 Develop the habit of writing things down in this place; break down otherwise looming tasks.
 
 
-::: columns
-::: {.column width="50%"}
-::: borderbox
-![](images/write-as-you-go-slides.png){fig-alt="Screenshot of the NASA Oepenscapes website e-book page showing the Slides header. There there are urls to slides listing the date and presenter name, with most recent up top." width="90%"}
-:::
 
-::: ref-text
-Lowndes, Robinson et al, [NASA Openscapes](https://nasa-openscapes.github.io/about.html#slides)
-:::
-:::
 
-::: {.column width="50%"}
-
-<br>
-
-**Make it useful to you & future us**
-
-Documenting can mean listing slides for visibility & reuse!
 
 <br> TODO: GIF of this and embed
 
@@ -165,8 +149,6 @@ Arrow keys + shift + option (Mac)
 
 Paste from your email/slack and put it here instead
 
-:::
-:::
 
 
 ::: notes
@@ -225,12 +207,13 @@ You're writing this for someone. Make it engaging - doesn't have to be dry or di
 :::
 
 ::: ref-text
-Jenny Bryan, [Happy Git with R](https://happygitwithr.com)
+Bryan, [Happy Git with R](https://happygitwithr.com)
 :::
 
 ::: notes
 Picture talking to them
 :::
+
 
 ## Write in an inclusive tone
 
@@ -247,15 +230,30 @@ Thoughtful resources
 
 -   Purpose, Outcomes, Process ([POP](https://suzannehawkes.com/2010/04/09/pop-everything/))
 -   Carpentries Curriculum Developers Handbook ([CDH](https://cdh.carpentries.org/))
--   TODO: ICESAT-2 Hackweek Charley Haley
--   Mentoring Groups book
+-   eScience SnowEx Hackweek Team-building ([slides](https://docs.google.com/presentation/d/1qJDpFdS42kF5pcrbmxm1xFWzNoNamVrnMFelwAOh73Q/edit#slide=id.gddb97543ad_3_13) & [website](https://snowex-hackweek.github.io/website/))
 
 <br>
+
+
 
 ::: notes
 Write what you'd actually say / keep things relevant to that audience
 
 When we write tutorials, we write them as if we're teaching them outloud. What you would say is included. And we design the code in chunks for learners.
+:::
+
+## Narrate code in small chunks
+Write short narrations for your code as you'd say it out loud.
+Match this with your purpose; it's especially important for teaching.
+
+<br>
+
+::: borderbox
+![](images/cloud-clinic-ex.png)
+:::
+
+::: ref-text
+Amy Steiker & NASA Openscapes Mentors, [NASA Earthdata Cloud Clinic](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/examples/Earthdata-cloud-clinic.html)
 :::
 
 ## Share it 'as open as possible, as closed as necessary'
@@ -286,23 +284,30 @@ Breadcrumbs. Internal link for NOAA Fisheries. That's ok. We can still all learn
 
 ## Use section headers
 
-You can anchor to headers: there will be links directly to them. TODO REWORD
+Separate your sections with headers; you can anchor directly to them. 
 
 ::: columns
 ::: {.column width="50%"}
 ::: borderbox
-![](images/anchor-gdoc-bookmark-annotated.png){fig-alt="Screenshot of Google Doc with a Bookmark inserted with a red arrow pointing from the Insert nav bar item that says Insert > Bookmark" width="100%"}
+![](images/anchor-gdoc-bookmark-annotated.png){fig-alt="Screenshot of Google Doc with a Bookmark inserted with a red arrow pointing from the Insert nav bar item that says Insert > Bookmark" width="95%"}
 :::
 :::
 
 ::: {.column width="50%"}
 ::: borderbox
-![](images/anchor-quarto-annotated.png){fig-alt="Screenshot of Quarto page with a Header anchored, indicated with a red circle and red arrow pointing to the url bar with text that says Clicking anchors URL" width="100%"}
+![](images/anchor-quarto-annotated.png){fig-alt="Screenshot of Quarto page with a Header anchored, indicated with a red circle and red arrow pointing to the url bar with text that says Clicking anchors URL" width="80%"}
 :::
+[Naming things](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙 is key here - Jenny Bryan says "embrace the slug"
+
 :::
 :::
 
-Name headers with this in mind - Jenny Bryan says "embrace the slug"
+<br>
+
+::: ref-text
+Clatterbuck et al, [3 approaches for the year of open science](https://openscapes.org/blog/2023-03-16-esip-winter-2023/); Fay Lab, [The FayLab Manual](https://thefaylab.github.io/lab-manual/).
+:::
+
 
 ::: notes
 These are examples from Google Doc where you can insert a bookmark and Quarto where you can anchor in Markdown.
@@ -480,6 +485,34 @@ TMentors found it really helpful to have a framework for thinking of this docume
 ## Maybe screenshot of our NASA-Openscapes slides
 
 We've talked about this in a lot of places - documenting our talks about it. 
+
+::: columns
+::: {.column width="50%"}
+::: borderbox
+![](images/write-as-you-go-slides.png){fig-alt="Screenshot of the NASA Oepenscapes website e-book page showing the Slides header. There there are urls to slides listing the date and presenter name, with most recent up top." width="90%"}
+:::
+
+::: ref-text
+Lowndes, Robinson et al, [NASA Openscapes](https://nasa-openscapes.github.io/about.html#slides)
+:::
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+**Make it useful to you & future us**
+
+Documenting can mean listing slides for visibility & reuse!
+
+<br> TODO: GIF of this and embed
+
+Arrow keys + shift + option (Mac)
+
+Paste from your email/slack and put it here instead
+
+:::
+:::
 
 ## A framework to facilitate & scale inclusive open practices
 
