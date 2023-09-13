@@ -69,7 +69,7 @@ Have a place
 
 Have an audience
 
-Format for readability, accessibility, and navigation
+Design for readability, accessibility, and navigation
 :::
 :::
 
@@ -138,8 +138,6 @@ This can be whatever software you have transition: what's important about having
 ## Write as you go
 
 Develop the habit of writing things down in this place; break down otherwise looming tasks.
-
-
 
 
 
@@ -274,7 +272,7 @@ Breadcrumbs. Internal link for NOAA Fisheries. That's ok. We can still all learn
 -   can help you refine place quarto, rmarkdown, google docs
 :::
 
-## [Format for readability, accessibility, & navigation]{.yellow-bg}
+## [Design for readability, accessibility, & navigation]{.yellow-bg}
 
 ::: notes
 -   aesthetics matter, and don't have to be super time-consuming
@@ -315,19 +313,30 @@ These are examples from Google Doc where you can insert a bookmark and Quarto wh
 Maybe: Be Consistent - Not "example" and then 2nd example has a diff name. Indenting.
 :::
 
-## Alt text
 
-## Fonts and linking
+## Use text formatting
 
-TODO: Write out how to do these things:
+Formatting helps your readers follow along. 
 
-`code`
+::: borderbox
+![](images/format-fonts-links.png){fig-alt="Screenshot of a blog post where the hyperlinked text says Fire and Tree Mortality Database and the words tidymodels and geomtextpath are formatted for code " width="80%"}
+:::
 
-[link to the important part](); for example this presentation titled \[\] not that this recommended thing is [here]().
 
 <br>
 
-...Transition: And whether or not you use Markdown -
+Distinguish `code` with fonts; (in Markdown \`code\` )
+
+Hyperlink to descriptive text like [Fire and Tree Mortality Database](https://doi.org/10.2737/RDS-2020-0001), not that this thing you recommended is [here](https://doi.org/10.2737/RDS-2020-0001).
+
+<br>
+
+::: ref-text
+Horst, [Exploring tree outcomes following fires](https://allisonhorst.github.io/posts/2022-03-10-tree-mortality-fires/).
+:::
+
+## Alt text
+
 
 ## [Documenting things --- what's possible from this]{.yellow-bg}
 
@@ -339,7 +348,7 @@ Have a place
 
 Have an audience
 
-Format for readability, accessibility, and navigation
+Design for readability, accessibility, and navigation
 :::
 :::
 
@@ -482,7 +491,7 @@ Bri Lind at the NASA Hyperwall, [Getting to Know Open Science](https://docs.goog
 TMentors found it really helpful to have a framework for thinking of this documentation.
 :::
 
-## Maybe screenshot of our NASA-Openscapes slides
+## Amplifying and storytelling
 
 We've talked about this in a lot of places - documenting our talks about it. 
 
@@ -501,17 +510,13 @@ Lowndes, Robinson et al, [NASA Openscapes](https://nasa-openscapes.github.io/abo
 
 <br>
 
-**Make it useful to you & future us**
 
-Documenting can mean listing slides for visibility & reuse!
-
-<br> TODO: GIF of this and embed
-
-Arrow keys + shift + option (Mac)
-
-Paste from your email/slack and put it here instead
 
 :::
+:::
+
+::: notes
+We've been sharing stories about the Cookbook and the awesome work the Mentors have been doing. Now want to talk on one level above
 :::
 
 ## A framework to facilitate & scale inclusive open practices
@@ -582,6 +587,8 @@ TODO: TO THINK ABOUT: how does this tie back to the 3 lightning talk points. Don
 
 [nasa-openscapes.github.io/mentors](https://nasa-openscapes.github.io/mentors)
 
+**TODO: screenshot, less words**
+
 -   A place we created to give visibility to the project
 
 -   Invite participation the first mentors
@@ -598,6 +605,8 @@ TODO: TO THINK ABOUT: how does this tie back to the 3 lightning talk points. Don
 
 [nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding)
 
+**TODO: screenshot, less words**
+
 -   A place we created to co-develop teaching resources for researchers
 
 -   Contributing section was early addition; how to access our cloud infrastructure
@@ -606,7 +615,7 @@ TODO: TO THINK ABOUT: how does this tie back to the 3 lightning talk points. Don
 
 -   Also: how to welcome mentors
 
-TODO: screenshot
+
 
 ::: notes
 -   fits with Contributing section early.
@@ -617,6 +626,8 @@ TODO: screenshot
 ## Approach Guide {.blue-background}
 
 [openscapes.github.io/approach-guide/mentors-framework/onboarding](https://openscapes.github.io/approach-guide/mentors-framework/onboarding)
+
+**TODO: screenshot, less words**
 
 -   A place for us to write down repeated tasks, onboard each other to how we work
 
@@ -677,7 +688,7 @@ Have a place
 
 Have an audience
 
-Format for readability, accessibility, and navigation
+Design for readability, accessibility, and navigation
 :::
 :::
 
