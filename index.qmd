@@ -2,7 +2,7 @@
 title: "Documenting things: <br>openly for future us"
 # subtitle: "How we can collaborate across different expertise and focus on climate solutions"
 author: 
-  - "Julia Stewart Lowndes, Openscapes"
+  - "Julia Stewart Lowndes & the Openscapes Community"
 date: 2023-09-18
 date-format: iso
 format:
@@ -32,7 +32,7 @@ THINGS
 
 **all the things**
 
--   code
+-   code & analyses
 -   teaching resources
 -   onboarding & community
 -   fieldwork/lab protocols
@@ -59,19 +59,13 @@ FUTURE US
 when I say things when I say future us, I'm thinking of a mindset beyond you and your computer. So thinking about how what you document now can save hundreds of emails later asking where things are or how to do things.
 :::
 
-## [Documenting things doesn't have to be painful:]{.yellow-bg}
+## Documenting things doesn't have to be painful {.light-blue-bg}
 
+In fact, it's designed to be helpful
+
+It does take time however; purpose today is to help you do effectively & see what it can do for organizational change: making teams more efficient, productive, and less lonely.
 <br>
 
-::: yellow-bg
-::: doc-things-text
-Have a place
-
-Have an audience
-
-Design for readability, accessibility, and navigation
-:::
-:::
 
 <br>
 
@@ -80,14 +74,26 @@ Plan today:
 -   5-min lightening talk (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files)) 💙
 -   10-min stories
 
+## Documenting things {.shout .yellow-bg}
+
+::: doc-things-text
+Have a place
+
+Have an audience
+
+Design for readability, accessibility, and navigation
+:::
+
 
 ::: notes
+- my opinionated take on documenting things”
+
 -   I'm also here to say documenting things doesn't have to be painful to write and boring to read.
 -   I have 3 pieces of advice:
 -   the plan for today
 :::
 
-## [Have a place]{.yellow-bg}
+## Have a place {.yellow-bg}
 
 It doesn't matter where at first. Just write it down. 
 
@@ -135,7 +141,32 @@ It doesn't matter where at first. Just write it down.
 This can be whatever software you have transition: what's important about having a place is that it helps you write as you go -
 :::
 
-## Write as you go
+## Share it with collaborators {.yellow-bg}
+
+Define collaborators as Future Us - readers, contriburs, users
+
+Leverage different technologies to share online; consider contributors and leave breadcrumbs.
+
+'as open as possible, as closed as necessary'
+
+<br>
+
+::: borderbox
+[![](images/nmfs-opensci-508-breadcrumb.png){fig-alt="Screenshot of NOAA Fisheries Open Science Resource Book on the page with 508 Compliance. A red arrow points to blue text that says Recording of R UG Meeting and in red text says Internal link" width="65%"}](https://nmfs-opensci.github.io/ResourceBook/content/508_compliance.html)
+:::
+
+::: ref-text
+NOAA Fisheries Open Science, [Resource Book](https://nmfs-opensci.github.io/ResourceBook/content/508_compliance.html)
+:::
+
+::: notes
+Breadcrumbs. Internal link for NOAA Fisheries. That's ok. We can still all learn a lot by having as much public.
+
+-   can help you refine place quarto, rmarkdown, google docs
+:::
+
+
+## Write as you go {.yellow-bg}
 
 Develop the habit of writing things down in this place; break down otherwise looming tasks.
 
@@ -157,9 +188,9 @@ you might find yourself writing it in an issue. depending, write it down in the 
 keyboard shortcuts -
 :::
 
-## Write in a modular way (short bits)
+## Write in a modular way {.yellow-bg}
 
-Design in a way that is easier for you to write & maintain collaboratively.
+Writing in small bits is less daunting to write & maintain collaboratively.
 
 ::: columns
 ::: {.column width="50%"}
@@ -179,7 +210,7 @@ No true order; you'll move things around.
 :::
 
 Modular bits can be networked; not limited to linear flow. 
-Don't repeat yourself (DRY): know where things are and link instead.
+Don't repeat yourself ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)): know where things are and link instead. Like functions in code!
 :::
 :::
 
@@ -196,9 +227,9 @@ These are two examples from R for Excel Users, on the left
 -   Think of it like we have functions we call from another script. It lives one place
 :::
 
-## [Have an audience]{.yellow-bg}
+## Have an audience {.yellow-bg}
 
-You're writing this for someone. Make it engaging - doesn't have to be dry or distant.
+You're writing this for someone. Often, many audiences. Make it engaging - doesn't have to be dry or distant.
  
 ::: borderbox
 ![](images/happy-git-with-r.png){fig-alt="Screenshot of Jenny Bryan's Happy Git With R book that has an image from the music video Whip that says Watch me Diff, Watch me Rebase" fig-align="center" width="55%"}
@@ -213,11 +244,15 @@ Picture talking to them
 :::
 
 
-## Write in an inclusive tone
+## Write in an inclusive tone {.yellow-bg}
 
 Your readers are intelligent people, who are here to learn from you.
 
 We're in this together: consider your goals and style that welcome readers.
+
+Write as if these different audiences are all in the room with you. directed toward different audiences
+
+TODO e.g. “Avoid words that trivialize like ‘simply’”
 
 
 <br>
@@ -240,9 +275,12 @@ Write what you'd actually say / keep things relevant to that audience
 When we write tutorials, we write them as if we're teaching them outloud. What you would say is included. And we design the code in chunks for learners.
 :::
 
-## Narrate code in small chunks
+## Narrate code in small chunks {.yellow-bg}
+
 Write short narrations for your code as you'd say it out loud.
 Match this with your purpose; it's especially important for teaching.
+
+TODO: Narrate in small chunks -- Quarto now has a cool annotation feature for this too!
 
 <br>
 
@@ -254,25 +292,8 @@ Match this with your purpose; it's especially important for teaching.
 Amy Steiker & NASA Openscapes Mentors, [NASA Earthdata Cloud Clinic](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/examples/Earthdata-cloud-clinic.html)
 :::
 
-## Share it 'as open as possible, as closed as necessary'
 
-Leverage different technologies to share online; consider contributors and leave breadcrumbs.
-
-::: borderbox
-[![](images/nmfs-opensci-508-breadcrumb.png){fig-alt="Screenshot of NOAA Fisheries Open Science Resource Book on the page with 508 Compliance. A red arrow points to blue text that says Recording of R UG Meeting and in red text says Internal link" width="65%"}](https://nmfs-opensci.github.io/ResourceBook/content/508_compliance.html)
-:::
-
-::: ref-text
-NOAA Fisheries Open Science, [Resource Book](https://nmfs-opensci.github.io/ResourceBook/content/508_compliance.html)
-:::
-
-::: notes
-Breadcrumbs. Internal link for NOAA Fisheries. That's ok. We can still all learn a lot by having as much public.
-
--   can help you refine place quarto, rmarkdown, google docs
-:::
-
-## [Design for readability, accessibility, & navigation]{.yellow-bg}
+## Design for readability, accessibility, & navigation {.yellow-bg}
 
 ::: notes
 -   aesthetics matter, and don't have to be super time-consuming
@@ -280,9 +301,11 @@ Breadcrumbs. Internal link for NOAA Fisheries. That's ok. We can still all learn
 -   navigation mtters - helping Future Us find what we need
 :::
 
-## Use section headers
+## Use section headers {.yellow-bg}
 
-Separate your sections with headers; you can anchor directly to them. 
+Section headers are important for accessibility tools (e.g. screen readers) to describe sections and document flow 
+
+You can anchor directly to them to share an anchored URL.
 
 ::: columns
 ::: {.column width="50%"}
@@ -308,13 +331,15 @@ Clatterbuck et al, [3 approaches for the year of open science](https://openscape
 
 
 ::: notes
+Helps with accessibility since screen readers treat headers a specific way.
+ 
 These are examples from Google Doc where you can insert a bookmark and Quarto where you can anchor in Markdown.
 
 Maybe: Be Consistent - Not "example" and then 2nd example has a diff name. Indenting.
 :::
 
 
-## Use text formatting
+## Use text formatting {.yellow-bg}
 
 Formatting helps your readers follow along. 
 
@@ -335,15 +360,241 @@ Hyperlink to descriptive text like [Fire and Tree Mortality Database](https://do
 Horst, [Exploring tree outcomes following fires](https://allisonhorst.github.io/posts/2022-03-10-tree-mortality-fires/).
 :::
 
-## Alt text
+## Alternative text ("alt text") 
 
+::: notes
+note alt text should not just repeat the caption (if you have one) it should be descriptive - paint the picture of whatever you’re talking about so someone with a screen reader can listen to the alt text and get the same details and take home messages as someone who can look at the image
+:::
 
-## [Documenting things --- what's possible from this]{.yellow-bg}
+## What's possible from this {.light-blue-bg .centered}
+
+::: notes
+:::
+
+## Putting a focus on documentation has enabled NASA<br>to collaborate across divisions and support users transitioning to Earthdata Cloud {.gray-background .centered}
+
+::: notes
+So what are we talking about here
+:::
+
+##  {#nasa-openscapes .center data-menu-title="NASA Openscapes" .gray-background}
+
+::: centered
+![](images/NASA_logo.png){width="18%" fig-alt="NASA circular logo"} ![](images/openscapes_hex.png){width="12%" fig-alt="Openscapes logo"}
+:::
+
+::: centered
+::: fragment
+::: columns
+::: {.column width="50%"}
+**Growing a mentor community across <br>NASA Earth science data centers over 3 years** <br> <br> Co-create and teach common tutorials <br> to support researchers as they migrate analytical workflows to the Cloud
 
 <br>
 
+![](images/nasa-daac-logos.png){width="70%" fig-alt="logos of five NASA Earth science data centers: LP DAAC, NSIDC, PO.DAAC, ASDC, GES DISC, and IMPACT"}
+:::
+
+::: {.column width="50%"}
+![](images/2021-NASA-Openscapes-Mentors-Photoshop.png){width="80%" fig-alt="Screenshot of smiling faces on Zoom"}
+:::
+:::
+:::
+:::
+
+::: notes
+
+:::
+
+
+## Have a Place: Earthdata Cloud Cookbook {.gray-background}
+A place we created to co-develop teaching resources for researchers
+ 
+GitHub repo, quarto book
+
+## Have an Audience: Us first, then others {.gray-background}
+
+us as we onboard = as we start. crumb trail as we learn. 
+as we figure things out, we make a crumb trail no matter how small it is
+
+-   Contributing section was early addition; how to access our cloud infrastructure
+
+"shell image" from NASA
+
+researchers
+
+"and everything we've done here we're applygint to NOAA Fis" other huge impact audiences
+
+## Design: Meet people where they are {.gray-background}
+
+ipynb qmd
+
+Focus on onboarding
+
+Don't assume
+
+## Design: Reuse & complement existing work {.gray-background}
+
+::: columns
+::: {.column width="50%"}
+
+<br>
+![](images/divio.png){fig-alt="Screenshot of Divios Documentation system: a black square with four quadrants labeled Tutorials, How To Guides, Reference, and Explanation" fig-align="center"}
+
+::: ref-text
+Daniele Procida & Divio, [The Documentation System](https://documentation.divio.com/)
+:::
+
+<br>
+
+**Framework** - helped NASA Mentors focus on learning & problem oriented documentation.
+:::
+
+::: {.column width="50%"}
+<br>
+
+![](images/open-communities.png){fig-alt="Screenshot of 20 logos from different open communities including Transfor to Open Science, Ladies of Landsat, Posit, rOpenSci, and The Turing Way" fig-align="center" width="90%"}
+
+
+::: ref-text
+Bri Lind at the NASA Hyperwall, [Getting to Know Open Science](https://docs.google.com/presentation/d/1uMfh0ssHGDuJ9q8pcRk8-qIerkywE4X-E_KP4CiptKc/edit#slide=id.g23d8f62188b_2_96)
+:::
+
+<br>
+
+**Open community** - helped NASA Mentors learn, scope, co-develop, and share.
+
+:::
+:::
+
+::: notes
+TMentors found it really helpful to have a framework for thinking of this documentation.
+:::
+
+##  What's possible from this {.light-blue-bg .centered}
+
+
+::: notes
+from a documentation perspective
+:::
+
+
+## Putting a focus on documentation has enabled growing community and onboarding over 3 years {.blue-background .centered}
+
+::: notes
+Maintainance isn't terrible; onboarding new folks & increasing user-contributors
+
+Communities don't grow on their own. We've been explicit about onboarding. 
+:::
+
+## Intentional onboarding & movement building {.blue-background}
+
+<br>
+
+![](images/openscapes-flywheel-simple.png){fig-alt="A diagram of the Openscapes flywheel. The Openscapes logo sits in the center of a cyclical process. The text around the logo reads as follows: 'Welcome bright spots (be they mentors or researchers) -- people who want to work better and collaborate' > 'Create space and place to connect and collaborate; remove barriers to participation (paid time, part of jobs)' > 'Invest in learning and trust; Everyone has something to learn, ask, teach; don't need to be an expert in everything. Cultivate psychological safety, growth mindset. Slowing down to speed up.' > 'Work Openly; Put what you learn into practice quickly, role-modeing sharing imperfect work and identifying common challenges and opportunities. Openness is a spectrum; first Future You and then Future Us' > Leverage common workflows, skills, tools; This is where we speed up: Iterate, reuse, remix with each other and teh broader community' > 'Inspire broader scientific communities through visible examples and leaders -- Open science shift' > repeat. These six steps are summarized by three overarching goals, which are also written around the logo: 'Engage a future us mindset', 'Empower learning culture', and 'Amplify open leaders'." fig-align="center" width="95%"}
+
+<br>
+
+::: ref-text
+Robinson & Lowndes, [Openscapes Flywheel](https://eartharxiv.org/repository/view/4560/)
+:::
+
+::: notes
+Movement building though shared documentation
+:::
+
+
+## 3 places for 3 audiences, designed for onboarding {.blue-background}
+
+<br>
+
+::: columns
+::: {.column width="33%"}
+**Place: Project website** 
+
+Audience: NASA Leadership
+
+::: borderbox
+[![](images/website-nasa-openscapes.png){fig-alt="Screenshot of the project website for NASA Openscapes, with a blue navigation bar across the top and NASA and Openscapes logos in the center"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
+:::
+
+::: ref-text
+[nasa-openscapes.github.io](https://nasa-openscapes.github.io)
+:::
+:::
+
+::: {.column width="33%"}
+**Earthdata Cloud Cookbook**
+
+NASA Mentors
+
+::: borderbox
+[![](images/cookbook.png){fig-alt="Screenshot of an e-book made with Quarto for the NASA Cloud Cookbook"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
+:::
+
+::: ref-text
+[nasa-openscapes.github.io/<br>earthdata-cloud-cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
+:::
+:::
+
+::: {.column width="33%"}
+**Approach Guide**
+
+Openscapes team
+
+::: borderbox
+[![](images/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}](https://openscapes.github.io/approach-guide/)
+:::
+
+::: ref-text
+[openscapes.github.io/<br>approach-guide](https://openscapes.github.io/approach-guide)
+:::
+:::
+:::
+
+::: notes
+
+Website: visibility, invite participation, information lives outside email
+
+Cookbook: welcome; how to access comms channels and our cloud infrastructure Information for learning quarto, GitHub branches and pull requests
+
+Approach Guide: A place for us to write down repeated tasks, onboard each other to how we work
+
+:::
+
+##  What's possible from this {.light-blue-bg .centered}
+
+## Putting a focus on documentation has enabled other organizations reuse this approach {.orange-background .centered}
+
+<br>
+
+TODO: logos: NOAA, Cal EPA, Pathways to Open Science
+
+
+## Documenting things ... 
+
+### Is important 
+
+- Helps people feel less lost and like they belong
+- Saves time - fewer emails asking where things are
+- Make invisible work visible 
+
+### Takes time
+
+- Part of the job. Paid time.
+- Learning and inspiration is cyclical - Jenny Bryan Naming things
+- Reuse, don't reinvent. 
+
+
+## Documenting things: Best advice to get started
+
+TODO: BRING IN OUR EDITORIAL HERE
+We documented this in an Editorial
+
+Take these concepts to new places
+
+::: fragment
 ::: yellow-bg
-::: medium-body-text
+::: doc-things-text
 Have a place
 
 Have an audience
@@ -351,22 +602,70 @@ Have an audience
 Design for readability, accessibility, and navigation
 :::
 :::
-
-<br> <br>
-
-::: medium-body-text
-Movement building: open science & climate solutions
 :::
 
 ::: notes
-Transition: OK so that is the end of the lightning talk, and hopefully now you're interested in hearing some stories of what this looks like and what's possible from it
-
-We're motivated by finding solutions to the cascading impacts of climate change, and helping people see themselves as part of this growing movement --- "climate" does not need to be in your job title for you to contribute
-
-MAYBE: - Shannon D - Monica Granados / Creative Commons
+-   With these 3 things I gave you with the lightening talk, this is possible
+    -   Doesn't have to be painful, doesn't have to be hard, can accomplish great things.
 :::
 
-## NASA Earthdata Cloud Cookbook
+## Thank you
+
+TODO
+
+## Resources
+
+TODO
+
+## CUTTING ROOM
+
+## [Have a place]{.yellow-bg}
+
+It doesn't matter where at first. Just write it down.
+
+<br>
+
+::: columns
+::: {.column width="33%"}
+**Google Doc**
+
+<br>
+
+TODO: screenshot
+
+<br>
+
+Google Slides/ELi?
+:::
+
+::: {.column width="33%"}
+**Wiki**
+
+::: borderbox
+[![](images/website-wiki.png){fig-alt="Screenshot of a Wiki on GitHub describing CSS styling"}](https://github.com/Openscapes/website-new/wiki/Styling-page-elements)
+:::
+
+[github.com/Openscapes/<br>website-new/wiki](https://github.com/Openscapes/website-new/wiki/)
+:::
+
+::: {.column width="33%"}
+**Quarto book**
+
+::: borderbox
+TODO NEW EXAMPLE
+:::
+
+[openscapes.github.io/<br>approach-guide](https://openscapes.github.io/approach-guide)
+:::
+:::
+
+::: notes
+This can be whatever software you have transition: what's important about having a place is that it helps you write as you go -
+:::
+
+
+## Cross-org community documentation
+NASA Earthdata Cloud Cookbook
 
 The place for researchers to learn workflows for NASA Earthdata in the Cloud.
 
@@ -452,51 +751,10 @@ TODO: update image, add DAAC logos
 ::: notes
 It's built by the NASA Openscapes Mentor Community, which is an awesome group of NASA staff
 :::
-
-## Reusing & complementing existing work
-
-::: columns
-::: {.column width="50%"}
-
-<br>
-![](images/divio.png){fig-alt="Screenshot of Divios Documentation system: a black square with four quadrants labeled Tutorials, How To Guides, Reference, and Explanation" fig-align="center"}
-
-::: ref-text
-Daniele Procida & Divio, [The Documentation System](https://documentation.divio.com/)
-:::
-
-<br>
-
-**Framework** - helped NASA Mentors focus on learning & problem oriented documentation.
-:::
-
-::: {.column width="50%"}
-<br>
-
-![](images/open-communities.png){fig-alt="Screenshot of 20 logos from different open communities including Transfor to Open Science, Ladies of Landsat, Posit, rOpenSci, and The Turing Way" fig-align="center" width="90%"}
-
-
-::: ref-text
-Bri Lind at the NASA Hyperwall, [Getting to Know Open Science](https://docs.google.com/presentation/d/1uMfh0ssHGDuJ9q8pcRk8-qIerkywE4X-E_KP4CiptKc/edit#slide=id.g23d8f62188b_2_96)
-:::
-
-<br>
-
-**Open community** - helped NASA Mentors learn, scope, co-develop, and share.
-
-:::
-:::
-
-::: notes
-TMentors found it really helpful to have a framework for thinking of this documentation.
-:::
-
 ## Amplifying and storytelling
 
 We've talked about this in a lot of places - documenting our talks about it. 
 
-::: columns
-::: {.column width="50%"}
 ::: borderbox
 ![](images/write-as-you-go-slides.png){fig-alt="Screenshot of the NASA Oepenscapes website e-book page showing the Slides header. There there are urls to slides listing the date and presenter name, with most recent up top." width="90%"}
 :::
@@ -506,247 +764,7 @@ Lowndes, Robinson et al, [NASA Openscapes](https://nasa-openscapes.github.io/abo
 :::
 :::
 
-::: {.column width="50%"}
-
-<br>
-
-
-
-:::
-:::
-
 ::: notes
 We've been sharing stories about the Cookbook and the awesome work the Mentors have been doing. Now want to talk on one level above
 :::
 
-## A framework to facilitate & scale inclusive open practices
-
-<br>
-
-![](images/openscapes-flywheel-simple.png){fig-alt="A diagram of the Openscapes flywheel. The Openscapes logo sits in the center of a cyclical process. The text around the logo reads as follows: 'Welcome bright spots (be they mentors or researchers) -- people who want to work better and collaborate' > 'Create space and place to connect and collaborate; remove barriers to participation (paid time, part of jobs)' > 'Invest in learning and trust; Everyone has something to learn, ask, teach; don't need to be an expert in everything. Cultivate psychological safety, growth mindset. Slowing down to speed up.' > 'Work Openly; Put what you learn into practice quickly, role-modeing sharing imperfect work and identifying common challenges and opportunities. Openness is a spectrum; first Future You and then Future Us' > Leverage common workflows, skills, tools; This is where we speed up: Iterate, reuse, remix with each other and teh broader community' > 'Inspire broader scientific communities through visible examples and leaders -- Open science shift' > repeat. These six steps are summarized by three overarching goals, which are also written around the logo: 'Engage a future us mindset', 'Empower learning culture', and 'Amplify open leaders'." fig-align="center" width="90%"}
-
-<br>
-
-::: ref-text
-Robinson & Lowndes, [Openscapes Flywheel](https://eartharxiv.org/repository/view/4560/)
-:::
-
-::: notes
-Movement building though shared documentation
-:::
-
-## Building the NASA Openscapes Mentors Community {.blue-background}
-
-Places & primary audiences for intentional onboarding
-
-<br>
-
-::: columns
-::: {.column width="33%"}
-**Project website**
-
-Public
-
-::: borderbox
-[![](images/website-nasa-openscapes.png){fig-alt="Screenshot of the project website for NASA Openscapes, with a blue navigation bar across the top and NASA and Openscapes logos in the center"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
-:::
-
-[nasa-openscapes.github.io](https://nasa-openscapes.github.io)
-:::
-
-::: {.column width="33%"}
-**Earthdata Cloud Cookbook**
-
-NASA Mentors
-
-::: borderbox
-[![](images/cookbook.png){fig-alt="Screenshot of an e-book made with Quarto for the NASA Cloud Cookbook"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
-:::
-
-[nasa-openscapes.github.io/<br>earthdata-cloud-cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
-:::
-
-::: {.column width="33%"}
-**Approach Guide**
-
-Openscapes team
-
-::: borderbox
-[![](images/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}](https://openscapes.github.io/approach-guide/)
-:::
-
-[openscapes.github.io/<br>approach-guide](https://openscapes.github.io/approach-guide)
-:::
-:::
-
-::: notes
-TODO: TO THINK ABOUT: how does this tie back to the 3 lightning talk points. Don't belabor
-:::
-
-## Project website {.blue-background}
-
-[nasa-openscapes.github.io/mentors](https://nasa-openscapes.github.io/mentors)
-
-**TODO: screenshot, less words**
-
--   A place we created to give visibility to the project
-
--   Invite participation the first mentors
-
--   Comms strategy: Important info here, not only in a forwarded email
-
--   Updatable with new info, refine based on questions
-
-::: notes
-"When they were thinking about the Cookbook, they were really thinking about X"
-:::
-
-## Earthdata Cloud Cookbook {.blue-background}
-
-[nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding)
-
-**TODO: screenshot, less words**
-
--   A place we created to co-develop teaching resources for researchers
-
--   Contributing section was early addition; how to access our cloud infrastructure
-
--   Information for learning quarto, GitHub branches and pull requests
-
--   Also: how to welcome mentors
-
-
-
-::: notes
--   fits with Contributing section early.
-    -   maintainance isn't terrible; onboarding new folks
-    -   increasing contributors
-:::
-
-## Approach Guide {.blue-background}
-
-[openscapes.github.io/approach-guide/mentors-framework/onboarding](https://openscapes.github.io/approach-guide/mentors-framework/onboarding)
-
-**TODO: screenshot, less words**
-
--   A place for us to write down repeated tasks, onboard each other to how we work
-
--   Focused on this in Year 3; the other two were first priority. Iterative. this is the right time, and our other documentation made it easier to repeat (breadcrumbs) and then write this as we have time.
-
-TODO: screenshot
-
-## Paying it forward - serves us all well
-
-TODO: Maybe just pics? and links?
-
--   NASA Mentor Community sustainability & handoff
-    -   mentor cohort \> community
--   NOAA Fisheries Mentor Community - repeating the flywheel
-    -   early visibility with website. grant co-PI Eli Holmes!
-    -   nmfs-opensci resource book
--   Openscapes Mentor Community
-    -   California Water Boards
-    -   Pathways to Open Science - document event series
-    -   Fred Hutchinson Cancer Center
-
-## Learning and inspiration is cyclical
-
-Learn from, with, for each other
-
-Reuse, learn from, link to. Share stories and methods.
-
-TODO 4 images (like this <https://mine.quarto.pub/hello-quarto/#/nasa-quarto-sites>)
-
--   Faylab Manual
--   NMFS Kourtney Burger, FIMS
--   Jenny Bryan
--   Better science in less time? Fig 1 image
-
-## Closing opinions
-
-TODO: BRING IN OUR EDITORIAL HERE
-
--   Helps gain visibility and value: Making the invisible visible
--   Get comfortable with imperfect
--   It takes time. part of your job. Paid time. Aligns with your job
--   It can help people feel less lost and like they belong.
--   Role model reuse of documentation (like we reuse code/packages)
--   (Maybe: emojis aren't trite. Relieves misunderstandings, helps you say "I got it", "I've seen it")
--   Take these practices to new places - meeting agendas, physical notebooks TODO Maybe: screenshot of my notebook
-
-::: notes
-I have a notebook - daily writing is smaller and ideas are bigger. I have a place, it helps my mind unleash
-:::
-
-## [How to document things openly for future us:]{.yellow-bg}
-
-<br>
-
-::: yellow-bg
-::: doc-things-text
-Have a place
-
-Have an audience
-
-Design for readability, accessibility, and navigation
-:::
-:::
-
-(revisit hook)
-
--   With these 3 things I gave you with the lightening talk, this is possible
-    -   Doesn't have to be painful, doesn't have to be hard, can accomplish great things.
-
-## Thank you
-
-TODO
-
-## Resources
-
-TODO
-
-## CUTTING ROOM
-
-## [Have a place]{.yellow-bg}
-
-It doesn't matter where at first. Just write it down.
-
-<br>
-
-::: columns
-::: {.column width="33%"}
-**Google Doc**
-
-<br>
-
-TODO: screenshot
-
-<br>
-
-Google Slides/ELi?
-:::
-
-::: {.column width="33%"}
-**Wiki**
-
-::: borderbox
-[![](images/website-wiki.png){fig-alt="Screenshot of a Wiki on GitHub describing CSS styling"}](https://github.com/Openscapes/website-new/wiki/Styling-page-elements)
-:::
-
-[github.com/Openscapes/<br>website-new/wiki](https://github.com/Openscapes/website-new/wiki/)
-:::
-
-::: {.column width="33%"}
-**Quarto book**
-
-::: borderbox
-TODO NEW EXAMPLE
-:::
-
-[openscapes.github.io/<br>approach-guide](https://openscapes.github.io/approach-guide)
-:::
-:::
-
-::: notes
-This can be whatever software you have transition: what's important about having a place is that it helps you write as you go -
-:::
