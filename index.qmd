@@ -18,8 +18,9 @@ format:
   #  highlight-style: a11y
    # code-line-numbers: false
 # SPEAKER NOTES
-# - Hi! I'm going to talk about how documenting things can help teams tackle hard challeges and change culture across organizations, with examples from NASA and NOAA communities supporting climate change research and action. 
-#- My name is Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past the 10 years. Documenting things has been a big part of shifting my career - Director of Openscapes. 
+# - Hi! I'm here to share about documenting things and how intentional approaches is helpling teams tackle hard challeges and change culture across organizations like NASA and NOAA communities supporting climate change research and action. 
+#- My name is Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past the 10 years. Documenting things has been a big part of shifting my career I now lead  a program called Openscapes. 
+# - So let's talk about Documenting things: Openly for future us
 ---
 
 ## 
@@ -46,7 +47,7 @@ FUTURE US
 :::
 
 **mindset & habit**
-
+ 
 -   ourselves, teams, communities
 
 -   in the next hour, week, decades
@@ -408,7 +409,17 @@ TODO ADD LOGOS Steiker et al, [Working with NASA Earthdata in the Cloud](https:/
 ## Place & space: Earthdata Cloud Cookbook
 A place we created to co-develop teaching resources for researchers
  
-TODO images: GitHub repo, quarto book, JupyterHub, regular coworking meetings & Slack
+<br>
+
+TODO 4 images: 
+
+GitHub repo, 
+
+quarto Cookbook, 
+
+JupyterHub, 
+
+regular coworking meetings & Slack
 
 ## Audience: Us first, then others
 
@@ -427,7 +438,7 @@ as we figure things out, we make a crumb trail no matter how small it is
 :::
 
 ## Design: Meet people where they are 
-We don't assume experience with GitHub/Quarto; workflows from Notebooks & RMarkdown.
+We don't assume experience with GitHub/Quarto; workflows from Notebooks & RMarkdown, from VSCode, JupyterLab, RStudio.
 
 ::: borderbox
 ![](images/cookbook-onboarding-annotated.png){fig-alt="Screenshot of a quarto e-book called NASA Earthdata Cloud Cookbook with a red box around the left navigation bar section that says Contributing. The main page we see says Onboarding Mentors with subsections like Welcome to the mentor community! and Mentor schedule, tooling checklist" width="50%"}
@@ -520,7 +531,7 @@ Audience: NASA Leadership
 NASA Mentors
 
 ::: borderbox
-[![](images/cookbook.png){fig-alt="Screenshot of an e-book made with Quarto for the NASA Cloud Cookbook"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
+[![](images/cookbook-onboarding.png){fig-alt="Screenshot of an e-book made with Quarto for the NASA Cloud Cookbook"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 :::
 
 ::: ref-text
