@@ -490,7 +490,7 @@ note alt text should not just repeat the caption (if you have one) it should be 
 So what are we talking about here
 :::
 
-##  {#nasa-beach-ball .center data-menu-title="NASA Beach Ball" background-video="videos/nasa_beach_ball_flat_360p.mp4" background-size="contain" background-color="#000000"}
+##  {#nasa-beach-ball .center data-menu-title="NASA Beach Ball" background-image="images/nasa-earth-fleet.png" background-size="contain" background-color="#000000"}
 
 ::: notes
 let me remind you that NASA has a ton of 
@@ -508,33 +508,10 @@ In order to support this shift, there is a lot of documentation and teaching res
 TODO ADD LOGOS Steiker et al, [Working with NASA Earthdata in the Cloud](https://docs.google.com/presentation/d/e/2PACX-1vSXgRRZpK9zDcq8Wxf9804GxamHDL69BkxEuDXaVHjexLD4q3sIvv61HLZZJRzCcEoHw-VBBH71lGJv/pub?start=false&loop=false&delayms=3000)
 :::
 
-## Place & space: Earthdata Cloud Cookbook
-Documentation 
+## Place: Earthdata Cloud Cookbook
 Google Drive • GitHub • Quarto • JupyterHub • Zoom • Slack
 
-
-::: columns
-::: {.column width="50%"}
-::: borderbox
-![](){width="70%" fig-alt="Screenshot of NASA Openscapes GitHub organization"}
-:::
-
-::: borderbox
-![](){width="70%" fig-alt="Screenshot of NASA Openscapes Cloud Cookbook made with Quarto"}
-:::
-:::
-
-::: {.column width="50%"}
-::: borderbox
-![](images/tools-jupyterhub.png){fig-alt="Screenshot of JupyterHub interface" width="70%"}
-:::
-
-::: borderbox
-![](images/amy-steiker-cloud-clinic-teaching.png){width="70%" fig-alt="Screenshot of Coworking"}
-:::
-:::
-:::
-
+TODO: logos of these things
 
 ::: notes
 
@@ -614,7 +591,7 @@ Bri Lind at the NASA Hyperwall, [Getting to Know Open Science](https://docs.goog
 TMentors found it really helpful to have a framework for thinking of this documentation.
 :::
 
-##  What's possible from this {background="#53C9DF" .centered}
+##  What's possible from this {background="#53C9DF" .centered .center}
 
 
 ::: notes
@@ -622,7 +599,7 @@ from a documentation perspective
 :::
 
 
-## Putting a focus on documentation has enabled <br>the NASA Openscapes community to grow<br>through intentional onboarding over 3 years {background="#d2e3f3" .centered}
+## Putting a focus on documentation has enabled <br>the NASA Openscapes community<br>to grow through intentional onboarding<br>over 3 years {background="#d2e3f3" .centered .center}
 
 ::: notes
 Maintainance isn't terrible; onboarding new folks & increasing user-contributors
@@ -637,7 +614,6 @@ Communities don't grow on their own. We've been explicit about onboarding.
 <br>
 
 ::: columns
-::: fragment
 ::: {.column width="33%"}
 **Place: [Project website](https://nasa-openscapes.github.io)** 
 
@@ -647,13 +623,10 @@ Audience: NASA Leadership
 [![](images/website-nasa-openscapes.png){fig-alt="Screenshot of the project website for NASA Openscapes, with a blue navigation bar across the top and NASA and Openscapes logos in the center"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 :::
 
-
-Visibility, <br>welcome participation, <br>info lives outside email
+Onboarding: <br>invite participation, <br>info lives outside email
 
 :::
-:::
 
-::: fragment
 ::: {.column width="33%"}
 **[Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)**
 
@@ -672,27 +645,22 @@ Welcome,<br> access comms & tech,<br> contribute, code review
 
 Openscapes team
 
+<br>
+
 ::: borderbox
 ![](images/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}
 :::
 
 How we work, <br>purpose, facilitation, <br> checklists & timelines
-:::
+
 :::
 
 ::: notes
-
-Website: 
-
-Cookbook: 
-
-Approach Guide: 
-
 :::
 
-##  What's possible from this {background="#53C9DF" .centered}
+##  What's possible from this {background="#53C9DF".centered .center}
 
-## Putting a focus on documentation has enabled other organizations reuse this approach {background="#FAE3E3" .centered}
+## Putting a focus on documentation has enabled other organizations reuse this approach {background="#FAE3E3"  .centered .center}
 
 <br>
 
