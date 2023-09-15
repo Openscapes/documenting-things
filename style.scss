@@ -2,7 +2,9 @@
 
 // Import fonts
 //@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap'); 
+
 //@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@300;800&family=Roboto+Mono:wght@300;400&family=Sanchez&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Sanchez&family=Sen:wght@400;700&display=swap');
 
 /*-- scss:defaults --*/
@@ -176,7 +178,7 @@ $link-color: $blue;
   text-align: center;
 }
 
-/* .vertical-center { // didn't seem to work, but leaving in case we need to come back to this
+/*.vertical-center { // didn't seem to work, but leaving in case we need to come back to this
   margin: 0;
   position: absolute;
   top: 50%;
