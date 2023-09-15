@@ -587,7 +587,7 @@ Bri Lind at the NASA Hyperwall, [Getting to Know Open Science](https://docs.goog
 TMentors found it really helpful to have a framework for thinking of this documentation.
 :::
 
-##  What's possible from this {.light-blue-bg .centered}
+##  What's possible from this {background="#53C9DF" .centered}
 
 
 ::: notes
@@ -595,7 +595,7 @@ from a documentation perspective
 :::
 
 
-## Putting a focus on documentation has enabled <br>the NASA Openscapes community to grow<br>through intentional onboarding over 3 years {.blue-background .centered}
+## Putting a focus on documentation has enabled <br>the NASA Openscapes community to grow<br>through intentional onboarding over 3 years {background="#d2e3f3" .centered}
 
 ::: notes
 Maintainance isn't terrible; onboarding new folks & increasing user-contributors
@@ -605,7 +605,7 @@ Communities don't grow on their own. We've been explicit about onboarding.
 
 
 
-## 3 places for 3 audiences, designed for onboarding {.blue-background}
+## 3 places for 3 audiences, designed for onboarding {background="#d2e3f3"}
 
 <br>
 
@@ -659,9 +659,9 @@ Approach Guide:
 
 :::
 
-##  What's possible from this {.light-blue-bg .centered}
+##  What's possible from this {background="#53C9DF" .centered}
 
-## Putting a focus on documentation has enabled other organizations reuse this approach {.orange-background .centered}
+## Putting a focus on documentation has enabled other organizations reuse this approach {background="#FAE3E3" .centered}
 
 <br>
 
@@ -704,11 +704,11 @@ Take these concepts to new places
 ::: fragment
 ::: yellow-bg
 ::: doc-things-text
-Have a place
+{{< fa angle-right >}} Have a place
 
-Have an audience
+{{< fa angle-right >}} Have an audience
 
-Design for readability, accessibility, and navigation
+{{< fa angle-right >}} Design for readability, accessibility, and navigation
 :::
 :::
 :::
