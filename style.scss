@@ -1,10 +1,15 @@
 /*-- from: openscapes website wiki --*/
 
 // Import fonts
-@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap'); 
-
+//@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@300;800&family=Roboto+Mono:wght@300;400&family=Sanchez&display=swap');
 
 /*-- scss:defaults --*/
+
+//define font families 
+$nunito: 'Nunito', sans-serif;
+$sanchez: 'Sanchez', serif; 
+$roboto: 'Roboto Mono', monospace;
 
 // Openscapes Colors (define Sass color variables here; syntax = `$varName: value;`)
 // https://github.com/Openscapes/website-new/blob/main/styles.scss
@@ -32,6 +37,30 @@ $link-color: $blue;
 
 
 /*-- scss:rules --*/
+
+.br-smaller {
+  line-height: 3px;
+}
+
+.custom-title { 
+  font-family: $sanchez;
+  font-weight: bold;
+  color: $dark-gray;
+  font-size: 1.7em;
+}
+
+.subtitle {
+  font-family: $nunito;
+  color: $dark-gray;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.title-footer { 
+  text-align: center !important;
+  color: $light-blue;
+  font-size: 0.9em !important;
+}
 
 .blue-underline { 
   text-decoration: underline $blue;
@@ -100,6 +129,15 @@ $link-color: $blue;
   border-radius: 15px;
 }
 
+.white-bg { 
+  background-color: $white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 8px;
+  border-radius: 15px;
+}
+
 .light-blue-bg { 
   background-color: $light-blue;
   padding-top: 5px;
@@ -133,7 +171,18 @@ $link-color: $blue;
 
 .reveal .takeaway h2 {
   font-size: 1.7em;
+  font-family: $sanchez;
   font-weight: bold;
   color: #0F1620;
   text-align: center;
+}
+
+// new stuff from Sam
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
