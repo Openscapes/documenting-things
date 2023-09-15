@@ -18,7 +18,7 @@ format:
   #  highlight-style: a11y
    # code-line-numbers: false
 # SPEAKER NOTES
-# - Hi! I'm here to share about documenting things and how intentional approaches is helpling teams tackle hard challeges and change culture across organizations like NASA and NOAA communities supporting climate change research and action. 
+# - Hi! I'm here to share about documenting things and how intentional approaches is helpling teams tackle hard challeges and change organizational culture. 
 #- My name is Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past the 10 years. Documenting things has been a big part of shifting my career I now lead  a program called Openscapes. 
 # - So let's talk about Documenting things: Openly for future us
 ---
@@ -83,9 +83,9 @@ Slowing down to speed up.
 <br>
 
 ::: fragment
-**Purpose today:** to help you document things effectively & be inspired by teams working together to be more efficient, productive, and less lonely. 
+**Purpose today:** to help you document things effectively & hear stories of how putting a focus on documentation can be help teams be efficient, productive, and less lonely. 
 
--   6-min lightening talk (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙)
+-   6-min lightning talk (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙)
 -   9-min stories from NASA Openscapes & beyond
 :::
 
@@ -523,7 +523,7 @@ Don't assume
 ![](images/divio.png){fig-alt="Screenshot of Divios Documentation system: a black square with four quadrants labeled Tutorials, How To Guides, Reference, and Explanation" fig-align="center"}
 
 ::: ref-text
-Daniele Procida & Divio, [The Documentation System](https://documentation.divio.com/)
+Diátaxis & Divio, [Documentation System](https://diataxis.fr/how-to-use-diataxis/)
 :::
 
 <br>
