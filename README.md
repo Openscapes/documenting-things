@@ -98,3 +98,38 @@ https://posit.co/blog/keynotes-and-talks-at-posit-conf-2023/
 ### Documenting things: openly for future us
 
 RMarkdown and Quarto are shifting the paradigm for how professionals learn to code, write documentation, and teach others. I'll showcase the style I first experienced by Jenny Bryan (Stat545, Happy Git With R, What They Forgot): narrative and code together, shared openly as a website, that builds trust with learners and provides a resource to consult during and outside of live-teaching. This mode shifts culture in a powerful way, since we can fork this idea, repeat it in our own work. I’ll share examples of how professional researchers are using this style to write open documentation, from technical workflows to community onboarding. I’ll also highlight design elements for writing open documentation, and tips for doing so with Quarto.
+
+
+## Feedback - takeaways
+
+Documentation opens up spaces and makes people feel welcome and part of the team
+
+that documentation is hard, but its's worth it; it can be used to training and orient people to meet them where they are at
+
+## To discuss with Sam: CSS
+
+- backgrounds: visually distinguish sections
+  - intro, lightning
+  - what's possible (repeated)
+  - story: nasa cookbook 
+  - story: nasa 3 years
+  - story: noaa+
+  - closing (same as intro?)
+  
+- fonts: to visually distingish
+  - 3 lightning headers from their subsections
+  - can we make footer text smaller (like `ref-text`?)
+  
+  
+## TO discuss with Stef: story
+
+- closing slide
+- NASA place & space
+
+## Tips for next 5 days
+
+Practice out loud as much as possible
+
+With a clicker - muscle memory.
+
+When we walk on stage, we are on your time. Wiggle your toes, take a deep breath, start when you're ready. Don't rush. Enjoy it. 

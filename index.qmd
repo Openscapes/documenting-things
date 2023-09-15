@@ -64,18 +64,36 @@ when I say things when I say future us, I'm thinking of a mindset beyond you and
 
 <br>
 
+::: fragment
 In fact, it's supposed to be helpful.
+:::
 
 <br>
 
-It does take time however. The time you invest will save time soon for you and others. Slowing down to speed up. 
+::: fragment
+It does take time. 
+:::
 
 <br>
 
+::: fragment
+Slowing down to speed up. 
+:::
+
+<br>
+
+::: fragment
 **Purpose today:** to help you document things effectively & be inspired by teams working together to be more efficient, productive, and less lonely. 
 
 -   6-min lightening talk (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙)
--   9-min stories from NASA & Openscapes communities
+-   9-min stories from NASA Openscapes & beyond
+:::
+
+::: notes
+
+The investment will save time soon for you and others.
+
+:::
 
 ## Documenting things {.shout .yellow-bg}
 
@@ -159,11 +177,7 @@ Paste from your email/slack and put it here instead
 
 
 ::: notes
-Write directly. Google Doc comments/issues have tendency to prolong/make ardous; write that thought in the doc.
-
-you might find yourself writing it in an issue. depending, write it down in the doc itself. Like editing directly rather than adding a comment in a Google doc
-
-keyboard shortcuts -
+TODO Sam
 :::
 
 ## Write in a modular way {.yellow-bg}
@@ -172,23 +186,27 @@ Writing in small bits is less daunting to write & maintain collaboratively.
 
 ::: columns
 ::: {.column width="50%"}
-::: borderbox
-[![](images/modular-r-for-excel.png){fig-alt="Screenshot of an e-book left navigation bar for R, RStudio, and RMarkdown, with subsections Summary, RStudio Orientation, Intro to RMarkdown, R code in the Console, R functions, Help pages, Commenting" width="48%"}](https://rstudio-conf-2020.github.io/r-for-excel/rstudio.html)
-:::
-
-No true order; you'll move things around.
-:::
-
-::: {.column width="50%"}
-
 <br>
 
 ::: borderbox
 ![](images/modular-github-annotated.png){fig-alt="Screenshot of an e-book left navigation bar for R, RStudio, and RMarkdown, with subsections Summary, RStudio Orientation, Intro to RMarkdown, R code in the Console, R functions, Help pages, Commenting" width="100%"}
 :::
 
+::: center-text
 Modular bits can be networked; not limited to linear flow. 
-Don't repeat yourself ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)): know where things are and link instead. Like functions in code!
+Don't repeat yourself ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself))!
+:::
+:::
+
+::: {.column width="50%"}
+::: borderbox
+![](images/modular-r-for-excel.png){fig-alt="Screenshot of an e-book left navigation bar for R, RStudio, and RMarkdown, with subsections Summary, RStudio Orientation, Intro to RMarkdown, R code in the Console, R functions, Help pages, Commenting" width="40%"}
+:::
+
+::: center-text
+No true order; <br>you'll move things around.
+:::
+
 :::
 :::
 
@@ -206,17 +224,26 @@ These are two examples from R for Excel Users, on the left
 :::
 
 ## Make space {.yellow-bg}
-Takes time - 20-min email pasting add up! Make it visible. 
+Claim time to write - this won't document itself! One pasted email at a time.
 
-Tell people you're documenting things. 
+Tell people you're documenting things: increase visibility, value, contributors.
 
-Visibility
+<br>
 
-Coworking
+![](images/AmySteiker-EarthdataClinic-DryRun2023-05-17.png){fig-alt="Screenshot of three people in Zoom that are screensharing writing documentation and in collaborating in jupyterhub" fig-align="center" width="40%"}
+
+::: notes
+Making it visible helps give it value. And find contributors.
+
+Bigger lifts: put it on the calendar. Cowork with a colleague.
+
+:::
 
 ## Have an audience {.yellow-bg}
 
-You're writing this for someone. Often, many audiences. Make it engaging - doesn't have to be dry or distant.
+You're writing this for someone. Often, many audiences. 
+
+Make it engaging - doesn't have to be dry or distant. 
  
 ::: borderbox
 ![](images/happy-git-with-r.png){fig-alt="Screenshot of Jenny Bryan's Happy Git With R book that has an image from the music video Whip that says Watch me Diff, Watch me Rebase" fig-align="center" width="55%"}
@@ -305,6 +332,8 @@ Breadcrumbs. Internal link for NOAA Fisheries. That's ok. We can still all learn
 
 ## Design for readability, accessibility, & navigation {.yellow-bg}
 
+TODO: screenshot. Alison Hill? Desiree?
+
 ::: notes
 -   aesthetics matter, and don't have to be super time-consuming
 -   accessibility matters - can mean screenreaders, low bandwidth, paywalls/permissions, and much more
@@ -313,31 +342,39 @@ Breadcrumbs. Internal link for NOAA Fisheries. That's ok. We can still all learn
 
 ## Use section headers {.yellow-bg}
 
-Section headers are important for accessibility tools (e.g. screen readers) to describe sections and document flow 
+Section headers are important for screen readers to describe sections and flow.
 
 You can anchor directly to them to share an anchored URL.
 
 ::: columns
 ::: {.column width="50%"}
 ::: borderbox
-![](images/anchor-gdoc-bookmark-annotated.png){fig-alt="Screenshot of Google Doc with a Bookmark inserted with a red arrow pointing from the Insert nav bar item that says Insert > Bookmark" width="95%"}
+![](images/anchor-quarto-annotated.png){fig-alt="Screenshot of Quarto page with a Header anchored, indicated with a red circle and red arrow pointing to the url bar with text that says Clicking anchors URL" width="100%"}
+:::
+
+::: ref-text
+Fay Lab, [The FayLab Manual](https://thefaylab.github.io/lab-manual/)
 :::
 :::
 
 ::: {.column width="50%"}
 ::: borderbox
-![](images/anchor-quarto-annotated.png){fig-alt="Screenshot of Quarto page with a Header anchored, indicated with a red circle and red arrow pointing to the url bar with text that says Clicking anchors URL" width="80%"}
+![](images/anchor-gdoc-bookmark-annotated.png){fig-alt="Screenshot of Google Doc with a Bookmark inserted with a red arrow pointing from the Insert nav bar item that says Insert > Bookmark" width="95%"}
 :::
-[Naming things](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙 is key here - Jenny Bryan says "embrace the slug"
+::: ref-text
+Clatterbuck et al, [3 approaches for the year of open science](https://openscapes.org/blog/2023-03-16-esip-winter-2023/).
+:::
 
 :::
 :::
+
+
+
 
 <br>
 
-::: ref-text
-Clatterbuck et al, [3 approaches for the year of open science](https://openscapes.org/blog/2023-03-16-esip-winter-2023/); Fay Lab, [The FayLab Manual](https://thefaylab.github.io/lab-manual/).
-:::
+[Naming things](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙 is key here - "embrace the slug"
+
 
 
 ::: notes
@@ -354,23 +391,21 @@ Maybe: Be Consistent - Not "example" and then 2nd example has a diff name. Inden
 Formatting helps your readers follow along. 
 
 ::: borderbox
-![](images/format-fonts-links.png){fig-alt="Screenshot of a blog post where the hyperlinked text says Fire and Tree Mortality Database and the words tidymodels and geomtextpath are formatted for code " width="80%"}
+![](images/format-fonts-links.png){fig-alt="Screenshot of a blog post where the hyperlinked text says Fire and Tree Mortality Database and the words tidymodels and geomtextpath are formatted for code" fig-align="center" width="80%"}
 :::
-
-
-<br>
-
-Distinguish `code` with fonts; (in Markdown \`code\` )
-
-Hyperlink to descriptive text like [Fire and Tree Mortality Database](https://doi.org/10.2737/RDS-2020-0001), not that this thing you recommended is [here](https://doi.org/10.2737/RDS-2020-0001).
-
-<br>
 
 ::: ref-text
 Horst, [Exploring tree outcomes following fires](https://allisonhorst.github.io/posts/2022-03-10-tree-mortality-fires/).
 :::
 
-## Alternative text ("alt text") 
+<br>
+
+Distinguish `code` with fonts; (in Markdown use backticks: \`code\` )
+
+Hyperlink text like [Fire and Tree Mortality Database](https://doi.org/10.2737/RDS-2020-0001), not that this important thing is [here](https://doi.org/10.2737/RDS-2020-0001).
+
+
+## Alternative text ("alt text") {.yellow-bg}
 
 ::: notes
 note alt text should not just repeat the caption (if you have one) it should be descriptive - paint the picture of whatever you’re talking about so someone with a screen reader can listen to the alt text and get the same details and take home messages as someone who can look at the image
@@ -397,6 +432,11 @@ Design for readability, accessibility, and navigation
 So what are we talking about here
 :::
 
+##  {#nasa-beach-ball .center data-menu-title="NASA Beach Ball" background-video="videos/nasa_beach_ball_flat_360p.mp4" background-size="contain" background-color="#000000"}
+
+::: notes
+:::
+
 ## Teaching NASA Earthdata Cloud
 ### ...by learning as a community
 
@@ -407,13 +447,33 @@ TODO ADD LOGOS Steiker et al, [Working with NASA Earthdata in the Cloud](https:/
 :::
 
 ## Place & space: Earthdata Cloud Cookbook
-A place we created to co-develop teaching resources for researchers
- 
-<br>
+GitHub organization • Quarto notebook collection • 2i2c JupyterHub • Regular Coworking
 
-TODO 4 images: 
 
-GitHub repo, 
+::: columns
+::: {.column width="50%"}
+::: borderbox
+![](){width="70%" fig-alt="Screenshot of NASA Openscapes GitHub organization"}
+:::
+
+::: borderbox
+![](){width="70%" fig-alt="Screenshot of NASA Openscapes Cloud Cookbook made with Quarto"}
+:::
+:::
+
+::: {.column width="50%"}
+::: borderbox
+![](images/tools-jupyterhub.png){fig-alt="Screenshot of JupyterHub interface" width="70%"}
+:::
+
+::: borderbox
+![](images/amy-steiker-cloud-clinic-teaching.png){width="70%" fig-alt="Screenshot of Coworking"}
+:::
+:::
+:::
+
+
+
 
 quarto Cookbook, 
 
@@ -423,7 +483,7 @@ regular coworking meetings & Slack
 
 ## Audience: Us first, then others
 
-![](images/nasa-openscapes-shell.png){fig-alt="Diagram of a colorful shell-spiral shape with NASA Openscapes Mentors community values as a small image up top, then Data Center Staff, then End Users, then Open Science Community." width="80%"}
+![](images/nasa-openscapes-shell.png){fig-alt="Diagram of a colorful shell-spiral shape with NASA Openscapes Mentors community values as a small image up top, then Data Center Staff, then End Users, then Open Science Community." fig-align="center" width="80%"}
 
 ::: ref-text
 Steiker et al, [Working with NASA Earthdata in the Cloud](https://docs.google.com/presentation/d/e/2PACX-1vSXgRRZpK9zDcq8Wxf9804GxamHDL69BkxEuDXaVHjexLD4q3sIvv61HLZZJRzCcEoHw-VBBH71lGJv/pub?start=false&loop=false&delayms=3000)
@@ -438,10 +498,14 @@ as we figure things out, we make a crumb trail no matter how small it is
 :::
 
 ## Design: Meet people where they are 
-We don't assume experience with GitHub/Quarto; workflows from Notebooks & RMarkdown, from VSCode, JupyterLab, RStudio.
+We don't assume experience. Workflows: `.ipynb`, `.Rmd`; VSCode, Jupyter, RStudio, MATLAB.
 
 ::: borderbox
-![](images/cookbook-onboarding-annotated.png){fig-alt="Screenshot of a quarto e-book called NASA Earthdata Cloud Cookbook with a red box around the left navigation bar section that says Contributing. The main page we see says Onboarding Mentors with subsections like Welcome to the mentor community! and Mentor schedule, tooling checklist" width="50%"}
+![](images/cookbook-onboarding-annotated.png){fig-alt="Screenshot of a quarto e-book called NASA Earthdata Cloud Cookbook with a red box around the left navigation bar section that says Contributing. The main page we see says Onboarding Mentors with subsections like Welcome to the mentor community! and Mentor schedule, tooling checklist" fig-align="center" width="60%"}
+:::
+
+::: ref-text
+NASA Openscapes Community, [NASA Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding)
 :::
 
 ::: notes
@@ -496,7 +560,7 @@ from a documentation perspective
 :::
 
 
-## Putting a focus on documentation has enabled growing community and onboarding over 3 years {.blue-background .centered}
+## Putting a focus on documentation has enabled <br>the NASA Openscapes community to grow<br>through intentional onboarding over 3 years {.blue-background .centered}
 
 ::: notes
 Maintainance isn't terrible; onboarding new folks & increasing user-contributors
@@ -512,7 +576,7 @@ Communities don't grow on their own. We've been explicit about onboarding.
 
 ::: columns
 ::: {.column width="33%"}
-**Place: Project website** 
+**Place: [Project website](https://nasa-openscapes.github.io)** 
 
 Audience: NASA Leadership
 
@@ -520,13 +584,13 @@ Audience: NASA Leadership
 [![](images/website-nasa-openscapes.png){fig-alt="Screenshot of the project website for NASA Openscapes, with a blue navigation bar across the top and NASA and Openscapes logos in the center"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 :::
 
-::: ref-text
-[nasa-openscapes.github.io](https://nasa-openscapes.github.io)
-:::
+
+Visibility, <br>welcome participation, <br>info lives outside email
+
 :::
 
 ::: {.column width="33%"}
-**Earthdata Cloud Cookbook**
+**[Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)**
 
 NASA Mentors
 
@@ -534,33 +598,29 @@ NASA Mentors
 [![](images/cookbook-onboarding.png){fig-alt="Screenshot of an e-book made with Quarto for the NASA Cloud Cookbook"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 :::
 
-::: ref-text
-[nasa-openscapes.github.io/<br>earthdata-cloud-cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
-:::
+Welcome,<br> access comms & tech,<br> contribute, code review
 :::
 
 ::: {.column width="33%"}
-**Approach Guide**
+**[Approach Guide](https://openscapes.github.io/approach-guide)**
 
 Openscapes team
 
 ::: borderbox
-[![](images/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}](https://openscapes.github.io/approach-guide/)
+![](images/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}
 :::
 
-::: ref-text
-[openscapes.github.io/<br>approach-guide](https://openscapes.github.io/approach-guide)
-:::
+How we work, <br>purpose, facilitation, <br> checklists & timelines
 :::
 :::
 
 ::: notes
 
-Website: visibility, invite participation, information lives outside email
+Website: 
 
-Cookbook: welcome; how to access comms channels and our cloud infrastructure Information for learning quarto, GitHub branches and pull requests
+Cookbook: 
 
-Approach Guide: A place for us to write down repeated tasks, onboard each other to how we work
+Approach Guide: 
 
 :::
 
@@ -579,18 +639,23 @@ and everything we've done here we're applying to NOAA Fis" other huge impact aud
 
 ## Documenting things ... 
 
+:::fragment
 ### Is important 
 
 - Helps people feel less lost and like they belong
 - Saves time - fewer emails asking where things are
 - Make invisible work visible 
 
+:::
+
+::: fragment
 ### Takes time
 
 - Part of the job. Paid time.
 - Learning and inspiration is cyclical - Jenny Bryan Naming things
 - Reuse, don't reinvent. 
 
+:::
 
 ## Documenting things: Best advice to get started
 
@@ -621,6 +686,8 @@ Design for readability, accessibility, and navigation
 ## Thank you
 
 TODO
+
+Sam Csik for CSS help
 
 ## Resources
 
