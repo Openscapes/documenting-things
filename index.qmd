@@ -537,7 +537,9 @@ as we figure things out, we make a crumb trail no matter how small it is
 :::
 
 ## Design: Meet people where they are 
-We don't assume experience. Workflows: `.ipynb`, `.Rmd`; VSCode, Jupyter, RStudio, MATLAB.
+We don't assume experience; we all can learn and teach. 
+
+Collaborating across workflows: `.ipynb`, `.Rmd`; VSCode, Jupyter, RStudio, MATLAB.
 
 ::: borderbox
 ![](images/cookbook-onboarding-annotated.png){fig-alt="Screenshot of a quarto e-book called NASA Earthdata Cloud Cookbook with a red box around the left navigation bar section that says Contributing. The main page we see says Onboarding Mentors with subsections like Welcome to the mentor community! and Mentor schedule, tooling checklist" fig-align="center" width="60%"}
@@ -660,7 +662,7 @@ How we work, <br>purpose, facilitation, <br> checklists & timelines
 
 ##  What's possible from this {background="#53C9DF".centered .center}
 
-## Putting a focus on documentation has enabled other organizations reuse this approach {background="#FAE3E3"  .centered .center}
+## Putting a focus on documentation has enabled<br>other organizations<br> to reuse this approach {background="#FAE3E3"  .centered .center}
 
 <br>
 
