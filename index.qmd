@@ -70,6 +70,12 @@ In fact, it's supposed to be helpful.
 
 <br>
 
+<!-- ::: fragment -->
+<!-- place: tech: google docs, README, Zoom, office, Quarto, GitHub, slot in your calendar -->
+<!-- space: people: time, approval from your supervisor, physical , intentional, part of your job, advocating. coworking is the practice of creating space -->
+<!-- The hard part about documentation is being intentional, having this be part of your job. Making space is the hard part -->
+<!-- ::: -->
+
 ::: fragment
 It does take time. 
 :::
@@ -85,11 +91,18 @@ Slowing down to speed up.
 ::: fragment
 **Purpose today:** to help you document things effectively & hear stories of how putting a focus on documentation can be help teams be efficient, productive, and less lonely. 
 
--   6-min lightning talk (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙)
--   9-min stories from NASA Openscapes & beyond
+-   lightning talk - practical tips (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙)
+-   stories - from NASA Openscapes & beyond. So damn hard - had to write an article. TL;DR ?tomato plant?
 :::
 
 ::: notes
+
+it's supopsed to be helpful
+
+It does take time, and intentionality. 
+
+We're going to talk about practiacl tips in a lighttning talk and then in stories we'll give more about creating that time and visbility for this valuable work. And the TL;DR is in this  editorial about 
+
 
 The investment will save time soon for you and others.
 
@@ -188,6 +201,8 @@ Writing in small bits is less daunting to write & maintain collaboratively.
 ::: {.column width="50%"}
 <br>
 
+TODO remove red box 
+
 ::: borderbox
 ![](images/modular-github-annotated.png){fig-alt="Screenshot of an e-book left navigation bar for R, RStudio, and RMarkdown, with subsections Summary, RStudio Orientation, Intro to RMarkdown, R code in the Console, R functions, Help pages, Commenting" width="100%"}
 :::
@@ -264,6 +279,8 @@ We're in this together: Your readers are intelligent people, who are here to lea
 
 Consider your goals and style that welcome readers; e.g. avoid words that trivialize like 'simply'.
 
+> "simply clone the repo"
+
 <br>
 
 ::: {.medium-body-text .blue-underline}
@@ -280,6 +297,7 @@ Thoughtful resources
 
 ::: notes
 
+"simply clone the repo"
 
 Write as if these different audiences are all in the room with you. directed toward different audiences
 
@@ -398,14 +416,20 @@ Formatting helps your readers follow along.
 Horst, [Exploring tree outcomes following fires](https://allisonhorst.github.io/posts/2022-03-10-tree-mortality-fires/).
 :::
 
+
 <br>
-
-Distinguish `code` with fonts; (in Markdown use backticks: \`code\` )
-
 Hyperlink text like [Fire and Tree Mortality Database](https://doi.org/10.2737/RDS-2020-0001), not that this important thing is [here](https://doi.org/10.2737/RDS-2020-0001).
 
 
+Distinguish `code` with fonts; (in Markdown use backticks: \`code\` )
+
+
+
 ## Alternative text ("alt text") {.yellow-bg}
+Diagrams, screenshots, photos help with documentation. 
+
+TODO: Allison Horst's artwork or Elliot's photos
+There is a giant arrow towards the thing 
 
 ::: notes
 note alt text should not just repeat the caption (if you have one) it should be descriptive - paint the picture of whatever you’re talking about so someone with a screen reader can listen to the alt text and get the same details and take home messages as someone who can look at the image
@@ -435,6 +459,10 @@ So what are we talking about here
 ##  {#nasa-beach-ball .center data-menu-title="NASA Beach Ball" background-video="videos/nasa_beach_ball_flat_360p.mp4" background-size="contain" background-color="#000000"}
 
 ::: notes
+let me remind you that NASA has a ton of 
+Maybe Joel Scott's/Joels slide: with the satellites
+ccessing data in the cloud vs downloading is a huge shift in the workflows and habits researchers/users have developed over careers
+In order to support this shift, there is a lot of documentation and teaching resources that we need
 :::
 
 ## Teaching NASA Earthdata Cloud
@@ -447,7 +475,8 @@ TODO ADD LOGOS Steiker et al, [Working with NASA Earthdata in the Cloud](https:/
 :::
 
 ## Place & space: Earthdata Cloud Cookbook
-GitHub organization • Quarto notebook collection • 2i2c JupyterHub • Regular Coworking
+Documentation 
+Google Drive • GitHub • Quarto • JupyterHub • Zoom • Slack
 
 
 ::: columns
@@ -473,13 +502,12 @@ GitHub organization • Quarto notebook collection • 2i2c JupyterHub • Regul
 :::
 
 
+::: notes
 
+Maybe icons only
 
-quarto Cookbook, 
+:::
 
-JupyterHub, 
-
-regular coworking meetings & Slack
 
 ## Audience: Us first, then others
 
@@ -575,6 +603,7 @@ Communities don't grow on their own. We've been explicit about onboarding.
 <br>
 
 ::: columns
+::: fragment
 ::: {.column width="33%"}
 **Place: [Project website](https://nasa-openscapes.github.io)** 
 
@@ -588,7 +617,9 @@ Audience: NASA Leadership
 Visibility, <br>welcome participation, <br>info lives outside email
 
 :::
+:::
 
+::: fragment
 ::: {.column width="33%"}
 **[Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)**
 
@@ -599,6 +630,7 @@ NASA Mentors
 :::
 
 Welcome,<br> access comms & tech,<br> contribute, code review
+:::
 :::
 
 ::: {.column width="33%"}
@@ -632,12 +664,14 @@ Approach Guide:
 
 TODO: logos: NOAA, Cal EPA, Pathways to Open Science
 
+TODO EDITORIAL
+
 ::: notes
 and everything we've done here we're applying to NOAA Fis" other huge impact audiences
 :::
 
 
-## Documenting things ... 
+## TODO Rework - tomato plant, editorial Documenting things ... 
 
 :::fragment
 ### Is important 
@@ -653,7 +687,7 @@ and everything we've done here we're applying to NOAA Fis" other huge impact aud
 
 - Part of the job. Paid time.
 - Learning and inspiration is cyclical - Jenny Bryan Naming things
-- Reuse, don't reinvent. 
+- ~Reuse, don't reinvent.~ 
 
 :::
 
