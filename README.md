@@ -99,7 +99,7 @@ https://posit.co/blog/keynotes-and-talks-at-posit-conf-2023/
 
 **Updated text, Sept 2023**
 
-I'll share about documenting things, and how intentional approaches is helping big distributed teams tackle hard challenges and change organizational culture. The goal is to provide concrete tips to help you document things effectively & hear stories of how putting a focus on documentation can be help teams be efficient, productive, and less lonely. I'll give a short lightning talk (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙) followed by stories from NASA Openscapes & beyond. 
+I'll share about documenting things, and how intentional approaches is helping big distributed teams tackle hard challenges and change organizational culture. The goal is to provide concrete tips to help you document things effectively & hear stories of how putting a focus on documentation can be help teams be efficient, productive, and less lonely. I'll give a short lightning talk (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files)) followed by stories from NASA Openscapes & beyond. 
 
 **Submitted text, Spring 2023**
 

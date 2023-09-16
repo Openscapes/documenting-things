@@ -271,21 +271,7 @@ These are two examples from R for Excel Users, on the left
 -   Think of it like we have functions we call from another script. It lives one place
 :::
 
-## *Make space* {background="#FFF6E1"}
-Claim time to write - this won't document itself! One pasted email at a time.
 
-Tell people you're documenting things: increase visibility, value, contributors.
-
-<br>
-
-![](images/AmySteiker-EarthdataClinic-DryRun2023-05-17.png){fig-alt="Screenshot of three people in Zoom that are screensharing writing documentation and in collaborating in jupyterhub" fig-align="center" width="40%"}
-
-::: notes
-Making it visible helps give it value. And find contributors.
-
-Bigger lifts: put it on the calendar. Cowork with a colleague.
-
-:::
 
 ## {{< fa angle-right >}} Have an audience {background="#FFF6E1"}
 
@@ -451,17 +437,31 @@ Horst, [Exploring tree outcomes following fires](https://allisonhorst.github.io/
 
 
 <br>
-Hyperlink text like [Fire and Tree Mortality Database](https://doi.org/10.2737/RDS-2020-0001), not that this important thing is [here](https://doi.org/10.2737/RDS-2020-0001).
+Hyperlink the important text, not that this important thing is [here](https://doi.org/10.2737/RDS-2020-0001).
 
 
 Distinguish `code` with fonts; (in Markdown use backticks: \`code\` )
 
 
 ## *Alternative text ("alt text")* {background="#FFF6E1"}
-Diagrams, screenshots, photos help with documentation. 
+Use alt text to describe the details and takehome messages in your visuals.
 
-TODO: Allison Horst's artwork or Elliot's photos
-There is a giant arrow towards the thing 
+![](images/horst-hill-knitting-hedgehogs.png){fig-alt="A round hedgehog knitting a yellow sock. A rabbit with a teal beanie and wearing one yellow sock watches in anticipation. A shelf to the left of them contains yarn in a tote labeled TEXT, and knitting patterns in a tote labeled CODE." fig-align="center" width="80%"}
+
+::: centered
+*Caption: Knitting text and code*
+:::
+
+<br>
+
+**Alt text**:  A round hedgehog knitting a yellow sock. A rabbit with a teal beanie and wearing one yellow sock watches in anticipation. A shelf to the left of them contains yarn in a tote labeled TEXT, and knitting patterns in a tote labeled CODE.
+
+<br>
+
+::: ref-text
+Horst & Hill, [The Hedgehog Series](https://allisonhorst.com/horst-hill-collaborations)
+:::
+
 
 ::: notes
 note alt text should not just repeat the caption (if you have one) it should be descriptive - paint the picture of whatever you’re talking about so someone with a screen reader can listen to the alt text and get the same details and take home messages as someone who can look at the image
@@ -509,14 +509,19 @@ TODO ADD LOGOS Steiker et al, [Working with NASA Earthdata in the Cloud](https:/
 :::
 
 ## Place: Earthdata Cloud Cookbook
-Google Drive • GitHub • Quarto • JupyterHub • Zoom • Slack
 
-TODO: logos of these things
+::: borderbox
+![](images/cookbook-onboarding.png){fig-alt="Screenshot of an e-book made with Quarto for the NASA Cloud Cookbook" fig-align="center" width="70%"}
+:::
+
+
+
+::: ref-text
+NASA Openscapes Mentors, [NASA Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook)
+:::
 
 ::: notes
-
-Maybe icons only
-
+Google Drive • GitHub • Quarto • JupyterHub • Zoom • Slack
 :::
 
 
@@ -731,3 +736,20 @@ Sam Csik for CSS help
 
 TODO
 
+## CUTTING ROOM
+
+## *Make space* {background="#FFF6E1"}
+Claim time to write - this won't document itself! One pasted email at a time.
+
+Tell people you're documenting things: increase visibility, value, contributors.
+
+<br>
+
+![](images/AmySteiker-EarthdataClinic-DryRun2023-05-17.png){fig-alt="Screenshot of three people in Zoom that are screensharing writing documentation and in collaborating in jupyterhub" fig-align="center" width="40%"}
+
+::: notes
+Making it visible helps give it value. And find contributors.
+
+Bigger lifts: put it on the calendar. Cowork with a colleague.
+
+:::
