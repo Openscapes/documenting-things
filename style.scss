@@ -178,6 +178,31 @@ $link-color: $blue;
   text-align: center;
 }
 
+.reveal .takeaway-left-shout-h2 h2 {
+  font-size: 1.7em;
+  font-family: $sanchez;
+  font-weight: bold;
+  color: #0F1620;
+  text-align: left;
+}
+
+.reveal .takeaway-left-shout {
+  font-size: 1.6em;
+  font-family: $sanchez;
+  font-weight: bold;
+  color: #0F1620;
+  text-align: left;
+}
+
+.reveal .takeaway-left-state {
+  font-size: 1.3em;
+  font-family: $sen;
+  color: #0F1620;
+  text-align: left;
+}
+
+
+
 /*.vertical-center { // didn't seem to work, but leaving in case we need to come back to this
   margin: 0;
   position: absolute;

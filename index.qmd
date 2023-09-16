@@ -1,29 +1,15 @@
 ---
-# title: "Documenting things: <br>openly for future us"
-# # subtitle: "How we can collaborate across different expertise and focus on climate solutions"
-# author: 
-#   - "Julia Stewart Lowndes & the Openscapes Community"
-date: 2023-09-18
-date-format: iso
 format:
     revealjs:
         colorlinks: true
         theme: ["style.scss"]
-        slide-number: c/t
+        # slide-number: c/t
         height: 900
         width: 1600        
         transition: fade
-        # footer: "[openscapes.github.io/documenting-things](https://openscapes.github.io/documenting-things/) [(source)](https://github.com/openscapes/documenting-things)"
-   # fontcolor: "#262d36"
-  #  highlight-style: a11y
-   # code-line-numbers: false
-# SPEAKER NOTES
-# - Hi! I'm here to share about documenting things and how intentional approaches is helpling teams tackle hard challeges and change organizational culture. 
-#- My name is Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past the 10 years. Documenting things has been a big part of shifting my career I now lead  a program called Openscapes. 
-# - So let's talk about Documenting things: Openly for future us
 ---
 
-## {#title-slide data-menu-title="Title Slide"}
+## {#title-slide data-menu-title="Title Slide" background="#53C9DF"}
 
 ::: {.custom-title .takeaway}
 Documenting things: <br> *openly for future us* 
@@ -33,10 +19,13 @@ Documenting things: <br> *openly for future us*
 
 ::: {.subtitle}
 Julia Stewart Lowndes & the Openscapes Community
+
+September 19, 2023
+
+posit::conf(2023)
+
 :::
 
-<br>
-<br>
 <br>
 <br>
 
@@ -44,29 +33,39 @@ Julia Stewart Lowndes & the Openscapes Community
 [openscapes.github.io/documenting-things](https://openscapes.github.io/documenting-things/) [(source)](https://github.com/openscapes/documenting-things)
 :::
 
-## 
+::: notes
+Hi! I'm here to share about documenting things and how intentional approaches is helpling teams tackle hard challeges and change organizational culture. 
+
+My name is Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past the 10 years. Documenting things has been a big part of shifting my career I now lead  a program called Openscapes. 
+
+So let's talk about Documenting things: Openly for future us
+:::
+
+## {#things-future-us data-menu-title="Things Future Us" background="#53C9DF"}
 
 ::: columns
 ::: {.column width="45%"}
-::: {style="font-size: 2em;"}
-THINGS 
+::: {.takeaway-left-shout}
+THINGS  
 :::
 
+::: {.takeaway-left-state}
 **all the things**
 
 -   code & analyses
 -   teaching resources
 -   onboarding & community
 -   fieldwork/lab protocols
--   blogs
 -   events
+:::
 :::
 
 ::: {.column width="45%"}
-::: {style="font-size: 2em;"}
+::: {.takeaway-left-shout}
 FUTURE US
 :::
 
+::: {.takeaway-left-state}
 **mindset & habit**
  
 -   ourselves, teams, communities
@@ -76,6 +75,7 @@ FUTURE US
 -   intentional, inclusive
 :::
 :::
+:::
 
 ::: notes
 when I say things when I say future us, I'm thinking of a mindset beyond you and your computer. So thinking about how what you document now can save hundreds of emails later asking where things are or how to do things.
@@ -83,36 +83,27 @@ when I say things when I say future us, I'm thinking of a mindset beyond you and
 
 ---
 
-## Documenting things doesn't have to be painful {.takeaway background="#53C9DF"}
- 
-<br>
-
+## Documenting things doesn't have to be painful {.takeaway-left-shout-h2 background="#53C9DF"}
+::: {.takeaway-left-state}
 ::: fragment
 In fact, it's supposed to be helpful.
 :::
 
 <br>
 
-<!-- ::: fragment -->
-<!-- place: tech: google docs, README, Zoom, office, Quarto, GitHub, slot in your calendar -->
-<!-- space: people: time, approval from your supervisor, physical , intentional, part of your job, advocating. coworking is the practice of creating space -->
-<!-- The hard part about documentation is being intentional, having this be part of your job. Making space is the hard part -->
-<!-- ::: -->
-
 ::: fragment
-It does take time. 
+It does take time and intention. Slowing down to speed up. 
+:::
 :::
 
 <br>
 
 ::: fragment
-Slowing down to speed up. 
+::: {.takeaway-left-state}
+**Purpose today:** to help you document things effectively & <br>hear stories of how documentation can be visible and valued — and help teams be efficient, productive, and less lonely. 
 :::
 
 <br>
-
-::: fragment
-**Purpose today:** help you document things effectively & hear stories of how documentation can be help teams be efficient, productive, and less lonely. 
 
 ::: {.yellow-bg}
 **5-min lightening talk** - practical tips (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙)
@@ -127,11 +118,14 @@ Slowing down to speed up.
 :::
 
 ::: notes
-it's suppsed to be helpful
+it's supposed to be helpful
 
 It does take time, and intentionality. 
 
 We're going to talk about practiacl tips in a lighttning talk and then in stories we'll give more about creating that time and visbility for this valuable work. And the TL;DR is in this  editorial about 
+<!-- place: tech: google docs, README, Zoom, office, Quarto, GitHub, slot in your calendar -->
+<!-- space: people: time, approval from your supervisor, physical , intentional, part of your job, advocating. coworking is the practice of creating space -->
+<!-- The hard part about documentation is being intentional, having this be part of your job. Making space is the hard part -->
 :::
 
 ## **Documenting things** {background="#FFF6E1" .takeaway}
@@ -343,15 +337,15 @@ When we write tutorials with code, we write them as if we're teaching them outlo
 
 :::
 
-## *Share it* {background="#FFF6E1"}
-Share online so people can find it - readers, contributors, users. 
+## *Share early* {background="#FFF6E1"}
+Share online so people can find it - users & contributors. 
 
 Consider permissions & leverage different technologies to leave breadcrumbs.
 
 <br>
 
 ::: borderbox
-[![](images/nmfs-opensci-508-breadcrumb.png){fig-alt="Screenshot of NOAA Fisheries Open Science Resource Book on the page with 508 Compliance. A red arrow points to blue text that says Recording of R UG Meeting and in red text says Internal link" width="65%"}](https://nmfs-opensci.github.io/ResourceBook/content/508_compliance.html)
+![](images/nmfs-opensci-508-breadcrumb.png){fig-alt="Screenshot of NOAA Fisheries Open Science Resource Book on the page with 508 Compliance. A red arrow points to blue text that says Recording of R UG Meeting and in red text says Internal link" fig-align="center" width="65%"}
 :::
 
 ::: ref-text
@@ -360,19 +354,22 @@ NOAA Fisheries Open Science, [Resource Book](https://nmfs-opensci.github.io/Reso
 
 ::: notes
 Breadcrumbs. Internal link for NOAA Fisheries. That's ok. We can still all learn a lot by having as much public.
-
-'as open as possible, as closed as necessary'
 :::
 
 
 ## {{< fa angle-right >}} Design for readability, accessibility, & navigation {background="#FFF6E1"}
+Leverage defaults and best practices 
 
-TODO: screenshot. Alison Hill? Desiree?
+::: borderbox
+![](images/format-quarto.png){fig-alt="Screenshot of the Quarto homepage, which has a nice navigation bar at the top, and stylized text that draws your eye that says Welcome to Quarto and has bullet points describing what it can do with Jupyter, VS Code, RStudio, Websites, Articles, Presentations, Books, and Knowledge Repo icons"  fig-align="center" width="65%"}
+:::
+
+::: ref-text
+Allaire et al, [Quarto.org](https://quarto.org)
+:::
 
 ::: notes
--   aesthetics matter, and don't have to be super time-consuming
--   accessibility matters - can mean screenreaders, low bandwidth, paywalls/permissions, and much more
--   navigation mtters - helping Future Us find what we need
+
 :::
 
 ## *Use section headers* {background="#FFF6E1"}
@@ -382,8 +379,6 @@ Section headers are important for screen readers to describe sections and flow.
 You can anchor directly to them to share an anchored URL.
 
 [Naming things](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙 is key here - "embrace the slug"
-
-<br>
 
 ::: columns
 ::: {.column width="50%"}
@@ -401,18 +396,11 @@ Fay Lab, [The FayLab Manual](https://thefaylab.github.io/lab-manual/)
 ![](images/anchor-gdoc-bookmark-annotated.png){fig-alt="Screenshot of Google Doc with a Bookmark inserted with a red arrow pointing from the Insert nav bar item that says Insert > Bookmark" width="95%"}
 :::
 ::: ref-text
-Clatterbuck et al, [3 approaches for the year of open science](https://openscapes.org/blog/2023-03-16-esip-winter-2023/).
+Clatterbuck, Fenwick et al, [3 approaches for the year of open science](https://openscapes.org/blog/2023-03-16-esip-winter-2023/).
 :::
 
 :::
 :::
-
-
-
-
-<br>
-
-
 
 ::: notes
 Helps with accessibility since screen readers treat headers a specific way.
@@ -421,7 +409,6 @@ These are examples from Google Doc where you can insert a bookmark and Quarto wh
 
 Maybe: Be Consistent - Not "example" and then 2nd example has a diff name. Indenting.
 :::
-
 
 ## *Use text formatting* {background="#FFF6E1"}
 
@@ -540,7 +527,7 @@ Google Drive • GitHub • Quarto • JupyterHub • Zoom • Slack
 
 ## Audience: Us first, then others
 
-![](images/nasa-openscapes-shell.png){fig-alt="Diagram of a colorful shell-spiral shape with NASA Openscapes Mentors community values as a small image up top, then Data Center Staff, then End Users, then Open Science Community." fig-align="center" width="80%"}
+![](images/nasa-openscapes-shell.png){fig-alt="Diagram of a colorful shell-spiral shape with NASA Openscapes Mentors community values as a small image up top, then Data Center Staff, then End Users, then Open Science Community" fig-align="center"}
 
 ::: ref-text
 Steiker et al, [Working with NASA Earthdata in the Cloud](https://docs.google.com/presentation/d/e/2PACX-1vSXgRRZpK9zDcq8Wxf9804GxamHDL69BkxEuDXaVHjexLD4q3sIvv61HLZZJRzCcEoHw-VBBH71lGJv/pub?start=false&loop=false&delayms=3000)
@@ -648,6 +635,7 @@ Onboarding: <br>invite participation, <br>info lives outside email
 :::
 
 ::: {.column width="33%"}
+::: fragment
 **[Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)**
 
 NASA Mentors
@@ -659,8 +647,10 @@ NASA Mentors
 Welcome,<br> access comms & tech,<br> contribute, code review
 :::
 :::
+:::
 
 ::: {.column width="33%"}
+::: fragment
 **[Approach Guide](https://openscapes.github.io/approach-guide)**
 
 Openscapes team
@@ -673,6 +663,7 @@ Openscapes team
 
 How we work, <br>purpose, facilitation, <br> checklists & timelines
 
+:::
 :::
 
 ::: notes
@@ -697,8 +688,8 @@ and everything we've done here we're applying to NOAA Fis" other huge impact aud
 <br>
 
 - Part of the job. Paid time.
-- Make invisible work visible 
-- Learning and teaching together is empowering
+- Make invisible work visible. 
+- We recommend coworking - put time on the calendar.
 
 <br>
 
@@ -706,9 +697,9 @@ and everything we've done here we're applying to NOAA Fis" other huge impact aud
 
 :::
 
-::: {.column width="60%"}
+::: {.column width="55%"}
 
-![](images/rios-kim-tomato-plant-kinder-science.png){fig-alt="a digital crayon drawing of a tomato plant in the middle and a colorful circle around it connecting different concepts clockwise, starting at the roots. The roots says Culture, the watering can and toolbox says Technical Infrastructure, the sun says Values, the leaves say Social Infrastructure, and the final basket of tomatoes says Relevant, rigourous, insightful science" width="100%"}
+![](images/rios-kim-tomato-plant-kinder-science.png){fig-alt="a digital crayon drawing of a tomato plant in the middle and a colorful circle around it connecting different concepts clockwise, starting at the roots. The roots says Culture, the watering can and toolbox says Technical Infrastructure, the sun says Values, the leaves say Social Infrastructure, and the final basket of tomatoes says Relevant, rigourous, insightful science" width="95%"}
 :::
 :::
 
@@ -718,6 +709,8 @@ Lowndes et al, [Shifting institutional culture to develop climate solutions with
 
 ::: notes
 It starts with holding intentional, respectful conversations and tapping into the knowledge base of our workplaces, and reusing what works in new places.
+
+- Learning and teaching together is empowering
 :::
 
 ## **Documenting things** {background="#FFF6E1" .takeaway}
@@ -755,62 +748,3 @@ Sam Csik aka CSS architect
 - [nmfs-openscapes.github.io](https://nmfs-openscapes.github.io)
 - [cawaterboarddatacenter.github.io/swrcb-openscapes](https://cawaterboarddatacenter.github.io/swrcb-openscapes/)
 - [openscapes.github.io/pathways-to-open-science](https://openscapes.github.io/pathways-to-open-science)
-
-
-
-## CUTTING ROOM
-
-## *Make space* {background="#FFF6E1"}
-Claim time to write - this won't document itself! One pasted email at a time.
-
-Tell people you're documenting things: increase visibility, value, contributors.
-
-<br>
-
-![](images/AmySteiker-EarthdataClinic-DryRun2023-05-17.png){fig-alt="Screenshot of three people in Zoom that are screensharing writing documentation and in collaborating in jupyterhub" fig-align="center" width="40%"}
-
-::: notes
-Making it visible helps give it value. And find contributors.
-
-Bigger lifts: put it on the calendar. Cowork with a colleague.
-
-:::
-
-
-## **Documenting things** {background="#FFF6E1" .takeaway}
-
-<br>
-
-::: columns
-::: {.column width="55%"} 
-
-::: doc-things-text
-{{< fa angle-right >}} Have a place
-
-{{< fa angle-right >}} Have an audience
-
-{{< fa angle-right >}} Design for readability, accessibility, and navigation
-:::
-:::
-
-::: {.column width="45%"}
-
-<br>
-
-![](images/rios-kim-tomato-plant-kinder-science.png){fig-alt="a digital crayon drawing of a tomato plant in the middle and a colorful circle around it connecting different concepts clockwise, starting at the roots. The roots says Culture, the watering can and toolbox says Technical Infrastructure, the sun says Values, the leaves say Social Infrastructure, and the final basket of tomatoes says Relevant, rigourous, insightful science" width="100%"}
-:::
-::: 
-
-## **Documenting things** {background="#FFF6E1" .takeaway}
-
-<br>
-
-::: doc-things-text
-{{< fa angle-right >}} Have a place
-
-{{< fa angle-right >}} Have an audience
-
-{{< fa angle-right >}} Design for readability, accessibility, and navigation
-:::
-
-![](images/rios-kim-tomato-plant-kinder-science.png){fig-alt="a digital crayon drawing of a tomato plant in the middle and a colorful circle around it connecting different concepts clockwise, starting at the roots. The roots says Culture, the watering can and toolbox says Technical Infrastructure, the sun says Values, the leaves say Social Infrastructure, and the final basket of tomatoes says Relevant, rigourous, insightful science" fig-align="right" width="50%"}
