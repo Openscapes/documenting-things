@@ -84,7 +84,7 @@ when I say things when I say future us, I'm thinking of a mindset beyond you and
 ---
 
 ## Documenting things doesn't have to be painful {.takeaway background="#53C9DF"}
-
+ 
 <br>
 
 ::: fragment
@@ -112,7 +112,7 @@ Slowing down to speed up.
 <br>
 
 ::: fragment
-**Purpose today:** to help you document things effectively & hear stories of how putting a focus on documentation can be help teams be efficient, productive, and less lonely. 
+**Purpose today:** help you document things effectively & hear stories of how documentation can be help teams be efficient, productive, and less lonely. 
 
 ::: {.yellow-bg}
 **5-min lightening talk** - practical tips (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙)
@@ -121,22 +121,17 @@ Slowing down to speed up.
 <br-smaller>
 
 ::: {.white-bg}
-**10-min stories** - repeatable strategies from NASA Openscapes & beyond (TL;DR is THIS EDITORIAL))
+**10-min stories** - repeatable strategies (from NASA Openscapes & beyond [TL;DR](TODO EDITORIAL REF))
 :::
 
 :::
 
 ::: notes
-
-it's supopsed to be helpful
+it's suppsed to be helpful
 
 It does take time, and intentionality. 
 
 We're going to talk about practiacl tips in a lighttning talk and then in stories we'll give more about creating that time and visbility for this valuable work. And the TL;DR is in this  editorial about 
-
-
-The investment will save time soon for you and others.
-
 :::
 
 ## **Documenting things** {background="#FFF6E1" .takeaway}
@@ -210,20 +205,28 @@ This can be whatever software you have transition: what's important about having
 
 ## *Write as you go* {background="#FFF6E1"}
 
-Develop the habit of writing things down in this place; break down otherwise looming tasks.
+Develop the habit of writing things down in this place; copy/paste from email.
+
+Break down documenation as an otherwise big and looming task.
+
+<br>
+
+**Keyboard shortcuts: Arrow keys + shift** + option + command (Mac); + Ctrl + Fn (PC)
 
 
 
-<br> TODO: GIF of this and embed
-
-Arrow keys + shift + option (Mac)
-
-Paste from your email/slack and put it here instead
 
 
+::: borderbox
+![](images/keyboard-shortcuts-kinder-science.png){fig-alt="Screenshot of text in a Google Doc that is highlighted half-way, with the last line of highlighing ending at the end of one sentence." fig-align="center" width="55%"}
+:::
+
+::: ref-text
+Lowndes et al, [Shifting institutional culture to develop climate solutions with Open Science](TODO REF)
+:::
 
 ::: notes
-TODO Sam
+
 :::
 
 ## *Write in a modular way* {background="#FFF6E1"}
@@ -234,10 +237,8 @@ Writing in small bits is less daunting to write & maintain collaboratively.
 ::: {.column width="50%"}
 <br>
 
-TODO remove red box 
-
 ::: borderbox
-![](images/modular-github-annotated.png){fig-alt="Screenshot of an e-book left navigation bar for R, RStudio, and RMarkdown, with subsections Summary, RStudio Orientation, Intro to RMarkdown, R code in the Console, R functions, Help pages, Commenting" width="100%"}
+![](images/modular-github-annotated.png){fig-alt="Screenshot of an e-book left navigation bar for R, RStudio, and RMarkdown, with subsections Summary, RStudio Orientation, Intro to RMarkdown, R code in the Console, R functions, Help pages, Commenting" fig-align="center" width="100%"}
 :::
 
 ::: center-text
@@ -248,7 +249,7 @@ Don't repeat yourself ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourse
 
 ::: {.column width="50%"}
 ::: borderbox
-![](images/modular-r-for-excel.png){fig-alt="Screenshot of an e-book left navigation bar for R, RStudio, and RMarkdown, with subsections Summary, RStudio Orientation, Intro to RMarkdown, R code in the Console, R functions, Help pages, Commenting" width="40%"}
+![](images/modular-r-for-excel.png){fig-alt="Screenshot of an e-book left navigation bar for R, RStudio, and RMarkdown, with subsections Summary, RStudio Orientation, Intro to RMarkdown, R code in the Console, R functions, Help pages, Commenting" fig-align="center" width="40%"}
 :::
 
 ::: center-text
@@ -264,18 +265,11 @@ Lowndes & Horst, [R for Excel Users](https://rstudio-conf-2020.github.io/r-for-e
 
 ::: notes
 Instead of writing things twice, know where the information is so you can link to it (Don't repeat yourself (DRY)
-
-These are two examples from R for Excel Users, on the left
-
--   If you write code, you can think of this like calling functions from from other scripts or packages. Think like that.
--   Think of it like we have functions we call from another script. It lives one place
 :::
-
-
 
 ## {{< fa angle-right >}} Have an audience {background="#FFF6E1"}
 
-You're writing this for someone. Often, many audiences. 
+You're writing this for someone. Often, many audiences with different entryways. 
 
 Make it engaging - doesn't have to be dry or distant. 
  
@@ -294,11 +288,11 @@ Picture talking to them
 
 ## *Write in an inclusive tone* {background="#FFF6E1"}
 
-We're in this together: Your readers are intelligent people, who are here to learn from you.
+We're in this together: Your readers are intelligent & here to learn from you.
 
-Consider your goals and style that welcome readers; e.g. avoid words that trivialize like 'simply'.
+Consider your goals and style that welcome readers; e.g. avoid words that trivialize
 
-> "simply clone the repo"
+> Avoid: "simply clone the repo"
 
 <br>
 
@@ -328,6 +322,8 @@ Write as if these different audiences are all in the room with you. directed tow
 Write short narrations for your code as you'd say it out loud.
 Match this with your purpose; it's especially important for teaching.
 
+Quarto now has a new [code annotation](https://quarto.org/docs/authoring/code-annotation.html) feature to help!
+
 <br>
 
 ::: borderbox
@@ -339,10 +335,12 @@ Amy Steiker & NASA Openscapes Mentors, [NASA Earthdata Cloud Clinic](https://nas
 :::
 
 <br>
-Quarto now has a cool [code annotation](https://quarto.org/docs/authoring/code-annotation.html) feature to help!
+
 
 ::: notes
 When we write tutorials with code, we write them as if we're teaching them outloud. What you would say is included. And we design the code in chunks for learners.
+
+
 :::
 
 ## *Share it* {background="#FFF6E1"}
@@ -383,6 +381,10 @@ Section headers are important for screen readers to describe sections and flow.
 
 You can anchor directly to them to share an anchored URL.
 
+[Naming things](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙 is key here - "embrace the slug"
+
+<br>
+
 ::: columns
 ::: {.column width="50%"}
 ::: borderbox
@@ -410,8 +412,6 @@ Clatterbuck et al, [3 approaches for the year of open science](https://openscape
 
 <br>
 
-[Naming things](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙 is key here - "embrace the slug"
-
 
 
 ::: notes
@@ -427,6 +427,12 @@ Maybe: Be Consistent - Not "example" and then 2nd example has a diff name. Inden
 
 Formatting helps your readers follow along. 
 
+<br>
+
+Hyperlink the important text, not that this important thing is [here](https://doi.org/10.2737/RDS-2020-0001).
+
+Distinguish `code` with fonts; (in Markdown use backticks: \`code\` )
+
 ::: borderbox
 ![](images/format-fonts-links.png){fig-alt="Screenshot of a blog post where the hyperlinked text says Fire and Tree Mortality Database and the words tidymodels and geomtextpath are formatted for code" fig-align="center" width="80%"}
 :::
@@ -435,12 +441,6 @@ Formatting helps your readers follow along.
 Horst, [Exploring tree outcomes following fires](https://allisonhorst.github.io/posts/2022-03-10-tree-mortality-fires/).
 :::
 
-
-<br>
-Hyperlink the important text, not that this important thing is [here](https://doi.org/10.2737/RDS-2020-0001).
-
-
-Distinguish `code` with fonts; (in Markdown use backticks: \`code\` )
 
 
 ## *Alternative text ("alt text")* {background="#FFF6E1"}
@@ -490,28 +490,41 @@ note alt text should not just repeat the caption (if you have one) it should be 
 So what are we talking about here
 :::
 
-##  {#nasa-beach-ball .center data-menu-title="NASA Beach Ball" background-image="images/nasa-earth-fleet.png" background-size="contain" background-color="#000000"}
+##  {#nasa-earth-fleet .center data-menu-title="NASA Earth Fleet" background-image="images/nasa-earth-fleet.png" background-size="contain" background-color="#000000"}
 
 ::: notes
-let me remind you that NASA has a ton of 
-Maybe Joel Scott's/Joels slide: with the satellites
+let me remind you that NASA collects an enormous amount of data about our Earth from satellites that is freely available. 
 ccessing data in the cloud vs downloading is a huge shift in the workflows and habits researchers/users have developed over careers
 In order to support this shift, there is a lot of documentation and teaching resources that we need
 :::
 
-## Teaching NASA Earthdata Cloud
+
+## Teaching NASA Earthdata Cloud {background-image="images/nasa-openscapes-logos-background.png" background-size="contain"}
 ### ...by learning as a community
 
-![](images/nasa-openscapes-intro-slide-crop.png){fig-alt="Screenshot slide saying TODO IF KEEP" width="80%"}
+::: columns
+::: {.column width="65%"}
+![](images/2021-Cloud-Hackathon-GroupPhotoWave.png){fig-alt="Screenshot of a Zoom meeting with 30 smiling faces" width="100%"}
+:::
+
+::: {.column width="35%"}
+### NASA Openscapes
+
+- A mentor group across NASA Earth science data centers (DAACs)
+- Co-creating and teaching common tutorials alongside researchers as we migrate analytical workflows to the Cloud 
+
+:::
+:::
+
 
 ::: ref-text
-TODO ADD LOGOS Steiker et al, [Working with NASA Earthdata in the Cloud](https://docs.google.com/presentation/d/e/2PACX-1vSXgRRZpK9zDcq8Wxf9804GxamHDL69BkxEuDXaVHjexLD4q3sIvv61HLZZJRzCcEoHw-VBBH71lGJv/pub?start=false&loop=false&delayms=3000)
+Steiker et al, [Working with NASA Earthdata in the Cloud](https://docs.google.com/presentation/d/e/2PACX-1vSXgRRZpK9zDcq8Wxf9804GxamHDL69BkxEuDXaVHjexLD4q3sIvv61HLZZJRzCcEoHw-VBBH71lGJv/pub?start=false&loop=false&delayms=3000)
 :::
 
 ## Place: Earthdata Cloud Cookbook
 
 ::: borderbox
-![](images/cookbook-onboarding.png){fig-alt="Screenshot of an e-book made with Quarto for the NASA Cloud Cookbook" fig-align="center" width="70%"}
+![](images/cookbook.png){fig-alt="Screenshot of an e-book made with Quarto for the NASA Cloud Cookbook" fig-align="center" width="70%"}
 :::
 
 
@@ -595,7 +608,7 @@ Bri Lind at the NASA Hyperwall, [Getting to Know Open Science](https://docs.goog
 :::
 
 ::: notes
-TMentors found it really helpful to have a framework for thinking of this documentation.
+Mentors found it really helpful to have a framework for thinking of this documentation.
 :::
 
 ##  What's possible from this {background="#53C9DF" .centered .center}
@@ -616,7 +629,7 @@ Communities don't grow on their own. We've been explicit about onboarding.
 
 
 
-## 3 places for 3 audiences, designed for onboarding {background="#d2e3f3"}
+## 3 places for 3 audiences, designed for onboarding {background="#d2e3f3"} 
 
 <br>
 
@@ -627,7 +640,7 @@ Communities don't grow on their own. We've been explicit about onboarding.
 Audience: NASA Leadership
 
 ::: borderbox
-[![](images/website-nasa-openscapes.png){fig-alt="Screenshot of the project website for NASA Openscapes, with a blue navigation bar across the top and NASA and Openscapes logos in the center"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
+[![](images/nasa-openscapes-web-onboard.png){fig-alt="Screenshot of the project website for NASA Openscapes, with a blue navigation bar across the top and NASA and Openscapes logos in the center"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 :::
 
 Onboarding: <br>invite participation, <br>info lives outside email
@@ -655,7 +668,7 @@ Openscapes team
 <br>
 
 ::: borderbox
-![](images/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}
+![](images/approach-guide-onboard-mentors.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}
 :::
 
 How we work, <br>purpose, facilitation, <br> checklists & timelines
@@ -667,58 +680,56 @@ How we work, <br>purpose, facilitation, <br> checklists & timelines
 
 ##  What's possible from this {background="#53C9DF".centered .center}
 
-## Putting a focus on documentation has enabled<br>other organizations<br> to reuse this approach {background="#FAE3E3"  .centered .center}
-
+## Putting a focus on documentation has enabled<br>NOAA Fisheries, Cal Water Boards, and others<br> to reuse this approach {background="#FAE3E3" .centered .center}
+ 
 <br>
-
-TODO: logos: NOAA, Cal EPA, Pathways to Open Science
-
-TODO EDITORIAL
 
 ::: notes
 and everything we've done here we're applying to NOAA Fis" other huge impact audiences
 :::
 
+## Invest in both technical & social infrastructure {background="#FAE3E3"}
 
-## TODO Rework - tomato plant, editorial Documenting things ... 
+::: columns
+::: {.column width="40%"}
+**Documenting things requires intention and time.**
 
-:::fragment
-### Is important 
-
-- Helps people feel less lost and like they belong
-- Saves time - fewer emails asking where things are
-- Make invisible work visible 
-
-:::
-
-::: fragment
-### Takes time
+<br>
 
 - Part of the job. Paid time.
-- Learning and inspiration is cyclical - Jenny Bryan Naming things
-- ~Reuse, don't reinvent.~ 
+- Make invisible work visible 
+- Learning and teaching together is empowering
+
+<br>
+
+**Documenting things ultimately save time** - fewer emails asking where things are; **people feeling less lost and like they belong**.
 
 :::
 
-## Documenting things: Best advice to get started
+::: {.column width="60%"}
 
-TODO: BRING IN OUR EDITORIAL HERE
-We documented this in an Editorial
+![](images/rios-kim-tomato-plant-kinder-science.png){fig-alt="a digital crayon drawing of a tomato plant in the middle and a colorful circle around it connecting different concepts clockwise, starting at the roots. The roots says Culture, the watering can and toolbox says Technical Infrastructure, the sun says Values, the leaves say Social Infrastructure, and the final basket of tomatoes says Relevant, rigourous, insightful science" width="100%"}
+:::
+:::
 
-MAKE SPACE
+::: ref-text
+Lowndes et al, [Shifting institutional culture to develop climate solutions with Open Science](TODO REF)
+:::
 
-Take these concepts to new places
+::: notes
+It starts with holding intentional, respectful conversations and tapping into the knowledge base of our workplaces, and reusing what works in new places.
+:::
 
-::: fragment
-::: yellow-bg
+## **Documenting things** {background="#FFF6E1" .takeaway}
+
+<br>
+
 ::: doc-things-text
 {{< fa angle-right >}} Have a place
 
 {{< fa angle-right >}} Have an audience
 
 {{< fa angle-right >}} Design for readability, accessibility, and navigation
-:::
-:::
 :::
 
 ::: notes
@@ -728,13 +739,24 @@ Take these concepts to new places
 
 ## Thank you
 
-TODO
+Openscapes core team (Erin Robinson, Ileana Fenwick, Stefanie Butland), NASA Earthdata, NOAA Fisheries, Cal EPA, Pathways Mentors, Openscapes community
 
-Sam Csik for CSS help
+Open source/science community far and wide and always
 
-## Resources
+Sam Csik aka CSS architect
 
-TODO
+<br>
+
+
+### More depth on everything
+
+- [openscapes.org](https://openscapes.org)
+- [nasa-openscapes.github.io](https://nasa-openscapes.github.io)
+- [nmfs-openscapes.github.io](https://nmfs-openscapes.github.io)
+- [cawaterboarddatacenter.github.io/swrcb-openscapes](https://cawaterboarddatacenter.github.io/swrcb-openscapes/)
+- [openscapes.github.io/pathways-to-open-science](https://openscapes.github.io/pathways-to-open-science)
+
+
 
 ## CUTTING ROOM
 
@@ -753,3 +775,42 @@ Making it visible helps give it value. And find contributors.
 Bigger lifts: put it on the calendar. Cowork with a colleague.
 
 :::
+
+
+## **Documenting things** {background="#FFF6E1" .takeaway}
+
+<br>
+
+::: columns
+::: {.column width="55%"} 
+
+::: doc-things-text
+{{< fa angle-right >}} Have a place
+
+{{< fa angle-right >}} Have an audience
+
+{{< fa angle-right >}} Design for readability, accessibility, and navigation
+:::
+:::
+
+::: {.column width="45%"}
+
+<br>
+
+![](images/rios-kim-tomato-plant-kinder-science.png){fig-alt="a digital crayon drawing of a tomato plant in the middle and a colorful circle around it connecting different concepts clockwise, starting at the roots. The roots says Culture, the watering can and toolbox says Technical Infrastructure, the sun says Values, the leaves say Social Infrastructure, and the final basket of tomatoes says Relevant, rigourous, insightful science" width="100%"}
+:::
+::: 
+
+## **Documenting things** {background="#FFF6E1" .takeaway}
+
+<br>
+
+::: doc-things-text
+{{< fa angle-right >}} Have a place
+
+{{< fa angle-right >}} Have an audience
+
+{{< fa angle-right >}} Design for readability, accessibility, and navigation
+:::
+
+![](images/rios-kim-tomato-plant-kinder-science.png){fig-alt="a digital crayon drawing of a tomato plant in the middle and a colorful circle around it connecting different concepts clockwise, starting at the roots. The roots says Culture, the watering can and toolbox says Technical Infrastructure, the sun says Values, the leaves say Social Infrastructure, and the final basket of tomatoes says Relevant, rigourous, insightful science" fig-align="right" width="50%"}
