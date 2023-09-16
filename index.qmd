@@ -685,21 +685,19 @@ and everything we've done here we're applying to NOAA Fis" other huge impact aud
 ::: {.column width="40%"}
 **Documenting things requires intention and time.**
 
-<br>
-
 - Part of the job. Paid time.
 - Make invisible work visible. 
 - We recommend coworking - put time on the calendar.
 
 <br>
 
-**Documenting things ultimately save time** - fewer emails asking where things are; **people feeling less lost and like they belong**.
+**Documenting things soon saves time** - fewer emails asking where things are; **people feeling less lost and like they belong**.
 
 :::
 
 ::: {.column width="55%"}
 
-![](images/rios-kim-tomato-plant-kinder-science.png){fig-alt="a digital crayon drawing of a tomato plant in the middle and a colorful circle around it connecting different concepts clockwise, starting at the roots. The roots says Culture, the watering can and toolbox says Technical Infrastructure, the sun says Values, the leaves say Social Infrastructure, and the final basket of tomatoes says Relevant, rigourous, insightful science" width="95%"}
+![](images/rios-kim-tomato-plant-kinder-science.png){fig-alt="a digital crayon drawing of a tomato plant in the middle and a colorful circle around it connecting different concepts clockwise, starting at the roots. The roots says Culture, the watering can and toolbox says Technical Infrastructure, the sun says Values, the leaves say Social Infrastructure, and the final basket of tomatoes says Relevant, rigourous, insightful science" width="85%"}
 :::
 :::
 
