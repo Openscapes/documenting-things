@@ -18,13 +18,16 @@ Documenting things: <br> *openly for future us*
 <br>
 
 ::: {.subtitle}
-Julia Stewart Lowndes & the Openscapes Community
+Julia Stewart Lowndes 
+:::
+
+in collaboration with Erin Robinson, <br>NASA Openscapes Mentors, &<br> the Openscapes Community
 
 September 19, 2023
 
 posit::conf(2023)
 
-:::
+
 
 <br>
 <br>
@@ -135,9 +138,9 @@ We're going to talk about practiacl tips in a lighttning talk and then in storie
 ::: doc-things-text
 {{< fa angle-right >}} Have a place
 
-{{< fa angle-right >}} Have an audience
+{{< fa angle-right >}} Have an audience in mind
 
-{{< fa angle-right >}} Design for readability, accessibility, and navigation
+{{< fa angle-right >}} Design for readability & accessibility
 :::
 
 
@@ -261,7 +264,7 @@ Lowndes & Horst, [R for Excel Users](https://rstudio-conf-2020.github.io/r-for-e
 Instead of writing things twice, know where the information is so you can link to it (Don't repeat yourself (DRY)
 :::
 
-## {{< fa angle-right >}} Have an audience {background="#FFF6E1"}
+## {{< fa angle-right >}} Have an audience in mind {background="#FFF6E1"}
 
 You're writing this for someone. Often, many audiences with different entryways. 
 
@@ -338,7 +341,7 @@ When we write tutorials with code, we write them as if we're teaching them outlo
 :::
 
 ## *Share early* {background="#FFF6E1"}
-Share online so people can find it - users & contributors. 
+Share early to iterate and receive feedback. Open does not always mean public. 
 
 Consider permissions & leverage different technologies to leave breadcrumbs.
 
@@ -461,9 +464,9 @@ note alt text should not just repeat the caption (if you have one) it should be 
 ::: doc-things-text
 {{< fa angle-right >}} Have a place
 
-{{< fa angle-right >}} Have an audience
+{{< fa angle-right >}} Have an audience in mind
 
-{{< fa angle-right >}} Design for readability, accessibility, and navigation
+{{< fa angle-right >}} Design for readability & accessibility
 :::
 
 ## What's possible from this {background="#53C9DF" .centered .center}
@@ -718,9 +721,9 @@ It starts with holding intentional, respectful conversations and tapping into th
 ::: doc-things-text
 {{< fa angle-right >}} Have a place
 
-{{< fa angle-right >}} Have an audience
+{{< fa angle-right >}} Have an audience in mind
 
-{{< fa angle-right >}} Design for readability, accessibility, and navigation
+{{< fa angle-right >}} Design for readability & accessibility
 :::
 
 ::: notes
@@ -730,11 +733,11 @@ It starts with holding intentional, respectful conversations and tapping into th
 
 ## Thank you
 
-Openscapes core team (Erin Robinson, Ileana Fenwick, Stefanie Butland), NASA Earthdata, NOAA Fisheries, Cal EPA, Pathways Mentors, Openscapes community
+Openscapes team & community
 
-Open source/science community far and wide and always
+Open source/science community far and wide, including CSS architect Sam Csik
 
-Sam Csik aka CSS architect
+This work was funded in part by NASA Award #20-TWSC20-2-0003
 
 <br>
 
