@@ -528,7 +528,7 @@ Google Drive • GitHub • Quarto • JupyterHub • Zoom • Slack
 :::
 
 
-## Audience: Us first, then others
+## Audience: Us first, then specific researchers
 
 ![](images/nasa-openscapes-shell.png){fig-alt="Diagram of a colorful shell-spiral shape with NASA Openscapes Mentors community values as a small image up top, then Data Center Staff, then End Users, then Open Science Community" fig-align="center"}
 
