@@ -688,13 +688,14 @@ and everything we've done here we're applying to NOAA Fis" other huge impact aud
 ::: {.column width="40%"}
 **Documenting things requires intention and time.**
 
+<br>
+
+**Documenting things ultimately saves time** - fewer emails asking where things are; **people feeling less lost and like they belong**.
+
 - Part of the job. Paid time.
 - Make invisible work visible. 
 - We recommend coworking - put time on the calendar.
 
-<br>
-
-**Documenting things soon saves time** - fewer emails asking where things are; **people feeling less lost and like they belong**.
 
 :::
 
