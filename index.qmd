@@ -109,7 +109,7 @@ It does take time and intention. Slowing down to speed up.
 <br>
 
 ::: {.yellow-bg}
-**5-min lightening talk** - practical tips (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙)
+**5-min lightning talk** - practical tips (inspired by [Jenny Bryan's Naming Files](https://github.com/jennybc/how-to-name-files#how-to-name-files) 💙)
 :::
 
 <br-smaller>
@@ -633,7 +633,7 @@ Audience: NASA Leadership
 [![](images/nasa-openscapes-web-onboard.png){fig-alt="Screenshot of the project website for NASA Openscapes, with a blue navigation bar across the top and NASA and Openscapes logos in the center"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 :::
 
-Onboarding: <br>invite participation, <br>info lives outside email
+Overview: <br>invite participation, <br>info lives outside email
 
 :::
 
@@ -647,7 +647,7 @@ NASA Mentors
 [![](images/cookbook-onboarding.png){fig-alt="Screenshot of an e-book made with Quarto for the NASA Cloud Cookbook"}](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 :::
 
-Welcome,<br> access comms & tech,<br> contribute, code review
+Welcome:<br> access comms & tech,<br> contribute, code review
 :::
 :::
 :::
@@ -664,7 +664,7 @@ Openscapes team
 ![](images/approach-guide-onboard-mentors.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}
 :::
 
-How we work, <br>purpose, facilitation, <br> checklists & timelines
+How we work: <br>purpose, facilitation, <br> checklists & timelines
 
 :::
 :::
@@ -727,7 +727,7 @@ It starts with holding intentional, respectful conversations and tapping into th
 :::
 
 ::: notes
--   With these 3 things I gave you with the lightening talk, this is possible
+-   With these 3 things I gave you with the lightning talk, this is possible
     -   Doesn't have to be painful, doesn't have to be hard, can accomplish great things.
 :::
 
