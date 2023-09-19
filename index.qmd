@@ -686,15 +686,19 @@ and everything we've done here we're applying to NOAA Fis" other huge impact aud
 
 ::: columns
 ::: {.column width="40%"}
-**Documenting things requires intention and time.**
+**Documenting things ultimately saves time** - fewer emails asking where things are; **people feeling less lost and like they belong**.
 
 <br>
 
-**Documenting things ultimately saves time** - fewer emails asking where things are; **people feeling less lost and like they belong**.
+**Requires intention & time**; investment in **psychological safety & growth mindset.**
 
-- Part of the job. Paid time.
-- Make invisible work visible. 
-- We recommend coworking - put time on the calendar.
+<br>
+
+{{< fa angle-right >}} Have a place
+
+{{< fa angle-right >}} Have an audience in mind
+
+{{< fa angle-right >}} Design for readability & accessibility
 
 
 :::
@@ -715,22 +719,6 @@ It starts with holding intentional, respectful conversations and tapping into th
 - Learning and teaching together is empowering
 :::
 
-## **Documenting things** {background="#FFF6E1" .takeaway}
-
-<br>
-
-::: doc-things-text
-{{< fa angle-right >}} Have a place
-
-{{< fa angle-right >}} Have an audience in mind
-
-{{< fa angle-right >}} Design for readability & accessibility
-:::
-
-::: notes
--   With these 3 things I gave you with the lightning talk, this is possible
-    -   Doesn't have to be painful, doesn't have to be hard, can accomplish great things.
-:::
 
 ## Thank you
 
