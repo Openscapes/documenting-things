@@ -750,3 +750,8 @@ This work was funded in part by NASA Award #20-TWSC20-2-0003
 - [nmfs-openscapes.github.io](https://nmfs-openscapes.github.io)
 - [cawaterboarddatacenter.github.io/swrcb-openscapes](https://cawaterboarddatacenter.github.io/swrcb-openscapes/)
 - [openscapes.github.io/pathways-to-open-science](https://openscapes.github.io/pathways-to-open-science)
+
+
+::: {.title-footer}
+[openscapes.github.io/documenting-things](https://openscapes.github.io/documenting-things/) [(source)](https://github.com/openscapes/documenting-things)
+:::
