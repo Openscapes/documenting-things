@@ -360,7 +360,7 @@ Breadcrumbs. Internal link for NOAA Fisheries. That's ok. We can still all learn
 :::
 
 
-## {{< fa angle-right >}} Design for readability, accessibility, & navigation {background="#FFF6E1"}
+## {{< fa angle-right >}} Design for readability & accessibility {background="#FFF6E1"}
 Leverage defaults and best practices 
 
 ::: borderbox
