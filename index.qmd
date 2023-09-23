@@ -115,7 +115,7 @@ It does take time and intention. Slowing down to speed up.
 <br-smaller>
 
 ::: {.white-bg}
-**10-min stories** - repeatable strategies (from NASA Openscapes & beyond [TL;DR](TODO EDITORIAL REF))
+**10-min stories** - repeatable strategies (from NASA Openscapes & beyond [TL;DR](https://eartharxiv.org/repository/view/5948/))
 :::
 
 :::
@@ -219,7 +219,7 @@ Break down documenation as an otherwise big and looming task.
 :::
 
 ::: ref-text
-Lowndes et al, [Shifting institutional culture to develop climate solutions with Open Science](TODO REF)
+Lowndes et al, [Shifting institutional culture to develop climate solutions with Open Science](https://eartharxiv.org/repository/view/5948/)
 :::
 
 ::: notes
@@ -712,7 +712,7 @@ and everything we've done here we're applying to NOAA Fis" other huge impact aud
 :::
 
 ::: ref-text
-Lowndes et al, [Shifting institutional culture to develop climate solutions with Open Science](TODO REF)
+Lowndes et al, [Shifting institutional culture to develop climate solutions with Open Science](https://eartharxiv.org/repository/view/5948/)
 :::
 
 ::: notes
