@@ -81,7 +81,7 @@ FUTURE US
 :::
 
 ::: notes
-when I say things when I say future us, I'm thinking of a mindset beyond you and your computer. So thinking about how what you document now can save hundreds of emails later asking where things are or how to do things.
+when I say things, I mean all the things. When I say future us, I'm thinking of a mindset beyond you and your computer. So thinking about how what you document now can save hundreds of emails later asking where things are or how to do things.
 :::
 
 ---
@@ -509,6 +509,8 @@ In order to support this shift, there is a lot of documentation and teaching res
 
 ::: ref-text
 Steiker et al, [Working with NASA Earthdata in the Cloud](https://docs.google.com/presentation/d/e/2PACX-1vSXgRRZpK9zDcq8Wxf9804GxamHDL69BkxEuDXaVHjexLD4q3sIvv61HLZZJRzCcEoHw-VBBH71lGJv/pub?start=false&loop=false&delayms=3000)
+
+See also: Çetinkaya-Rundel & Lowndes, [Hello Quarto: share • collaborate • teach • reimagine](https://openscapes.org/blog/2022-08-10-quarto-keynote/)
 :::
 
 ## Place: Earthdata Cloud Cookbook
