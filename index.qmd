@@ -204,7 +204,7 @@ This can be whatever software you have transition: what's important about having
 
 Develop the habit of writing things down in this place; copy/paste from email.
 
-Break down documenation as an otherwise big and looming task.
+Break down documentation as an otherwise big and looming task.
 
 <br>
 
