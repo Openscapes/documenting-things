@@ -54,12 +54,13 @@ THINGS
 
 ::: {.takeaway-left-state}
 **all the things**
-
+ 
 -   code & analyses
 -   teaching resources
 -   onboarding & community
 -   fieldwork/lab protocols
 -   events
+- ideas, learning
 :::
 :::
 
