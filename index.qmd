@@ -268,7 +268,7 @@ Instead of writing things twice, know where the information is so you can link t
 
 You're writing this for someone. Often, many audiences with different entryways. 
 
-Make it engaging - doesn't have to be dry or distant. 
+Make it engaging, specific. Doesn't have to be dry or distant. 
  
 ::: borderbox
 ![](images/happy-git-with-r.png){fig-alt="Screenshot of Jenny Bryan's Happy Git With R book that has an image from the music video Whip that says Watch me Diff, Watch me Rebase" fig-align="center" width="55%"}
