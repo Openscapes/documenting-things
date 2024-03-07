@@ -33,7 +33,7 @@ posit::conf(2023)
 <br>
 
 ::: {.title-footer}
-[openscapes.github.io/documenting-things](https://openscapes.github.io/documenting-things/) [(source)](https://github.com/openscapes/documenting-things)
+[openscapes.github.io/documenting-things](https://openscapes.github.io/documenting-things/) [(source)](https://github.com/openscapes/documenting-things) [(youtube)](https://www.youtube.com/watch?v=OVM5Ok7W1NQ) 
 :::
 
 ::: notes
